@@ -1,0 +1,4 @@
+interface:
+  display_name: "zauran_ai_creative"
+  short_description: "От идеи до финального AI-креатива"
+  default_prompt: "Use $zauran-ai-creative to ask the necessary brief questions and take my creative idea through production, QA, and final file delivery."
