@@ -38,6 +38,7 @@ description: "Story engine for AI video production: idea → insight → logline
 | Диалог, VO | `dialogue-and-vo.md` |
 | Раскадровка-скетч, лист героя, продукт | `storyboard-templates.md` |
 | Новая серия / продолжение / новый чат по старому проекту | `project-vault.md` § «Протокол продолжения» + `TIMELINE.md` проекта |
+| Выдача пользователю / клиенту (один PDF) | `human-readout.md` + `scripts/build-readout.py` |
 | Передача в производство | `handoff-to-production.md` |
 | Запись выводов | `learning-loop.md` |
 
@@ -73,5 +74,7 @@ Story lock → логлайн → CANON/паспорта (если нужны) �
 - После правки — отчёт: добавлено / изменено / удалено (по чьей команде) / без изменений.
 
 ## 7. Завершение
+
+Первая выдача сценария/ТЗ и каждая новая версия vN — **один** `READOUT_<проект>_vN.pdf` для человека по `references/human-readout.md` (`python scripts/build-readout.py`); `.md`-файлы — для ИИ, отдельные PDF на каждый не делать. В ответе ссылка на READOUT — первой строкой.
 
 Задача закрыта, когда запрошенный артефакт существует в папке проекта, `STATE.md` (и для серии `TIMELINE.md`) обновлены, прошёл director's review из `story-routes.md`, реестр сверен, и пользователь может открыть файл без чтения чата. Финальный ответ: что готово, кликабельные ссылки на файлы, что осталось открытым. Если следующий шаг — генерация, скажи это явно и назови пакет для `zauran-ai-creative` по `handoff-to-production.md`. Запиши вывод в `NOTES.md` по `learning-loop.md`; гипотезы помечай как гипотезы.

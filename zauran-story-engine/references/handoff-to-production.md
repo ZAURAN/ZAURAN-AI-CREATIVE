@@ -8,6 +8,7 @@
 
 ```text
 handoff/
+  READOUT_<проект>_vN.pdf — один PDF для человека (human-readout.md); не для промтов
   STORY_LOCK.md          — из story-routes.md
   STATE.md               — снимок состояния на момент передачи
   CANON.md               — если мир повторяется
