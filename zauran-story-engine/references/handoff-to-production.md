@@ -4,16 +4,18 @@
 
 ## Пакет
 
+Собирается из папки проекта (`project-vault.md`) и копируется в `episodes/EXX/handoff/` (для одиночного ролика — `story/handoff/`):
+
 ```text
-<проект>/
+handoff/
   STORY_LOCK.md          — из story-routes.md
+  STATE.md               — снимок состояния на момент передачи
   CANON.md               — если мир повторяется
-  PASSPORT_<имя>.md      — на каждого повторяющегося героя
+  PASSPORT_<имя>.md      — на каждого героя эпизода
   BEATS.md               — бит-лист с таймингом
-  SCRIPT_vN.md           — шот-сценарий с реестром требований
+  SCRIPT_vN.md           — утверждённая версия шот-сценария с реестром
   VO_vN.md               — текст + режиссура (если есть речь)
   REFERENCES.md          — роли референсов (ниже)
-  NOTES.md               — журнал (learning-loop.md)
 ```
 
 ## REFERENCES.md — контракт ролей

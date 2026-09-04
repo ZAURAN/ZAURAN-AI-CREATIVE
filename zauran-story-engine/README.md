@@ -17,6 +17,7 @@
 | `references/dialogue-and-vo.md` | VO с режиссурой, правила диалога, анти-slop lint RU/UA/EN, регистры |
 | `references/shot-vocabulary.json` | ≈100 кино-терминов с «что делает / когда / сила» (из личной базы Notion) |
 | `references/storyboard-templates.md` | Ч/б раскадровка, character turnaround sheet, продукт 7 панелей |
+| `references/project-vault.md` | Папка проекта на диске: `STATE.md`, `TIMELINE.md`, эпизоды, версии, протокол продолжения серии по хронологии |
 | `references/handoff-to-production.md` | Пакет файлов и контракт ролей референсов для производственного скилла |
 | `references/learning-loop.md` | Журнал `NOTES.md` и промоут паттернов |
 | `references/donors/storytelling-frameworks.md` | Story Spine, Sparkline, Freytag, Monroe, Pixar rules, Hero's Journey с таймингами (CC BY 4.0, Serge Shima) |
