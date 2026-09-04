@@ -118,3 +118,7 @@ git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git ~/.claude/skills/zaur
 - `references/gpt-image-2-cases.json` — MIT, см. `references/gpt-image-2-LICENSE.txt`.
 
 Полные тексты — в `ATTRIBUTION.md` / `LICENSE` внутри соответствующих папок.
+
+## Соседний скилл: zauran-story-engine
+
+Сценарная часть вынесена в отдельный скилл [`zauran-story-engine/`](zauran-story-engine/README.md): идея → вселенная (`CANON.md`) → паспорта героев → структура и биты → сцены → шот-сценарий → VO. Он заканчивается на сценарном пакете и передаёт его сюда по `zauran-story-engine/references/handoff-to-production.md`. Модули драматургии (`references/tig-*.md`) общие.

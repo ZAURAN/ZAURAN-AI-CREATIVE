@@ -1,0 +1,68 @@
+---
+name: zauran-story-engine
+description: "Story engine for AI video production: idea → insight → logline → story bible / universe (CANON.md) → character passports → structure and beat list with 6/15/30/60s timing → scenes via Goal/Obstacle/Tactic/Reversal/Value-Shift → 1–3s shot script with camera/light/sound/continuity → dialogue and VO without AI-slop → handoff package for zauran-ai-creative. Vendored ~100-term cinematography vocabulary (camera moves, shot sizes, angles, optics, light, composition) with search, six narrative frameworks with ad timings, storyboard and character-turnaround prompt templates. Use when the user invokes zauran_story_engine or asks to write, invent, structure, or audit a script, story, plot, universe, lore, world, character, series of episodes, beats, shot list, dialogue, or voiceover for an AI video, ad, clip, or content series — before any model prompt is written."
+---
+
+# zauran_story_engine
+
+Веди историю от идеи до утверждённого сценарного пакета. Граница скилла: **логлайн, канон мира, паспорта героев, структура, сцены, шот-сценарий, диалог/VO**. Промт под модель, выбор модели, генерация и QA — не здесь; это handoff в `zauran-ai-creative`.
+
+## 1. Сначала контекст
+
+1. Прочитай `references/story-routes.md` полностью.
+2. Прочитай чат, вложения, названные папки, существующие `CANON.md` / `PASSPORT_*.md` / `SCRIPT_vN.md` / `NOTES.md`. Файл — источник правды, чат — нет.
+3. Раздели факты: подтверждено пользователем / из референса / гипотеза / неизвестно. Не спрашивай известное.
+4. Загружай только нужные reference-файлы по выбранному режиму (таблица ниже).
+
+## 2. Бриф истории
+
+По `references/story-routes.md`: 1–3 вопроса за раз, только критичное (формат, цель, герой, мир, тон, запреты, финальный артефакт, куда сохранять). Некритичное — разумное предположение, названное до выполнения. Перед структурой покажи `STORY LOCK` и получи «делай», если не дано.
+
+## 3. Режим → что читать
+
+| Режим | Reference |
+|---|---|
+| Идея, инсайт, логлайн | `story-routes.md` § «Идея и инсайт» |
+| Вселенная, лор, мир, серия | `story-bible.md` |
+| Персонаж, герой, маскот | `character-passport.md` (+ `storyboard-templates.md` § 2 для turnaround) |
+| Структура, биты, тайминг | `structure-and-beats.md` + `donors/storytelling-frameworks.md` |
+| Сцена, конфликт, аудит сцены | `scene-to-shotlist.md` § «Сцена» → `../references/tig-scene-engine.md` (в репо) / `~/.claude/skills/zauran-ai-creative/references/tig-scene-engine.md` |
+| Несколько персонажей в кадре | `tig-blocking-map.md` там же |
+| Игра, реакция, слушание | `tig-acting-task.md` там же |
+| Шот-сценарий, камера, continuity | `scene-to-shotlist.md` + словарь `shot-vocabulary.json` через `node scripts/search-shot-vocabulary.mjs` |
+| Диалог, VO | `dialogue-and-vo.md` |
+| Раскадровка-скетч, лист героя, продукт | `storyboard-templates.md` |
+| Передача в производство | `handoff-to-production.md` |
+| Запись выводов | `learning-loop.md` |
+
+Для 6–15-секундной рекламы не строй CANON и паспорта — хватит STORY LOCK + биты + шоты. Для серии эпизодов или повторяющегося героя CANON и паспорта обязательны до первой сцены.
+
+## 4. Контрольные точки
+
+Story lock → логлайн → CANON/паспорта (если нужны) → каркас + бит-лист → сцены после causal audit → шот-сценарий + VO → handoff. Один спорный блок за итерацию. Утверждённое не перепридумывать.
+
+## 5. Правила исполнения
+
+- Инсайт до идеи. Первые пять идей — клише. Логлайн одним предложением.
+- Каждый бит меняет состояние; бит без изменения — вычеркнуть. Каждый бит — один образ, не описание.
+- Сцена с конфликтом воль — только через Scene Engine с causal audit. Перебивка — сразу в шот.
+- Шот = 1–3 с, одно движение камеры (термин из словаря, `static` пишется явно), мотивированный свет, инварианты, «что меняется».
+- Герой описывается дословно одним и тем же текстом (PASSPORT §A) во всех шотах.
+- Оценочные слова заменять наблюдаемым (таблица в `scene-to-shotlist.md`).
+- VO ≈ 2.5–3 слова/с, не дублирует картинку; диалог — каждая реплика двигает цель или ставит препятствие; анти-slop lint из `dialogue-and-vo.md` перед выдачей.
+- Оригинальный голос спикера в проекте не подменяется синтезом.
+- Не добавлять героя, продукт, реплику, реквизит, эпоху, поворот без основания в брифе.
+- Не обещать свойства моделей (длительность, lip-sync, физика) — это проверяет производственный скилл.
+- При заимствовании каркаса ставить строку `Каркас: <название> (Serge Shima, creative-director-skill, CC BY 4.0)`.
+
+## 6. Полная выдача и реестр требований
+
+- Просьба написать/исправить сценарий → всегда полный цельный документ, не фрагмент, если не попросили фрагмент.
+- С v1 вести реестр `R1, R2, …` (формулировка, источник, `active | removed`). Правка дополняет реестр; `removed` только по явной команде или при физической несовместимости — тогда назвать конфликт одной строкой.
+- Перед пересборкой одним абзацем повторить, что меняется и что остаётся; неизменённые блоки переносить дословно.
+- Каноническая версия — в файле `SCRIPT_vN.md` (или `CANON.md`, `PASSPORT_<имя>.md`, `BEATS.md`) в проектной папке. Каждую итерацию начинать с чтения последнего файла, не с памяти чата.
+- После правки — отчёт: добавлено / изменено / удалено (по чьей команде) / без изменений.
+
+## 7. Завершение
+
+Задача закрыта, когда запрошенный артефакт существует в согласованной папке, прошёл director's review из `story-routes.md`, реестр сверен, и пользователь может открыть файл без чтения чата. Финальный ответ: что готово, кликабельные ссылки на файлы, что осталось открытым. Если следующий шаг — генерация, скажи это явно и назови пакет для `zauran-ai-creative` по `handoff-to-production.md`. Запиши вывод в `NOTES.md` по `learning-loop.md`; гипотезы помечай как гипотезы.
