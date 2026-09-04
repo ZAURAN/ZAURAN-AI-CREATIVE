@@ -10,7 +10,8 @@
 |---|---|
 | `SKILL.md` | Инструкция скилла |
 | `references/story-routes.md` | Бриф истории, STORY LOCK, режимы, контрольные точки, инсайт и логлайн, director's review, запреты |
-| `references/story-bible.md` | Шаблон `CANON.md`: правила мира, локации, персонажи, продукт, язык, таймлайн; LOCKED/FLEX |
+| `references/short-form-series.md` | Серия для TikTok/Reels/Shorts: движок формата vs декорация, SERIES SCALE (оси вариативности, 10 эпизодов, ≥5 локаций), типы хуков 0–2 с, тест серии, рационализации |
+| `references/story-bible.md` | Шаблон `CANON.md`: правила мира (не клетка), §3a оси вариативности, локации, персонажи, продукт, язык, таймлайн; LOCKED/FLEX |
 | `references/character-passport.md` | Шаблон `PASSPORT_<имя>.md`: визуальные инварианты + want/need/рана/тактики/речь |
 | `references/structure-and-beats.md` | Выбор каркаса, бюджет шотов 6/15/30/60 с, бит-лист, тест структуры |
 | `references/scene-to-shotlist.md` | Сцена через Scene Engine, шаблон `SCRIPT_vN.md`, «вместо → писать», continuity |
