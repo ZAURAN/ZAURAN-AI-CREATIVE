@@ -1,0 +1,2059 @@
+{
+  "checked_date": "2026-09-11",
+  "method": "Live public catalog HTML, pages1-18, approximately14:26-14:28UTC; no ranking-performance inference",
+  "series_count": 205,
+  "synopses_read": 204,
+  "episode_analysis_separate": "mydrama-study.md",
+  "rows": [
+    {
+      "title": "Містер Денвер",
+      "series_url": "https://my-drama.com/uk/series/mr-denver-4a3c19e3-0a3f-415f-88d0-fe623e843313",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Мафія",
+      "inferred_engine": "Captivity tests courage and family loyalty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Клуб бажань",
+      "series_url": "https://my-drama.com/uk/series/the-club-of-desire-3fe37c96-b433-4070-b75c-6f9ee2859bab",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Financial pressure converts employment into intimacy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємне товариство: Поки кров нас не розлучить",
+      "series_url": "https://my-drama.com/uk/series/secret-society-till-blood-do-us-part-daef255b-3ee4-4c57-a3ce-0ecc875403d4",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Outsider initiation destabilizes an elite hierarchy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Спокуса Скарлет",
+      "series_url": "https://my-drama.com/uk/series/scarlet-seduction-9e7851bd-3a74-4c2c-899a-71a1e58ab17e",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Academy rivalry unlocks supernatural danger",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Лід та Вогонь",
+      "series_url": "https://my-drama.com/uk/series/ice-and-flame-fea468c8-ea42-43a7-a8f3-0a7e267b1d5c",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Investigation threatens an emerging attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Я - її найбільш небезпечна одержимість",
+      "series_url": "https://my-drama.com/uk/series/im-her-most-dangerous-obsession-8946790e-8f6f-408e-a440-7896b5615b46",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Мафія",
+      "inferred_engine": "Family rescue binds debtor to powerful lover",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Королева сердець",
+      "series_url": "https://my-drama.com/uk/series/queen-of-hearts-7c9fa9b3-f68b-4042-a72c-3b41ecac18d2",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Accidental promotion exposes institutional secrets",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зви мене Джанні, мала",
+      "series_url": "https://my-drama.com/uk/series/call-me-gianni-babygirl-55ea12a0-8241-43b9-823d-bab5e3835e3d",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Rescue bargain collides with paternal investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Рахунок кохання",
+      "series_url": "https://my-drama.com/uk/series/love-score-376d38b4-1020-4e5b-ac82-994ebf3472e4",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Athletic rivalry conceals a destructive wager",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ні, Ваша Величносте",
+      "series_url": "https://my-drama.com/uk/series/no-your-majesty-d954b5e6-0941-428c-bb57-a5dcd2cc9a1e",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Королівський",
+      "inferred_engine": "Class humiliation turns into royal desire",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Наречена для квотербека",
+      "series_url": "https://my-drama.com/uk/series/bride-for-quarterback-070728a2-7586-44c0-baff-f79eefa05a0a",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Public engagement becomes private attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Звʼязана її коханням",
+      "series_url": "https://my-drama.com/uk/series/chained-by-her-love-b6a5c9e8-cef9-414b-94ca-5786ea0adc77",
+      "catalog_page": 1,
+      "source_url": "https://my-drama.com/uk/all-series",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "Caregiving need traps assistant in dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Підступна гра",
+      "series_url": "https://my-drama.com/uk/series/wicked-game-db393286-7538-4d7b-9610-22a0dd465d78",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Мафія",
+      "inferred_engine": "Rescue creates reciprocal criminal dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Змагаючись з коханням",
+      "series_url": "https://my-drama.com/uk/series/wrestling-with-love-be8ea5b8-84bd-47bd-bd18-36ca3cdb8d6f",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Teammates transform hostility under social pressure",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Обрана Королями Мафії",
+      "series_url": "https://my-drama.com/uk/series/a-queen-for-the-mafia-kings-f6f1c462-87f3-4d92-8e26-4f22e4c0ece0",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Captivity activates buried memory and competition",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Я - таємна пристрасть мого боса",
+      "series_url": "https://my-drama.com/uk/series/i-became-my-ceos-darkest-secret-87ef1acd-f5f4-4ab0-933d-9a9c12bc87b9",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Workplace ownership challenges personal autonomy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Її серце в заручниках",
+      "series_url": "https://my-drama.com/uk/series/her-heart-held-hostage-081898d1-7429-4095-8210-e58ab769a42c",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Мафія",
+      "inferred_engine": "Family debt makes intimacy a betrayal dilemma",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зроби мене своєю",
+      "series_url": "https://my-drama.com/uk/series/make-me-yours-a0deec29-8abc-4b1c-be77-4d4107019877",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Medical rescue creates workplace dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Тонкий Лід",
+      "series_url": "https://my-drama.com/uk/series/thin-ice-2b643449-9856-47f9-b6ec-1d66c516da39",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Career alliance contains concealed betrayal",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мака-Жувака",
+      "series_url": "https://my-drama.com/uk/series/maca-the-snacker-9d95c2f1-3f05-4d91-a672-dcee4de1092e",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Mandatory performance partnership hides cruel wager",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вдавай, що кохаєш мене",
+      "series_url": "https://my-drama.com/uk/series/pretend-you-love-me-0b74e253-b652-4349-bc08-ae235a19407c",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Staged romance supplies protection and retaliation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Тілоохоронець, від якого не втекти",
+      "series_url": "https://my-drama.com/uk/series/the-bodyguard-i-cant-escape-0704afe8-0536-4cbc-bf35-2aff5f255d8c",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Protection reveals wounds beneath mutual hostility",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Захопи мій подих",
+      "series_url": "https://my-drama.com/uk/series/take-my-breath-away-e224a0db-5c58-4341-90da-d85dfab87660",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Королівський",
+      "inferred_engine": "Captive bride investigates lethal royal secrets",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Запали Мене Ніжно",
+      "series_url": "https://my-drama.com/uk/series/spark-me-tenderly-82fcc7af-ba6a-4ab5-97a9-c8c8266f4ec4",
+      "catalog_page": 2,
+      "source_url": "https://my-drama.com/uk/all-series/2",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Medical desperation triggers unequal personal bargain",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Підкори мене, принцесо",
+      "series_url": "https://my-drama.com/uk/series/break-me-princess-3cec6a28-156c-4815-943e-4178fbd922dc",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Королівський",
+      "inferred_engine": "Class rivals unite against dynastic control",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Я - Покерний Виграш Мафіозного Боса",
+      "series_url": "https://my-drama.com/uk/series/the-mafia-beast-won-me-in-a-gamble-6e8235f0-2e74-4ff9-963c-db071129f78b",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Вороги до закоханих",
+      "inferred_engine": "Inherited debt forces dangerous marriage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Літо між двома світами",
+      "series_url": "https://my-drama.com/uk/series/the-summer-in-between-c4bf81c6-728d-4dd5-b9e0-3b96353c11dc",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Любовний трикутник",
+      "inferred_engine": "Scholarship competition intersects a sibling triangle",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Уроки після опівночі",
+      "series_url": "https://my-drama.com/uk/series/teach-me-after-dark-57ed5e89-f678-4425-9444-50c8bef8f344",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Secret affair escalates into courtroom defense",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вибрана Луна: Небажана донька Альфи",
+      "series_url": "https://my-drama.com/uk/series/chosen-luna-d375da9d-875e-4658-8261-aa2ccd64b520",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Outcast survival without expected supernatural power",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій бос-мільярдер оголосив мене своїм призом",
+      "series_url": "https://my-drama.com/uk/series/my-billionaire-boss-claimed-me-as-his-prize-e3aff0f8-7399-4246-9c86-b09fb4b617bb",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Custody goal collides with workplace domination",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Найнята Підкорятись",
+      "series_url": "https://my-drama.com/uk/series/hired-to-obey-1548868e-4c57-4adf-93d1-5620068450b0",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Employment contract conceals competing personal threats",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Моє серце — його наступна ціль",
+      "series_url": "https://my-drama.com/uk/series/his-next-target-my-heart-218c224f-7b9c-4789-8110-c8e22926915b",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Assassin abandons mission to protect target-adjacent victim",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Заручена з Ворогом",
+      "series_url": "https://my-drama.com/uk/series/engaged-to-the-enemy-70ea5eae-acd9-4372-b735-edf30ad38bbe",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Мафія",
+      "inferred_engine": "Family revelation converts daughter into diplomatic collateral",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ким я мала бути",
+      "series_url": "https://my-drama.com/uk/series/what-was-i-made-for-bc5cf71f-5f65-4a61-b44c-87796fdb030c",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Темна романтика",
+      "inferred_engine": "Substitute bride carries hidden family obligation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Одержимий тобою",
+      "series_url": "https://my-drama.com/uk/series/obsessed-with-you-6e9605b3-2303-417e-bd11-01c44fd4b7e9",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Вороги до закоханих",
+      "inferred_engine": "Rescue connects isolated men through dangerous intimacy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Кохання в полоні у Боса мафії",
+      "series_url": "https://my-drama.com/uk/series/love-captive-to-the-mafia-boss-11203bf5-0a69-4587-8d08-495d532b557c",
+      "catalog_page": 3,
+      "source_url": "https://my-drama.com/uk/all-series/3",
+      "site_genre": "Мафія",
+      "inferred_engine": "Loveless reproductive contract develops emotional attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Невдаха Бетті",
+      "series_url": "https://my-drama.com/uk/series/brace-face-betty-a451604b-2f56-4a25-a863-c8ab82b582fc",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Bullied outsider doubts unexpected romantic attention",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Пов’язані Кров’ю",
+      "series_url": "https://my-drama.com/uk/series/bound-by-blood-5e8b41d6-eebb-4b5c-bbcb-e99a6af1e1c1",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Caregiver rescue enters predatory supernatural world",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємний роман із батьком мого хлопця",
+      "series_url": "https://my-drama.com/uk/series/secret-romance-with-bfs-dad-ac3d5c54-7e9c-4e52-80b3-153c1a425cb6",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Betrayal redirects desire across family generations",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Альфа Мейт, що кликала вовка",
+      "series_url": "https://my-drama.com/uk/series/the-alpha-mate-who-cried-wolf-42fd7b22-15e9-4c99-a259-d0474a40dc60",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Flight from abuse enters ancestral enemy territory",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Її професор - заборонене бажання",
+      "series_url": "https://my-drama.com/uk/series/too-young-to-want-her-professor-1328c2e1-b833-4580-b6bc-f949dea73b8a",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Inherited writing ambition intersects professor relationship",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Обмін тілами зі своїм таємним крашем",
+      "series_url": "https://my-drama.com/uk/series/swapped-bodies-with-my-secret-crush-467c3999-1019-4cd4-8159-7f303599b349",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Body exchange forces reciprocal lived understanding",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Проклята Луна Альфи",
+      "series_url": "https://my-drama.com/uk/series/the-alphas-cursed-luna-84da5139-d0e1-47fe-b704-5957afac6de7",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Medical violation forces supernatural maternal defense",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Навчання у балетмейстера",
+      "series_url": "https://my-drama.com/uk/series/private-lessons-with-the-ballet-master-db267510-25ad-446c-b91a-655ddc190de5",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Artistic ambition survives sabotage and forbidden attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Моє єдине потаємне бажання",
+      "series_url": "https://my-drama.com/uk/series/my-only-secret-desire-fdb14b35-94be-4fe6-adc7-c51e03a21b8f",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Guarding duty conflicts with desire and survival",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Слідча під прикриттям закохана у злочинця",
+      "series_url": "https://my-drama.com/uk/series/hidden-detective-falls-for-criminal-97e1c006-b633-45c3-98d9-a33080b7f74a",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Вороги до закоханих",
+      "inferred_engine": "Undercover rescue mission undermines enemy certainty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Продана власницькому мафіозі",
+      "series_url": "https://my-drama.com/uk/series/sold-to-the-possessive-mafia-boss-fc67485f-bb3d-4693-a354-8dd646cefb51",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Мафія",
+      "inferred_engine": "Paternal debt converts labor into criminal attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Нечесна гра з нею",
+      "series_url": "https://my-drama.com/uk/series/playing-her-dirty-7888746e-6bdb-47fe-93a6-803f007a238c",
+      "catalog_page": 4,
+      "source_url": "https://my-drama.com/uk/all-series/4",
+      "site_genre": "Мафія",
+      "inferred_engine": "Coerced informant risks attachment to surveillance target",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Перший Спалах Пристрасті",
+      "series_url": "https://my-drama.com/uk/series/first-tender-spark-4599d5a6-a070-44e0-afc7-2153a291c064",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Dream career carries an intimate hidden cost",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ненавиджу, як сильно тебе хочу",
+      "series_url": "https://my-drama.com/uk/series/i-hate-how-much-i-want-you-0270c517-4cc9-4a08-8410-61d5801cdee1",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Child rescue revives love through timed wager",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Наречена для Люцифера",
+      "series_url": "https://my-drama.com/uk/series/bride-for-lucifer-e899f85c-4b09-4e45-955a-4ab44e5a48fc",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Паранормальне",
+      "inferred_engine": "Revenge contract binds victim to supernatural deceiver",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Сором’язлива красуня та чудовисько-мільярдер",
+      "series_url": "https://my-drama.com/uk/series/the-shy-beauty-and-the-billionaire-beast-dd7299ce-4605-4003-855d-35f6c8d675b2",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Minor accident produces disproportionate workplace obligation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Порушуючи Правило Професора",
+      "series_url": "https://my-drama.com/uk/series/breaking-the-professors-rule-db2f7dda-3974-4633-9efd-1f94cac467de",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Family rescue uncovers lovers criminal entanglement",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Заборонений дотик мого CEO-вампіра",
+      "series_url": "https://my-drama.com/uk/series/forbidden-touch-my-vampire-ceo-b313b688-2fc8-4afb-b485-acddd09393be",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Touch inflicts pain while protection creates desire",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Примушена до шлюбу",
+      "series_url": "https://my-drama.com/uk/series/married-against-the-will-c50e5fba-3920-4ad3-a544-345848af603b",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Family survival trades freedom for imposed marriage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Діамантова Троянда",
+      "series_url": "https://my-drama.com/uk/series/the-diamond-rose-3117eea3-96eb-46d4-be62-f3fd7ffbf5d0",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Caregiving pressure forces a professional world crossing",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Молода Еліта",
+      "series_url": "https://my-drama.com/uk/series/young-elite-c042ab63-66d2-4234-85c3-08fba27dd72e",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Rebel challenges class ruler and desires him",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій Сліпий Чоловік – Мільярдер",
+      "series_url": "https://my-drama.com/uk/series/my-blind-husband-is-a-billionaire-fddf9d18-2ea8-4f1d-8e64-b26f3e589c73",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Caregiving marriage faces suspicious relatives",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Заборонене кохання",
+      "series_url": "https://my-drama.com/uk/series/taboo-match-76f5b305-2679-48c7-875c-82e28e02f940",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Молодь",
+      "inferred_engine": "New family relationship introduces forbidden attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Моя золота клітка",
+      "series_url": "https://my-drama.com/uk/series/my-golden-cage-3e0d186e-b67b-4ca6-bc06-8a9b3508cd63",
+      "catalog_page": 5,
+      "source_url": "https://my-drama.com/uk/all-series/5",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Job interview becomes reproductive captivity thriller",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "У полоні його темряви",
+      "series_url": "https://my-drama.com/uk/series/addicted-to-his-darkness-35fbd711-b9dc-4391-8d62-5fa7ab2d8391",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Trauma recovery faces possessiveness and returning abuser",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "На повній швидкості — до мого серця",
+      "series_url": "https://my-drama.com/uk/series/overdrive-to-my-heart-25d95df1-42fd-4e29-961e-22ec2c18bfb5",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Reunion reveals parenthood inside professional rivalry",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Під її захистом",
+      "series_url": "https://my-drama.com/uk/series/under-her-protection-9b2ed4bc-842e-4d3e-8160-a65ff2dbcad9",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Protection becomes training toward personal agency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Партнерка, Моя",
+      "series_url": "https://my-drama.com/uk/series/mate-mine-981ef3c9-e952-4c67-9b18-69344caca605",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Creative retreat opens a dangerous supernatural attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Сповідь",
+      "series_url": "https://my-drama.com/uk/series/confession-5af63647-8fdf-4295-bcd1-066b2f7b5347",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "Past attachment tests spiritual vocational commitment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій мільярдер стежить за мною",
+      "series_url": "https://my-drama.com/uk/series/my-billionaires-eyes-on-me-03c23860-22c8-4d7e-b07a-2443634b82de",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Темна романтика",
+      "inferred_engine": "Obsessive surveillance destabilizes autonomy and desire",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Любов, якій занадто ризиковано протистояти",
+      "series_url": "https://my-drama.com/uk/series/a-love-too-risky-to-resist-b8b2a806-1dd3-4d65-b82e-4c050302b7f9",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "New attachment tests exit from familiar abuse",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Білосніжка баскетбольної команди",
+      "series_url": "https://my-drama.com/uk/series/snow-white-for-basketball-team-8724c1f4-a548-4acb-a329-95956777190f",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Escape expands suitors while unexpected authority attracts",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Факультет розпусти та брехні",
+      "series_url": "https://my-drama.com/uk/series/the-class-of-lust-and-lies-20764934-17db-420b-aafa-6814301da6d7",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Outsider must outthink an institutional powerbroker",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Кохання на високих ставках",
+      "series_url": "https://my-drama.com/uk/series/highstakes-heartthrob-c0cf4598-a181-4301-a7dc-4d08e685bcaf",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Undercover informant desires intended betrayal target",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мільярдер, Замаскований під Жиголо",
+      "series_url": "https://my-drama.com/uk/series/billionaire-disguised-as-gigolo-3d5bd0c8-4566-41df-980e-673cfe04226e",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Betrayal and impulsive encounter destroy public standing",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Під Королівським Правлінням",
+      "series_url": "https://my-drama.com/uk/series/under-the-royal-rule-1dc1cf09-1318-4cc9-8e5d-68cd7238fa10",
+      "catalog_page": 6,
+      "source_url": "https://my-drama.com/uk/all-series/6",
+      "site_genre": "Королівський",
+      "inferred_engine": "Journalistic infiltration entangles investigator with powerful subject",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "У полоні його кухні",
+      "series_url": "https://my-drama.com/uk/series/bound-by-his-kitchen-da45e88e-2172-4839-ae11-834c1c2edb30",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Attraction jeopardizes undercover duty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Навчи Мене, Відчуй Мене",
+      "series_url": "https://my-drama.com/uk/series/teach-me-touch-me-ac700c57-4dda-43d4-a0e9-d27b5cff1c04",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "Desire destabilizes academic ambition",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вдавай, що ти мене любиш",
+      "series_url": "https://my-drama.com/uk/series/act-like-you-love-me-6d05a6eb-c93f-49d2-8797-5d47fe94bedd",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "РомКом",
+      "inferred_engine": "Inheritance bargain generates involuntary intimacy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Втеча з Нульової Милі",
+      "series_url": "https://my-drama.com/uk/series/escape-from-mile-marker-zero-f14982e6-83b3-4006-813f-32ecfdd4d354",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Прихована особистість",
+      "inferred_engine": "Rescue becomes another possible trap",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Плейбек",
+      "series_url": "https://my-drama.com/uk/series/playback-0ab3c90c-9ce7-4e78-adbe-4c579e1dba73",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Creative collaboration repairs damaged identities",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мільярдер під шантажем",
+      "series_url": "https://my-drama.com/uk/series/billionaire-blackmail-dcad7a7b-e9c5-460a-bf80-d86b2677a7c6",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Family conspiracy contaminates employer romance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Поміж льодом та вогнем",
+      "series_url": "https://my-drama.com/uk/series/between-ice-and-fire-566dc90a-d3af-4bdf-8b91-917ad540bd35",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Темна романтика",
+      "inferred_engine": "Revenge hostage complicates sibling conflict",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Погляд із темряви",
+      "series_url": "https://my-drama.com/uk/series/forbidden-eyes-in-the-dark-0b416fa1-641e-4bf1-9bc1-fe2229e7be06",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Трилер",
+      "inferred_engine": "Stalker unlocks larger institutional danger",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Смілива наречена холодного монстра",
+      "series_url": "https://my-drama.com/uk/series/the-cold-monster-and-his-brave-prey-255a4c9f-0c86-4f67-8f34-dbe41534aae3",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Caregiving bargain enters political warfare",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вагітна Попелюшка",
+      "series_url": "https://my-drama.com/uk/series/pregnant-cinderella-93cb920d-e852-4176-8176-9a39587cae61",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Mutual protection makes performance emotionally costly",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Жага крові",
+      "series_url": "https://my-drama.com/uk/series/bloodlust-07ef3d16-fc15-41f5-bd26-d0dbf97555c0",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Refuge opens a dangerous supernatural world",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Гріхи Доріана Ґрея",
+      "series_url": "https://my-drama.com/uk/series/sins-of-dorian-gray-0657f0e7-691d-4301-826f-0434a8bc86f3",
+      "catalog_page": 7,
+      "source_url": "https://my-drama.com/uk/all-series/7",
+      "site_genre": "Трилер",
+      "inferred_engine": "Sudden wealth tests wounded ambition",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Закоханий у зірку Голлівуду",
+      "series_url": "https://my-drama.com/uk/series/i-kissed-a-star-and-i-liked-it-829221e3-34ee-4470-aa62-03bb54afd7d1",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Protection makes hidden desire harder to suppress",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Гра на зближення",
+      "series_url": "https://my-drama.com/uk/series/love-in-the-ruck-68e53a97-c449-41d8-a7ed-059d73ef841a",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Team rivalry clashes with public identity",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Пара, створена в пеклі",
+      "series_url": "https://my-drama.com/uk/series/a-match-made-in-hell-1996bc17-44c7-49ab-ad67-df03a5e0d4ee",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Marriage becomes strategic contest over inheritance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Протокол «Ехо»",
+      "series_url": "https://my-drama.com/uk/series/echo-protocol-6d25b4d3-d35e-44b9-9530-3f318e68c83e",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Unknown bodily power exposes family conspiracy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "У його холодних очах",
+      "series_url": "https://my-drama.com/uk/series/in-his-cold-eyes-24e03508-c8e2-4105-b088-adf655acf9f0",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Captaincy rivalry forces self-definition",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Закохана у форварда",
+      "series_url": "https://my-drama.com/uk/series/falling-for-the-striker-b000d071-d620-4204-9374-f9c0148e7e91",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Reunion makes concealed parenthood costly",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Місіс Блер",
+      "series_url": "https://my-drama.com/uk/series/mrs-blaire-32dd52b1-1264-49b0-9d9b-e5a9b340c62b",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Таємна спадкоємиця",
+      "inferred_engine": "Invented identity complicates coercive attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Серце в офсайді",
+      "series_url": "https://my-drama.com/uk/series/my-hearts-offside-1e377eca-2fdd-46af-aa3a-4c4ef562c2de",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Family wrongdoing threatens performed romance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Поза грою",
+      "series_url": "https://my-drama.com/uk/series/offside-c0e2f865-524e-4310-ade9-36a03227b3e9",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Professional proximity intensifies competing attachments",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Гостріше леза",
+      "series_url": "https://my-drama.com/uk/series/sharper-than-blade-9340c70d-230a-4ef1-9f75-8269a0f49477",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Shared ambition curdles into obsession",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Принцеса за контрактом",
+      "series_url": "https://my-drama.com/uk/series/claimed-by-the-crown-432a3003-9b2c-496e-9205-8ada4d497ff5",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Королівський",
+      "inferred_engine": "Escape bargain creates royal adaptation challenges",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Замовлена королем мафії",
+      "series_url": "https://my-drama.com/uk/series/the-mafia-kings-special-order-b4a6c200-152a-4337-a572-7a72e21ba1a2",
+      "catalog_page": 8,
+      "source_url": "https://my-drama.com/uk/all-series/8",
+      "site_genre": "Мафія",
+      "inferred_engine": "Inherited debt forces intimacy amid betrayal",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Лялька з характером",
+      "series_url": "https://my-drama.com/uk/series/brave-doll-e8ff4902-b960-46b6-9be8-34fb67b86faa",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Молодь",
+      "inferred_engine": "Dual persona reverses everyday power imbalance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Моя ціль — принц",
+      "series_url": "https://my-drama.com/uk/series/my-target-is-the-prince-2f800dc0-bd29-40af-99c3-755a1864a678",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Королівський",
+      "inferred_engine": "Undercover assignment threatens emotional neutrality",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємні правила CEO",
+      "series_url": "https://my-drama.com/uk/series/the-ceos-secret-rules-67343b0e-3f2e-43be-ac1a-91438bfee669",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Темна романтика",
+      "inferred_engine": "Family rescue collides with partner loyalty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємна донька Президента",
+      "series_url": "https://my-drama.com/uk/series/the-presidents-secret-daughter-c2115bb6-dbca-4a28-9b32-4864448cb434",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Друга можливість",
+      "inferred_engine": "Reinvention reverses former marital power",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Не треба мене рятувати",
+      "series_url": "https://my-drama.com/uk/series/dont-save-me-bad-boy-62021ab5-3d5c-4281-9a81-2b39f62d06cc",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Таємна спадкоємиця",
+      "inferred_engine": "Outsider alliance challenges hostile peer hierarchy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Поцілунок короля піратів",
+      "series_url": "https://my-drama.com/uk/series/kiss-of-the-pirate-king-3b4ed44c-a635-4e86-816b-9414ca5278bc",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Королівський",
+      "inferred_engine": "Family rescue trades safety for maritime uncertainty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Підкорена коханням альфи",
+      "series_url": "https://my-drama.com/uk/series/alphas-love-captive-ee5950a6-0cc5-4ace-81c3-7f804f4f86a4",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Captivity triggers discovery of consequential ancestry",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мафія, наречена і підміна близнючки",
+      "series_url": "https://my-drama.com/uk/series/the-mafias-stolen-bride-twin-switch-c9346105-a818-4b02-98ef-2ff2b1afdbaf",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Twin substitution forces dangerous role performance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємна вагітність від мільярдера",
+      "series_url": "https://my-drama.com/uk/series/pregnant-with-billionaires-secret-4448f01b-5ffe-4964-a644-96f53168c8ac",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Impersonation complicates class-crossing attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємна угода з поганим хлопцем",
+      "series_url": "https://my-drama.com/uk/series/my-secret-deal-with-the-bad-boy-captain-a7b69808-5d5b-4f8d-a862-13fba7529e9d",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Спортивна романтика",
+      "inferred_engine": "Tutoring rivalry becomes compulsory marital alliance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Дике мовчання",
+      "series_url": "https://my-drama.com/uk/series/wild-silence-a36a7fe3-0e89-45ff-a409-f75093c5144f",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Помста",
+      "inferred_engine": "Survival dependence obscures rescuer's hidden past",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Проклята спокуса",
+      "series_url": "https://my-drama.com/uk/series/cursed-temptation-717ee310-1283-4ada-926d-9b1e3a156a27",
+      "catalog_page": 9,
+      "source_url": "https://my-drama.com/uk/all-series/9",
+      "site_genre": "Фентезі",
+      "inferred_engine": "Escape from routine demands existential sacrifice",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Міцніша за діаманти",
+      "series_url": "https://my-drama.com/uk/series/harder-than-diamonds-9dd8f147-b2c7-4e2e-81f5-3b2f4af20fef",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Caregiving contract escalates into dynastic conflict",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Право Вовка",
+      "series_url": "https://my-drama.com/uk/series/the-wolfs-claim-1878ad55-9146-457e-935b-26fdb547658d",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Investigation becomes bodily transformation and faction struggle",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мільярдер зі сміттєвоза",
+      "series_url": "https://my-drama.com/uk/series/the-secret-billionaire-garbageman-bf5209c4-f837-45d6-aa29-6d354800f621",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "РомКом",
+      "inferred_engine": "Status disguise tests affection amid investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Принцеса, яку ненавидів король Альфа",
+      "series_url": "https://my-drama.com/uk/series/alpha-kings-hated-princess-261e563f-2190-41e9-981a-f8bb7609023c",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Королівський",
+      "inferred_engine": "Vengeance encounters a morally disarming captive",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Спокуса у виноградниках",
+      "series_url": "https://my-drama.com/uk/series/temptation-in-the-vines-f01ac307-aa83-408d-85ae-302473f33739",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Existing engagement makes attraction socially explosive",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Його темний поцілунок",
+      "series_url": "https://my-drama.com/uk/series/his-dark-kiss-b6973579-f9b6-429c-8cc5-bad184a58236",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Romantic betrayal precipitates irreversible supernatural choice",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Здайся або втрать її",
+      "series_url": "https://my-drama.com/uk/series/fold-or-lose-her-4998cc57-ae15-4679-943a-bf0442d01732",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Трилер",
+      "inferred_engine": "Skill acquisition becomes route out of dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Серце матері не обдуриш",
+      "series_url": "https://my-drama.com/uk/series/mothers-heart-never-lies-e0d3581e-154d-4aee-a8d0-f0d645b3e90e",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Suspected kinship motivates protection and investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Покохав не ту наречену",
+      "series_url": "https://my-drama.com/uk/series/falling-for-the-wrong-bride-be05cd83-80c7-4d64-94be-0b2a306d2422",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Timed marriage bargain enters hostile inheritance politics",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Покоївка, що закохана у нього",
+      "series_url": "https://my-drama.com/uk/series/maid-to-love-him-cb556997-4437-45ee-acaf-0bb2c598ef17",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Class disguise separates authentic self from celebrity",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зв’язані одержимістю",
+      "series_url": "https://my-drama.com/uk/series/bound-by-obsession-a51a22fb-1c8f-45fb-b39b-e7ba90ca3806",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Помста",
+      "inferred_engine": "Hidden occupation creates exploitable murder vulnerability",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Слабке місце боса",
+      "series_url": "https://my-drama.com/uk/series/the-ceos-blind-spot-4ef7043d-052f-4cfc-84bd-04e2f69bdd93",
+      "catalog_page": 10,
+      "source_url": "https://my-drama.com/uk/all-series/10",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "False accusation creates coercive financial dependence",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Свята брехня",
+      "series_url": "https://my-drama.com/uk/series/beyond-the-holy-lie-fbea9bd6-f615-43f5-8848-1927645032cb",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Uneasy alliance tests conflicting moral identities",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Благатимеш потім: Мої таємні мільйони",
+      "series_url": "https://my-drama.com/uk/series/beg-me-later-my-secret-millions-25ef4e21-96fa-47b9-b2f8-9dca72b0af1f",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Трилер",
+      "inferred_engine": "Wrongful conviction precedes concealed power reversal",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Tss... He’s not my Husband. He's my Target",
+      "series_url": "https://my-drama.com/uk/series/tss-hes-not-my-husband-hes-my-target-5a9ddbf8-3caf-4ace-ba2a-1ded192915d2",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Службовий роман",
+      "inferred_engine": null,
+      "evidence": "catalog_metadata_only",
+      "synopsis_available": false
+    },
+    {
+      "title": "У полоні ворожих губ",
+      "series_url": "https://my-drama.com/uk/series/behind-enemy-lips-6850b37c-804c-46e7-b748-d58e26c44b36",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Таємна спадкоємиця",
+      "inferred_engine": "Forced marriage motivates rescue and rebellion",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ва-банк: Ставка на життя",
+      "series_url": "https://my-drama.com/uk/series/all-in-double-or-die-21c03f21-bc1c-4ceb-946f-b4aed6a643d8",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Coerced cheating makes trust a survival problem",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій ідеальний незнайомець",
+      "series_url": "https://my-drama.com/uk/series/my-perfect-stranger-cb1b994c-24ee-4218-9331-bd4f1067165f",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Recovered memory threatens a constructed partnership",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вкрадене бажання",
+      "series_url": "https://my-drama.com/uk/series/stolen-desire-37705bd6-06ca-408c-b967-57b34895bfb5",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Мафія",
+      "inferred_engine": "Emergency bargain makes rescuer's motives suspect",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Автор мого серця",
+      "series_url": "https://my-drama.com/uk/series/author-of-my-heart-6fd75320-aad7-4eae-af71-4dee50568068",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Rescue romance carries undisclosed personal history",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Любов у Тінях",
+      "series_url": "https://my-drama.com/uk/series/love-in-the-shadows-49ec1451-3e2d-4b42-8b65-64412cff8f69",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "РомКом",
+      "inferred_engine": "Family bargain reveals spouse's dangerous status",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Роман із зіркою",
+      "series_url": "https://my-drama.com/uk/series/romancing-the-star-20b735e3-487f-42c5-bd81-0d161a730937",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Publicity performance develops private consequences",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Архітектори Пристрасті",
+      "series_url": "https://my-drama.com/uk/series/designed-for-desire-337de66d-70e6-483d-a199-2c476942e18c",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Employment opportunity turns into confinement",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Реаліті-шоу: Кохання чи Виклик. Сезон 1",
+      "series_url": "https://my-drama.com/uk/series/reality-show-love-or-dare-season-f2199e20-f462-4d54-a2d6-b9d391b4b28e",
+      "catalog_page": 11,
+      "source_url": "https://my-drama.com/uk/all-series/11",
+      "site_genre": "Токсичні стосунки",
+      "inferred_engine": "Existing partnership tests money and temperament differences",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Після всього цього болю",
+      "series_url": "https://my-drama.com/uk/series/after-all-that-hurt-68ad507c-6cbb-45cd-a2fd-6f599ceec676",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "Past connection destabilizes unsatisfying marriage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Кохання, брехня та мертвий магнат",
+      "series_url": "https://my-drama.com/uk/series/love-lies-and-a-dead-tycoon-7d0d6a98-e626-4abc-a56f-e794f5b1935d",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Exposure of affair triggers enclosed murder investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Недоторканий аромат",
+      "series_url": "https://my-drama.com/uk/series/untouched-scent-f75a5396-db23-45e5-adc1-e7dc5a84ecb3",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Офісний роман",
+      "inferred_engine": "Medical desperation enables controlling contractual dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Сховавшись у його душі",
+      "series_url": "https://my-drama.com/uk/series/hiding-in-his-shower-22502f60-4073-44b8-a81c-137459f2aa4f",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Студентський роман",
+      "inferred_engine": "Accidental refuge joins socially incompatible fugitives",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Лялька для мафіозі",
+      "series_url": "https://my-drama.com/uk/series/the-mafias-broken-doll-072fba6e-84bd-4600-815d-eeb15271c338",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Мафія",
+      "inferred_engine": "Family rescue bargain creates coercive dependency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Реаліті-шоу: Кохання чи Виклик. 2-ий сезон",
+      "series_url": "https://my-drama.com/uk/series/reality-show-love-or-dare-season-b57f579b-a2ea-4307-a77c-ec01c1888d5c",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Токсичні стосунки",
+      "inferred_engine": "Established couple clashes over attention and commitment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Заборонений поцілунок",
+      "series_url": "https://my-drama.com/uk/series/i-kiss-my-exs-son-76245fcb-e2d1-4d6f-bc85-8817cd9aadac",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Вікова різниця",
+      "inferred_engine": "Rebound discovers taboo family connection",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зворотний бік контролю",
+      "series_url": "https://my-drama.com/uk/series/the-other-side-of-control-f5d9350a-4234-4088-b04a-a1bb854c1ec1",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Трилер",
+      "inferred_engine": "Captivity forces reassessment of trusted fiancé",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Навчили зваблювати. Не навчили кохати",
+      "series_url": "https://my-drama.com/uk/series/trained-to-tempt-broken-by-love-6ffbb5de-27e4-40d5-97e6-a2cbfcbed6e4",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Вороги до закоханих",
+      "inferred_engine": "Caregiving pressure recruits novice into manipulation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Серце Якудзи",
+      "series_url": "https://my-drama.com/uk/series/heart-of-the-yakuza-c44c59c3-9dea-4828-82ac-ec58d5170210",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Undercover duty collides with family grievance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Гаразд. Я одружусь на ньому сама",
+      "series_url": "https://my-drama.com/uk/series/fine-ill-marry-him-myself-b64b8292-4050-47f5-9744-047780edd8fe",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Professional deadline entangles planner in matchmaking",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вона — його завдання",
+      "series_url": "https://my-drama.com/uk/series/shes-his-mission-47cd038c-a236-4dc4-a7de-856b8ee09a4a",
+      "catalog_page": 12,
+      "source_url": "https://my-drama.com/uk/all-series/12",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Soldier's duty conflicts with captive's freedom",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Обраниця мільярдера: Ідеальна пара",
+      "series_url": "https://my-drama.com/uk/series/the-billionaires-pick-perfect-match-d02d42b3-7686-4f2c-be78-26b08f41ef14",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Фальшиві стосунки",
+      "inferred_engine": "Revenge casting becomes attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Любов Мільярдера в Небезпеці",
+      "series_url": "https://my-drama.com/uk/series/billionaires-love-in-danger-b4e1ec51-e969-4f40-afeb-05c46f9fa9b7",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Pregnancy forces disclosure choice",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Місія: Полюбити ворога",
+      "series_url": "https://my-drama.com/uk/series/mission-to-love-the-enemy-f9d334e5-2036-4839-971d-e249684c1c3d",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Прихована особистість",
+      "inferred_engine": "Duty conflicts with desire",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Закохана в Тарзана",
+      "series_url": "https://my-drama.com/uk/series/falling-for-tarzan-acf17517-b0e8-40e8-9e35-6ee86fda6f2a",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Вороги до закоханих",
+      "inferred_engine": "Abandonment reverses dependence",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Полонянка Італійського Мачо",
+      "series_url": "https://my-drama.com/uk/series/stolen-by-italian-macho-4485df02-2712-4e96-9f6d-0097aa815060",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "РомКом",
+      "inferred_engine": "Escape creates another captivity",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Смертельний принц",
+      "series_url": "https://my-drama.com/uk/series/the-deadly-prince-fbdb1610-bde9-462d-bee9-0e30185c161f",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Таємниця",
+      "inferred_engine": "Courtship competition becomes survival",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "100 мільйонів за шлюб",
+      "series_url": "https://my-drama.com/uk/series/100m-to-say-i-do-9f99c4f9-5ea5-4952-be93-f391351c8ef4",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Inheritance bargain meets old love",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Серце Якудзи - 2",
+      "series_url": "https://my-drama.com/uk/series/heart-of-the-yakuza-2-f2cdde52-702d-4cfe-9bec-35635ba77f58",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Службовий роман",
+      "inferred_engine": "Criminal exit threatens couple",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Одне обличчя — два кохання",
+      "series_url": "https://my-drama.com/uk/series/one-face-two-loves-4e1a3ccd-f9a8-41dc-835c-bf6aa009211c",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Identity manipulation undermines trust",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій Темний Лорд",
+      "series_url": "https://my-drama.com/uk/series/my-dark-lord-c9de114c-81a0-4d63-93dd-9db18249759f",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Заборонене кохання",
+      "inferred_engine": "Ritual danger entangles desire",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вона прокинулась після 7 років коми",
+      "series_url": "https://my-drama.com/uk/series/she-came-out-of-a-coma-after-years-8bc85b7b-223b-4b28-8e29-50c05acd53c4",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Lost years redistribute relationships",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємниці мільярдера з амнезією",
+      "series_url": "https://my-drama.com/uk/series/secrets-of-the-amnesia-billionaire-7a3fbe78-134c-4ca1-950c-7dd066f4d048",
+      "catalog_page": 13,
+      "source_url": "https://my-drama.com/uk/all-series/13",
+      "site_genre": "Амнезія",
+      "inferred_engine": "Rescuer distrusts rescued stranger",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємний роман з босом-мільярдером",
+      "series_url": "https://my-drama.com/uk/series/secret-affair-with-my-billionaire-boss-3d98adf5-7ac8-463a-a46b-5be7e9befe96",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Office hierarchy amplifies rivalry",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Помста спадкоємиці мафії",
+      "series_url": "https://my-drama.com/uk/series/revenge-of-a-mafia-heiress-2ef0a8c2-becc-499c-a6e5-7e76ef7c420a",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Freedom competes with attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "У ліжку з ворогом",
+      "series_url": "https://my-drama.com/uk/series/in-bed-with-the-enemy-d54bb049-804d-4dd6-9164-07fb0ccf9f87",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Мафія",
+      "inferred_engine": "Performance exposes dangerous secrets",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Його фальшива наречена — бездомна дівчина",
+      "series_url": "https://my-drama.com/uk/series/his-fake-bride-was-a-homeless-girl-e386f187-82f4-4c3f-8a3d-9602d2709d42",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Replacement bride gains agency",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ніч з моїм судженим вампіром",
+      "series_url": "https://my-drama.com/uk/series/night-with-my-vampire-mate-db8ba957-d57e-493f-918c-c45208fb0da6",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Private desire challenges collective loyalty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мені не можна кохати тебе",
+      "series_url": "https://my-drama.com/uk/series/im-not-allowed-to-love-you-3f49be3d-0d29-4e6d-994e-b1c2eb2dd02b",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Grief complicates protective intimacy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій новий бос — той самий мертвий екс",
+      "series_url": "https://my-drama.com/uk/series/my-new-boss-is-my-dead-exboyfriend-95cccbad-9f13-44ae-8723-b99fc2fb4df8",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Таємниця",
+      "inferred_engine": "Return overturns presumed certainty",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Суджена Альфи",
+      "series_url": "https://my-drama.com/uk/series/fated-to-be-the-alphas-mate-3ec52396-99c1-4d83-bac7-45de9c98d023",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Hidden nature reverses social rank",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Повернення королеви",
+      "series_url": "https://my-drama.com/uk/series/the-queen-stands-again-34b6d8c3-53bb-46ca-882e-6ec62d76725d",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Помста",
+      "inferred_engine": "Betrayal recruits powerful ally",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Вийшла за нього, щоб утекти від колишнього",
+      "series_url": "https://my-drama.com/uk/series/i-married-him-to-escape-my-ex-8e722e56-b8c2-4d2b-9544-7f2ce7189c02",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Protective marriage conceals advantage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Проклята наречена Крижаного принца",
+      "series_url": "https://my-drama.com/uk/series/the-cursed-bride-of-the-cold-prince-b574a2ee-932b-4dcb-afdc-7a33ff7eec75",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Королівський",
+      "inferred_engine": "Blackmail binds dangerous partners",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Після однієї ночі",
+      "series_url": "https://my-drama.com/uk/series/after-one-night-4d7caaae-142a-4017-b617-6a7ec2411225",
+      "catalog_page": 14,
+      "source_url": "https://my-drama.com/uk/all-series/14",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Single encounter creates lasting consequence",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій красивий охоронець",
+      "series_url": "https://my-drama.com/uk/series/my-handsome-bodyguard-b9bd7e2a-91ed-46fb-9d54-7c57a49f7061",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Роман з тілоохоронцем",
+      "inferred_engine": "Succession provokes rejected suitor",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "У його кігтях я стала Луною",
+      "series_url": "https://my-drama.com/uk/series/in-his-claws-i-became-luna-dad73258-041a-4171-ae8e-cba839c21a5a",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Accusation collides with destined bond",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Найненависніша вовчиця",
+      "series_url": "https://my-drama.com/uk/series/the-most-hated-shewolf-fc62993d-b7cd-4f10-b39d-7dedfc91d951",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Перевертні",
+      "inferred_engine": "Usurpation activates maternal resistance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Здобула Собі Безцінного Чоловіка",
+      "series_url": "https://my-drama.com/uk/series/got-myself-a-priceless-husband-f5cb8ed1-a50b-48e6-9471-2574444c1942",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "РомКом",
+      "inferred_engine": "Mutual needs create emotional exposure",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Клеопатра",
+      "series_url": "https://my-drama.com/uk/series/cleopatra-98d763fb-16f9-4bfa-a1ec-4d1b7668ce50",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Любов після шлюбу",
+      "inferred_engine": "Captivity demands self liberation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ми застукали їх разом",
+      "series_url": "https://my-drama.com/uk/series/we-caught-them-together-9cb74547-88f8-4eec-a74b-22374b3c9df2",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Контракт",
+      "inferred_engine": "Shared betrayal enables strategic alliance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Його чарівна покоївка — наймана вбивця",
+      "series_url": "https://my-drama.com/uk/series/his-charming-maid-is-a-secret-killer-a6876346-7e8d-4b75-beb2-8cc10afa59ec",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Прихована особистість",
+      "inferred_engine": "Infiltration compromised by affection",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мілан в Квітні",
+      "series_url": "https://my-drama.com/uk/series/milan-in-april-7342ea55-d2a9-45eb-88ed-1191488f9eb6",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "РомКом",
+      "inferred_engine": "Career restart meets concealed opportunity",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Відроджена задля помсти",
+      "series_url": "https://my-drama.com/uk/series/she-was-reborn-to-get-revenge-d7d2f050-9591-4ec1-9b78-f10b88e2bdb4",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Молодь",
+      "inferred_engine": "Survivor returns to reverse hierarchy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Помста моєму зрадливому нареченому",
+      "series_url": "https://my-drama.com/uk/series/revenge-on-my-cheating-fianc-73efa88e-c915-488c-a753-c41fd4826ac6",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Помста",
+      "inferred_engine": "Heartbreak fuels professional ascent",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Шлюб заради помсти",
+      "series_url": "https://my-drama.com/uk/series/married-for-revenge-7d6eb333-9a24-4473-b4f0-3f6d005ed1d9",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Зрада",
+      "inferred_engine": "Investigation marriage disrupts revenge",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Голлівудська зірка та його фальшива подруга",
+      "series_url": "https://my-drama.com/uk/series/hollywood-stars-fake-girlfriend-7f9421b7-2a28-4d46-9e25-39751400aeab",
+      "catalog_page": 15,
+      "source_url": "https://my-drama.com/uk/all-series/15",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Publicity fiction risks public exposure",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Дурна спадкоємиця-мільярдерка закохана частина I",
+      "series_url": "https://my-drama.com/uk/series/the-dumb-billionaire-heiress-in-love-part-i-c356998e-b8e0-4206-8949-0e78dd3c4e82",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Помста",
+      "inferred_engine": "Inheritance disrupted by wedding murder",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зцілення бездушного CEO",
+      "series_url": "https://my-drama.com/uk/series/the-cold-ceos-cure-5451fabb-91ea-491b-a847-8d65f0a324e6",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Marriage grants investigative access",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Таємна дитина для CEO",
+      "series_url": "https://my-drama.com/uk/series/secret-baby-for-the-ceo-8017f822-c4ea-4dd4-92fb-0098ca9101dc",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Таємна дитина",
+      "inferred_engine": "Wrongful punishment motivates reckoning",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Я одержима своїм босом. Частина I",
+      "series_url": "https://my-drama.com/uk/series/im-obsessed-with-my-boss-part-i-09123b6d-1db7-467f-a4a4-056085f1779a",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Помста",
+      "inferred_engine": "Affair activates competing claims",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Сплетені долі",
+      "series_url": "https://my-drama.com/uk/series/twisted-fates-2b50ae51-7f3c-4c52-8399-ce6bbef6ca96",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Друга можливість",
+      "inferred_engine": "Desire threatens existing family",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Доставляючи любов",
+      "series_url": "https://my-drama.com/uk/series/delivering-love-cc23c814-1bf6-464f-8e83-29c093f46b05",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Зрада",
+      "inferred_engine": "Impulsive marriage hides status reversal",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Закоханий у доньку мого хрещеного",
+      "series_url": "https://my-drama.com/uk/series/in-love-with-my-godfathers-daughter-a739f74f-30d9-4804-8880-c94ee97f2f7c",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Мафія",
+      "inferred_engine": "Unproven successor seeks legitimacy",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій знаменитий хлопець убив мене",
+      "series_url": "https://my-drama.com/uk/series/my-celebrity-boyfriend-killed-me-2a2344a8-e03e-485e-ae30-57a401383297",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Revenge transfers across generations",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Моя сестра вкрала мого чоловіка",
+      "series_url": "https://my-drama.com/uk/series/my-sister-stole-my-man-bdc010d0-73c8-46a1-bae9-01168b3dfe87",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Помста",
+      "inferred_engine": "Sibling sabotage meets returning ally",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Відлуння помсти",
+      "series_url": "https://my-drama.com/uk/series/echoes-of-vengeance-490c7782-e8ac-43a5-bcae-41d97e696692",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Селебріті",
+      "inferred_engine": "Target complexity destabilizes revenge",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Змова Фенікса",
+      "series_url": "https://my-drama.com/uk/series/the-phoenix-conspiracy-4ad399aa-e552-4369-b657-f93e953760d3",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Прихована особистість",
+      "inferred_engine": "Intimacy opens conspiracy investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зв'язані долею",
+      "series_url": "https://my-drama.com/uk/series/tied-by-fate-da81f83b-8666-4518-8aa5-493534a9b097",
+      "catalog_page": 16,
+      "source_url": "https://my-drama.com/uk/all-series/16",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Practical bargain generates real attachment",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій чоловік - таємний CEO",
+      "series_url": "https://my-drama.com/uk/series/my-husband-is-a-secret-ceo-ed66838d-fc43-404e-84e1-96c4c19b10d4",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Вагітність",
+      "inferred_engine": "Wedding betrayal creates accidental alliance",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Договір про кохання",
+      "series_url": "https://my-drama.com/uk/series/a-contract-for-love-64c21fe7-590d-46bf-9254-aa48e7126552",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Любов після шлюбу",
+      "inferred_engine": "Dynastic obligation forces incompatible proximity",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Розі Психопатка",
+      "series_url": "https://my-drama.com/uk/series/rosy-psycho-b6c525c6-c9a2-4696-818e-33981e27e123",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Помста",
+      "inferred_engine": "Succession exposes concealed betrayal",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Мій улюблений Спаситель",
+      "series_url": "https://my-drama.com/uk/series/my-favorite-savior-fbbb640b-b01a-4f14-a47d-d87202793404",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Помста",
+      "inferred_engine": "Timed bargain exchanges protection and secrets",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Угода в темряві",
+      "series_url": "https://my-drama.com/uk/series/a-deal-in-darkness-32b02c2b-8e02-4560-9e88-9991e1208090",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Вампіри",
+      "inferred_engine": "Marriage enters supernatural power struggle",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Шкільна зала",
+      "series_url": "https://my-drama.com/uk/series/school-hall-889c78f5-d1a2-488d-b455-5efa6b33af09",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Друга можливість",
+      "inferred_engine": "Disappearance tests friendship through investigation",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Солодка помста",
+      "series_url": "https://my-drama.com/uk/series/sweet-revenge-8e57ef8f-0c7e-4668-b6e1-11920f654ce5",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Мільярдер",
+      "inferred_engine": "Professional comeback reopens former marriage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Зрада біля вівтаря",
+      "series_url": "https://my-drama.com/uk/series/betrayal-at-the-altar-ec94cafc-4c7c-4e35-86b3-48c772517964",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Зрада",
+      "inferred_engine": "Substitution breeds possessive regret",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Я одержима своїм босом. Частина II",
+      "series_url": "https://my-drama.com/uk/series/im-obsessed-with-my-boss-part-ii-6e6783f5-d0e9-4c7c-bd8a-178cfebf8b61",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Помста",
+      "inferred_engine": "Pregnancy escalates coercive triangle",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Син мафіозного боса таємно закоханий у свою мачуху",
+      "series_url": "https://my-drama.com/uk/series/mafia-lords-son-has-secret-love-for-his-stepmom-0bda8c34-3bc6-4764-abcf-f2c045d8e71c",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Помста",
+      "inferred_engine": "Collateral captive recruits escape partner",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Сестри закохалися в одного чоловіка",
+      "series_url": "https://my-drama.com/uk/series/sisters-have-crush-on-the-same-man-8dee2920-b535-4760-8588-1cca79914b31",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Шлюб за контрактом",
+      "inferred_engine": "Awakening destabilizes substitute marriage",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Дурна мільярдерка-спадкоємиця закохалася, частина II",
+      "series_url": "https://my-drama.com/uk/series/the-dumb-billionaire-heiress-in-love-part-ii-00f23275-566f-4a4a-9cea-6640f4f7dffa",
+      "catalog_page": 17,
+      "source_url": "https://my-drama.com/uk/all-series/17",
+      "site_genre": "Помста",
+      "inferred_engine": "Stolen identity requires reality reconstruction",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    },
+    {
+      "title": "Ніколи не зв'язуйся з крутою дівчиною",
+      "series_url": "https://my-drama.com/uk/series/never-mess-with-a-badass-girl-381c8776-7723-437d-ae86-c6fc3e908d21",
+      "catalog_page": 18,
+      "source_url": "https://my-drama.com/uk/all-series/18",
+      "site_genre": "Помста",
+      "inferred_engine": "Retaliation risks consuming avenger",
+      "evidence": "synopsis",
+      "synopsis_available": true
+    }
+  ]
+}

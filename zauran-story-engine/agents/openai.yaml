@@ -1,4 +1,4 @@
 interface:
   display_name: "zauran_story_engine"
   short_description: "Идея → вселенная → герои → сценарий → шот-лист"
-  default_prompt: "Use $zauran-story-engine to lock the story brief, then take my idea through logline, canon, character passports, beats, scenes and a shot script ready for zauran-ai-creative."
+  default_prompt: "Use $zauran-story-engine to develop or revise my story at the depth my request needs, preserving my constraints and producing a production package only when requested."

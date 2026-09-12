@@ -16,6 +16,10 @@
 
 - `references/photo-and-storyboard.md`
 
+После утверждения сценария видео, при входящем сценарном handoff или запросе карточек по сценарию:
+
+- `references/script-to-assets.md` — общий с `zauran-story-engine` переход: импорт брифа и версии, реестр персонажей/локаций/предметов, план карточек, выбор целей для промптов, зависимости и обновление живого STATE. Читай до повторного intake; неизвестная модель не блокирует инвентаризацию и план.
+
 Дополнительно для Nano Banana Pro (Gemini 3 Pro Image):
 
 - `references/nano-banana-pro.md` — обязательная платформенная инструкция навыка: model ID `gemini-3-pro-image` и отличие от Nano Banana и Nano Banana 2, поля Interactions API (`response_format.aspect_ratio` / `image_size`) против legacy `generationConfig.imageConfig`, соотношения сторон, 1K/2K/4K и цены, лимиты референсов (14 вход, 6 объектов, 5 человек), пять элементов промпта и официальный порядок блоков, контракт текста в кадре, грамматика правки с preserve, grounding через Google Search, thinking, SynthID, preflight, таблица диагностики, список неподтверждённого, плюс маршрут к библиотеке рецептов и десять приёмов, подтверждённых корпусом.

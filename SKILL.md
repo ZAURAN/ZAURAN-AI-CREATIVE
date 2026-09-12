@@ -1,11 +1,15 @@
 ---
 name: zauran-ai-creative
-description: "AI creative production orchestrator: idea, brief lock, creative direction, storyboard, prompt, generation, QA, delivery, learning capture into the project folder. Image: Nano Banana Pro (Gemini 3 Pro Image) with a 70-recipe library, GPT Image (gpt-image-2) templates, Seedream 5.0 Pro/Lite, 15k+ prompt library. Video: Seedance 2.5/Higgsfield with CINEDANCE lens, physics, lighting, dialogue, continuity control; Seedance 2.0 (Dreamina, CapCut, Ark, fal) with director's read, sequence state, retake protocol, anti-slop, ru/zh/ja/ko/es vocabulary; MiniMax H3 (Hailuo H3) audiovisual prompting; Gemini Omni Flash (gemini-omni-1.1-flash) with continuity locks, media tags, audio, conversational editing, 40s extension. Also scene engineering, acting direction, multi-character blocking maps, room/product storyboards, image editing. Use when the user invokes zauran_ai_creative, asks which model to prompt, or wants an ad, concept, scene, storyboard, image, edit, transition, a prompt for any of these models, or a broken AI-video fix."
+description: "AI creative production orchestrator: idea, brief lock, creative direction, storyboard, prompt, generation, QA, delivery, learning capture into the project folder. Image: Nano Banana Pro (Gemini 3 Pro Image) with a 70-recipe library, GPT Image (gpt-image-2) templates, Seedream 5.0 Pro/Lite, 15k+ prompt library. Video: Seedance 2.5/Higgsfield with CINEDANCE lens, physics, lighting, dialogue, continuity control; Seedance 2.0 (Dreamina, CapCut, Ark, fal) with director's read, sequence state, retake protocol, anti-slop, ru/zh/ja/ko/es vocabulary; MiniMax H3 (Hailuo H3) audiovisual prompting; Gemini Omni Flash (gemini-omni-1.1-flash) with continuity locks, media tags, audio, conversational editing, 40s extension. Also scene engineering, acting direction, multi-character blocking maps, room/product storyboards, image editing. Use when user invokes zauran_ai_creative, asks which model to prompt, or wants an ad, concept, scene, storyboard, image, edit, transition, a prompt for these models, or a broken AI-video fix."
 ---
 
 # zauran_ai_creative
 
 Веди креативную задачу от идеи до реально запрошенного финала. Сначала пойми замысел и зафиксируй ограничения, затем создай материалы, проверь их и сохрани в согласованное место. Не останавливайся на промте, если пользователь запросил готовые изображения, видео или файлы.
+
+## Переход из готового сценария
+
+Если завершён сценарный этап `zauran-story-engine` или пользователь передал готовый сценарий/handoff для видео, читай `references/script-to-assets.md`. Прими точную версию и известный бриф, выдели персонажей, локации и значимые предметы, составь план карточек и предложи конкретные элементы для промптов. Для плана и текстовых карточек модель ещё не нужна; перед модельными промптами выясни только недостающие модель/среду и визуальные решения. Готовый сценарий не означает заказ генерации всех элементов; явно порученный полный цикл или выбранная генерация продолжаются без повторного разрешения.
 
 ## Быстрый режим точечной правки
 

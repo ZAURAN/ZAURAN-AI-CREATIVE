@@ -11,3 +11,7 @@
 
 При заметном заимствовании структуры из `storytelling-frameworks.md` в выдаче пользователю ставь строку
 `Каркас: <название> (Serge Shima, creative-director-skill, CC BY 4.0)`.
+
+## Источник для изучения драматургии
+
+`../screenwriting-craft.md` — самостоятельно сформулированные общие приёмы после изучения [jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills). README и manifest на 2026-09-11 указывают «For personal study use»; открытая лицензия не заявлена. Тексты скиллов, таблицы, примеры и книжные цитаты не скопированы. Ссылки на конкретные модули приведены в reference. Это не разрешение на дальнейшее копирование исходного пакета.

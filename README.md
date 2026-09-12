@@ -3,15 +3,14 @@
 Набор скиллов для Claude Code (и совместимых агентов с поддержкой `SKILL.md`), который ведёт AI-видео и AI-картинку от идеи до готового файла. Два скилла в одном репо, общие модули драматургии, одна цепочка передачи.
 
 ```text
-идея → вселенная → герои → сценарий → шот-лист → VO   |   модель → промт → генерация → QA → выдача
-└──────────────── zauran-story-engine ────────────────┘   └──────────── zauran-ai-creative ────────────┘
-                                          handoff-пакет →
+ТЗ → история и сценарий → план персонажей, локаций и предметов → выбранные промпты → генерация → QA
+└── zauran-story-engine ──┘   └──── общий handoff ────┘   └────── zauran-ai-creative ──────┘
 ```
 
 | Скилл | Папка | Что делает | Где заканчивается |
 |---|---|---|---|
-| **zauran-story-engine** | [`zauran-story-engine/`](zauran-story-engine/README.md) | Идея → инсайт → логлайн → `CANON.md` (вселенная) → паспорта героев → каркас и биты с таймингом → сцены (Goal / Obstacle / Tactic / Reversal / Value Shift) → шот-сценарий 1–3 с → диалог и VO без AI-slop. Серия эпизодов ведётся по хронологии из `STATE.md` / `TIMELINE.md` в папках, которые указывает пользователь. | На утверждённом сценарном пакете. Промты не пишет, модель не выбирает. |
-| **zauran-ai-creative** | корень репо ([`SKILL.md`](SKILL.md)) | Бриф → гейт выбора модели и среды → креативное направление → раскадровка → промт под конкретную модель → генерация → проверка результата → выдача → запись выводов. | На готовом файле, проверенном по brief lock. |
+| **zauran-story-engine** | [`zauran-story-engine/`](zauran-story-engine/README.md) | Идея → инсайт → логлайн → `CANON.md` (вселенная) → паспорта героев → каркас и биты с таймингом → сцены (Goal / Obstacle / Tactic / Reversal / Value Shift) → шот-сценарий с обоснованным ритмом → диалог и VO без AI-slop. Серия эпизодов ведётся по хронологии из `STATE.md` / `TIMELINE.md` в папках, которые указывает пользователь. | Завершает сценарный этап и предлагает план визуальных материалов. Модельные промпты и генерацию выполняет производственный скилл. |
+| **zauran-ai-creative** | корень репо ([`SKILL.md`](SKILL.md)) | Готовый сценарий или бриф → план карточек и выбор элементов → гейт модели/среды перед промптами → креативное направление → раскадровка → промт под конкретную модель → генерация → проверка результата → выдача → запись выводов. | На готовом файле, проверенном по brief lock. |
 
 Один человекочитаемый `READOUT_<проект>_vN.pdf` на выдачу собирается общим скриптом (`zauran-story-engine/scripts/build-readout.py`); `.md` остаются рабочими файлами для ИИ.
 
@@ -21,13 +20,14 @@
 
 Сценарный движок. Подробно — [`zauran-story-engine/README.md`](zauran-story-engine/README.md).
 
-- **STORY LOCK** + для серии **SERIES SCALE** (движок формата, оси вариативности, ≥5 локаций, типы хуков 0–2 с) — `references/story-routes.md`, `short-form-series.md`.
+- **STORY LOCK** + для серии **SERIES SCALE** (движок формата, содержательные оси вариативности без квот локаций и каста) — `references/story-routes.md`, `short-form-series.md`.
 - **CANON.md** — правила мира (LOCKED / FLEX), локации, продукт, язык; **PASSPORT_<имя>.md** — визуальные инварианты + want/need/рана/тактики/речь.
 - **Структура** — шесть каркасов с таймингами 15/30/60 с (Story Spine, Sparkline, Freytag, Monroe, Pixar rules, Hero's Journey), бюджет шотов 6/15/30/60 с, бит-лист.
 - **Сцены** через `tig-scene-engine` с causal audit; **шот-сценарий** `SCRIPT_vN.md` с камерой из словаря, светом, инвариантами; **VO/диалог** с анти-slop lint RU/UA/EN.
 - **Хранилище на диске** — `STATE.md`, `TIMELINE.md`, реестр путей, протокол продолжения серии (новая серия стартует из состояния прошлой, не с чистого листа).
 - **Словарь** — ≈100 кино-терминов (движение камеры, крупность, ракурс, оптика, свет, композиция) с поиском `node zauran-story-engine/scripts/search-shot-vocabulary.mjs --query "orbit"`.
-- **Handoff** — пакет `STORY_LOCK / STATE / CANON / PASSPORT / BEATS / SCRIPT / VO / REFERENCES` для производственного скилла.
+- **Жанры** — проверки восьми жанров, сценарные и визуальные наблюдения из 17 рабочих фильмов; готовые субтитры и локальный ASR отделены от непрерывного просмотра и зрительской статистики.
+- **Handoff** — точные версии `STORY_LOCK / STATE / CANON / PASSPORT / BEATS / SCRIPT / VO / REFERENCES`, затем [общий протокол карточек](references/script-to-assets.md). После утверждения сценария видео скиллы выделяют элементы, переиспользуют референсы, составляют `ASSET_PLAN` / `ASSET_REGISTER` и предлагают, для чего писать промпты. Запрос «только сценарий» сохраняет свою границу; утверждение сценария само по себе не запускает платные генерации.
 
 ## zauran-ai-creative
 
@@ -69,6 +69,7 @@ agents/openai.yaml
 references/
   knowledge-routing.md        # что читать под какой тип задачи
   intake-and-brief.md         # бриф, гейт модели и среды
+  script-to-assets.md         # общий переход от сценария к карточкам и выбранным промптам
   photo-and-storyboard.md · video-and-continuity.md · storyboard-to-video.md · qa-and-delivery.md
   cinematic-orchestration.md  # маршрутизация CINEDANCE / Tig-модулей
   cinedance-*.md              # оптика, блокинг, физика/свет
@@ -95,7 +96,7 @@ zauran-story-engine/          # второй скилл
 
 ## Скрипты
 
-Чистый Node / Python, без установки зависимостей. У каждого есть `--help`.
+Поисковые скрипты используют стандартный Node.js. PDF-сборщик требует Python, пакет `markdown` и Chrome/Edge/Chromium; поддерживает `--browser` и `--timeout`, не перезаписывает готовые PDF. У скриптов есть `--help`.
 
 ```bash
 # zauran-ai-creative
@@ -110,7 +111,7 @@ node zauran-story-engine/scripts/search-shot-vocabulary.mjs --cats
 python zauran-story-engine/scripts/build-readout.py --help
 ```
 
-Тесты: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией).
+Тесты поиска: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией). Тесты PDF-сборщика: `python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"`.
 
 ## Установка
 

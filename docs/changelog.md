@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-12 — Story development and script-to-assets handoff
+
+- Added eight genre review routes, source-bounded film studies, vertical-drama materials and a My Drama catalogue. Distinguish subtitles, automatic speech transcripts, sampled frames and continuous audiovisual evidence; do not promise audience performance from model review.
+- Added one shared `references/script-to-assets.md` protocol for both skills: approved script → character/location/prop inventory → reusable cards and dependency plan → selected prompts → explicitly requested generation. Keep one live STATE, exact source versions, stable IDs and scoped updates.
+- Refined quick/development/production modes, canon and version handling, and series variation without mandatory location or shot-length quotas.
+- Hardened the READOUT builder: sanitized HTML, disabled embedded resources, isolated browser profile, timeout/errors, verified PDF header and publication without overwriting existing files. Added regression tests for the builder.
+- Updated both READMEs to reflect the workflow and PDF runtime requirements. Existing model contracts and prompt libraries are retained.
+
 ## 2026-09-01 — Nano Banana Pro platform contract
 
 - Closed the gap flagged in the audit: Nano Banana Pro was the only routed model without a platform file, its contract living solely in an Obsidian note. `references/nano-banana-pro.md` is now the platform contract, built from official Google sources and verified 2026-09-01: the Nano Banana Pro prompting guide and launch post on blog.google, Gemini API image-generation, pricing and Gemini 3 developer docs on ai.google.dev, the Interactions API reference, the Gemini image-generation limitations page in Google Cloud docs, the Google DeepMind model page, and the Google AI team's prompting guide on dev.to.
