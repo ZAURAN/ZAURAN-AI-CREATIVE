@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zauran Scene Director"
+  short_description: "Сценарий → Blender, камеры, постановка и референсы"
+  default_prompt: "Используй $zauran-scene-director: прочитай актуальный сценарий и готовые фото проекта, определи следующий кадр и подготовь его камеру, 3D-постановку и референсы для генерации."
