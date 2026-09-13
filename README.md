@@ -128,27 +128,142 @@ python zauran-story-engine/scripts/build-readout.py --help
 
 Тесты поиска: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией). Тесты PDF-сборщика: `python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"`.
 
-## Установка
+## Установка для коллеги и его AI-агента
 
-```bash
-git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git ~/.claude/skills/zauran-ai-creative
+Отправьте коллеге [ссылку на репозиторий](https://github.com/ZAURAN/ZAURAN-AI-CREATIVE). Он может передать своему агенту этот запрос:
+
+```text
+Установи три связанных скилла из https://github.com/ZAURAN/ZAURAN-AI-CREATIVE:
+zauran-ai-creative (корень), zauran-story-engine и zauran-scene-director.
+Прочитай раздел установки README. Определи каталог скиллов моего клиента,
+сохрани структуру репозитория и подключи две вложенные папки как отдельные скиллы.
+Не перезаписывай существующие установки и настройки без проверки.
+Проверь все три SKILL.md и объясни, как их вызвать.
+Blender, MCP и платные сервисы пока не устанавливай и не запускай.
 ```
 
-Второй скилл нужно подключить ссылкой на его папку (Claude Code ищет `SKILL.md` в `~/.claude/skills/<имя>/`):
+### Инструкция агенту-установщику
+
+1. Определи клиент и его фактический каталог скиллов. Для Codex в этой схеме используется `$CODEX_HOME/skills`, при незаданном CODEX_HOME — `~/.codex/skills`; для Claude Code — `~/.claude/skills`. Учитывай явный путь пользователя.
+2. Проверь три целевых имени до записи. При существующей установке проверь remote, локальные изменения и цель ссылок. Не удаляй папки и не клонируй поверх них. Обновление существующей установки — отдельный режим ниже.
+3. Склонируй весь репозиторий в `<skills>/zauran-ai-creative`. Не скачивай только SKILL.md: нужны references, scripts и вложенные модули.
+4. Подключи `<skills>/zauran-story-engine` к `<skills>/zauran-ai-creative/zauran-story-engine`, а `<skills>/zauran-scene-director` — к `<skills>/zauran-ai-creative/zauran-scene-director`. Windows: directory junction; macOS/Linux: symbolic link. Ссылки сохраняют общие относительные зависимости и единую обновляемую копию.
+5. Проверь, что по всем трём путям читается SKILL.md и его frontmatter name совпадает с именем скилла. Проверь общие references в корне клона и ресурсы вложенных скиллов. При переходах через `../` разрешай фактическую цель junction/symlink.
+6. Предложи проверить доступность скиллов в следующем ходе клиента; если список не обновился — перезапустить клиент. Не объявляй обнаружение клиентом проверенным только по наличию папок.
+
+Получившаяся структура:
+
+```text
+<skills>/
+  zauran-ai-creative/                 # git clone всего репозитория
+    SKILL.md
+    references/
+    zauran-story-engine/SKILL.md
+    zauran-scene-director/SKILL.md
+  zauran-story-engine/                # ссылка на вложенную папку
+  zauran-scene-director/              # ссылка на вложенную папку
+```
+
+### Windows / PowerShell — новая установка
+
+Требуется Git. По умолчанию пример устанавливает в Codex; для Claude Code замените присваивание `$skillsRoot` на `Join-Path $env:USERPROFILE '.claude/skills'`. Выполняйте блок целиком: он останавливается, если хотя бы одно целевое имя уже существует.
 
 ```powershell
-# Windows
-cmd /c mklink /J "$env:USERPROFILE\.claude\skills\zauran-story-engine" "$env:USERPROFILE\.claude\skills\zauran-ai-creative\zauran-story-engine"
+$ErrorActionPreference = 'Stop'
+$skillsRoot = if ($env:CODEX_HOME) {
+    Join-Path $env:CODEX_HOME 'skills'
+} else {
+    Join-Path $env:USERPROFILE '.codex/skills'
+}
+$skillNames = @('zauran-ai-creative', 'zauran-story-engine', 'zauran-scene-director')
+foreach ($name in $skillNames) {
+    $target = Join-Path $skillsRoot $name
+    if (Get-Item -LiteralPath $target -Force -ErrorAction SilentlyContinue) {
+        throw "Уже существует: $target. Сначала проверь текущую установку."
+    }
+}
+New-Item -ItemType Directory -Path $skillsRoot -Force | Out-Null
+$repoRoot = Join-Path $skillsRoot 'zauran-ai-creative'
+git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git $repoRoot
+if ($LASTEXITCODE -ne 0) { throw 'Git clone завершился с ошибкой.' }
+foreach ($name in @('zauran-story-engine', 'zauran-scene-director')) {
+    New-Item -ItemType Junction -Path (Join-Path $skillsRoot $name) -Target (Join-Path $repoRoot $name) | Out-Null
+}
+foreach ($name in $skillNames) {
+    $entry = Join-Path (Join-Path $skillsRoot $name) 'SKILL.md'
+    if (-not (Test-Path -LiteralPath $entry -PathType Leaf)) { throw "Нет файла: $entry" }
+    Write-Output "Установлен: $entry"
+}
 ```
+
+### macOS / Linux — новая установка
+
+Требуется Git. Для Claude Code замените строку `skills_root=...` на `skills_root="$HOME/.claude/skills"`.
 
 ```bash
-# macOS / Linux
-ln -s ~/.claude/skills/zauran-ai-creative/zauran-story-engine ~/.claude/skills/zauran-story-engine
+(
+set -eu
+skills_root="${CODEX_HOME:-$HOME/.codex}/skills"
+for name in zauran-ai-creative zauran-story-engine zauran-scene-director; do
+    if [ -e "$skills_root/$name" ] || [ -L "$skills_root/$name" ]; then
+        echo "Уже существует: $skills_root/$name. Проверь текущую установку." >&2
+        exit 1
+    fi
+done
+mkdir -p "$skills_root"
+git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git "$skills_root/zauran-ai-creative"
+for name in zauran-story-engine zauran-scene-director; do
+    ln -s "$skills_root/zauran-ai-creative/$name" "$skills_root/$name"
+    test -f "$skills_root/$name/SKILL.md"
+done
+test -f "$skills_root/zauran-ai-creative/SKILL.md"
+)
 ```
 
-Перезапустить Claude Code. Вызов: `/zauran-story-engine …` для сценария, `/zauran-ai-creative …` для промта и генерации — или просто задача словами, скиллы триггерятся по описанию.
+### Обновление
 
-Внешние базы заметок не нужны — оба скилла самодостаточны. Личные папки подключаются, только если назвать их в чате.
+В папке клона сначала проверь `git remote -v` и `git status --short`. Если это нужный репозиторий и нет локальных изменений, выполни `git pull --ff-only`. При изменениях или расхождении истории сохрани их и разберись с конфликтом; не применяй reset/clean автоматически. Ссылки обновятся вместе с клоном. В старой установке из двух скиллов добавь только недостающую ссылку `zauran-scene-director`, проверив её путь.
+
+### Как пользоваться
+
+В Codex вызывайте скилл через `$имя`, в Claude Code — `/имя`. Можно также описать задачу обычными словами. Примеры для Codex:
+
+```text
+$zauran-story-engine Разбери сценарий в папке моего проекта. Содержание не меняй.
+
+$zauran-ai-creative По этому сценарию найди готовые фото и составь список недостающих референсов. Пока только план.
+
+$zauran-scene-director Подготовь первый кадр в Blender: кто где находится, камера, движение и какие фото загрузить в Seedance. Пока только постановка и промпт.
+
+$zauran-scene-director Продолжи со следующего незавершённого кадра по STATE проекта.
+```
+
+Укажите папку своего проекта и сценарий при первом обращении. Изображения коллеги, исходный сценарий и состояние проекта не входят в установку скиллов: их нужно предоставить отдельно. Скилл читает доступные файлы, а не получает память чужого чата.
+
+Как связка работает:
+
+1. **Story Engine** фиксирует сценарий, персонажей, события и речь. Готовый клиентский сценарий сохраняется в порученных границах.
+2. **AI Creative** находит или готовит лица, костюмы, локации и предметы, ведёт реестр версий фото. Перед модельным промптом использует выбранную модель и среду.
+3. **Scene Director** разбивает действия на кадры, определяет роли каждого персонажа, положения, взгляды, контакты, камеру и движения. Порядок показа сохраняет сценарий; подготовка может идти по зависимостям.
+4. При запросе 3D-постановки создаётся превиз в Blender или 3D Jutsu. Для финального видео используются подходящие чистые изображения и ролик постановки; подписанная карта не становится стартовым кадром автоматически.
+5. Состояние сохраняется в проектном STATE и связанных производственных файлах. Команда «что дальше» продолжает этот план. «Напиши промпт» выдаёт текст, «сгенерируй» поручает генерацию в указанном объёме.
+
+### Blender и MCP — отдельно от скиллов
+
+Для сценария и промптов Blender не нужен. Для создания `.blend` нужен установленный Blender; для управления открытой сценой — работающий коннектор, например [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp). Агент может также запускать локальные bpy-скрипты отдельным процессом Blender.
+
+Чтобы подключить MCP, отдельно поручите агенту:
+
+```text
+Установи и настрой ahujasid/blender-mcp для моего клиента и Blender.
+Проверь текущую официальную инструкцию, сохрани существующие настройки,
+подключи аддон и проверь get_scene_info на моей открытой сцене.
+Не запускай платные генерации и не закрывай несохранённую сцену.
+```
+
+Плагин Higgsfield не обязателен для локального Blender MCP. Подписка на чат не оплачивает внешнюю генерацию Seedance/Higgsfield и других сервисов. Ключи, аккаунты, доступ к моделям и необходимые приложения настраиваются отдельно; установка скиллов их не создаёт и не переносит с компьютера автора.
+
+Внешние базы заметок не нужны. Для поисковых утилит нужен Node.js, для PDF — зависимости из раздела «Скрипты»; они не обязательны для простого ответа в чате.
 
 ## Ограничения
 
