@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# User-provided books and extracted private source material
+/zauran-story-engine/library/

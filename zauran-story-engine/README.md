@@ -11,6 +11,8 @@
 | Файл | Что |
 |---|---|
 | `SKILL.md` | Инструкция скилла |
+| `references/book-methods.md` · `references/books/` | Рабочие карточки по предоставленным книгам Труби, Макки, Эгри и Снайдера: глава-источник, условия, ограничения, оригинальный пример и вопрос для проверки; оба файла Макки — фрагменты |
+| `library/books/` | Локальные исходники, извлечённые тексты и индексы; исключены из Git, доступны для адресной проверки и не загружаются целиком по умолчанию |
 | `../references/script-to-assets.md` | Общий план карточек, выбор целей для промптов, стабильные ID, единый STATE и зависимости версий |
 | `references/genre-promises.md` | Восемь жанров, тон/формат/аудитория и проверка причинности |
 | `references/film-donors-study.md` · `film-scene-studies.md` · `film-speech-studies.md` | Проверенные наблюдения из локальной коллекции; выбранные сцены 17 рабочих фильмов и границы ASR |
@@ -23,7 +25,7 @@
 | `references/story-bible.md` | Шаблон `CANON.md`: утверждённые правила и осознанные ограничения, §3a оси вариативности, локации, персонажи, продукт, язык, таймлайн; LOCKED/FLEX |
 | `references/character-passport.md` | Шаблон `PASSPORT_<имя>.md`: визуальные инварианты + want/need/рана/тактики/речь |
 | `references/structure-and-beats.md` | Выбор каркаса, бюджет шотов 6/15/30/60 с, бит-лист, тест структуры |
-| `references/scene-to-shotlist.md` | Сцена через Scene Engine, шаблон `SCRIPT_vN.md`, «вместо → писать», continuity |
+| `references/scene-to-shotlist.md` | Сцена через Scene Engine, шаблон `SCRIPT_vN.md`, позиция камеры, ракурс, точка зрения, причина склейки и continuity |
 | `references/dialogue-and-vo.md` | VO с режиссурой, правила диалога, анти-slop lint RU/UA/EN, регистры |
 | `references/shot-vocabulary.json` | ≈100 кино-терминов с «что делает / когда / сила» (из личной базы Notion) |
 | `references/storyboard-templates.md` | Ч/б раскадровка, character turnaround sheet, продукт 7 панелей |
@@ -33,11 +35,14 @@
 | `references/learning-loop.md` | Журнал `NOTES.md` и предложения улучшений |
 | `references/donors/storytelling-frameworks.md` | Story Spine, Sparkline, Freytag, Monroe, Pixar rules, Hero's Journey с таймингами (CC BY 4.0, Serge Shima) |
 | `scripts/search-shot-vocabulary.mjs` | Поиск по словарю |
+| `scripts/read-book.py` | Чтение локальной библиотеки по книге, разделу, PDF-странице или поисковой фразе; порционная выдача с отметкой усечения |
 
 ```bash
 node scripts/search-shot-vocabulary.mjs --query "orbit"
 node scripts/search-shot-vocabulary.mjs --cat "Свет" --power Сильно
 node scripts/search-shot-vocabulary.mjs --cats
+python scripts/read-book.py --list
+python scripts/read-book.py --book mckee-story --section S018
 node --test tests/search-shot-vocabulary.test.mjs
 python -m unittest discover -s tests -p "test_*.py"
 ```
