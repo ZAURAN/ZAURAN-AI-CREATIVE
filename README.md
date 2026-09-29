@@ -61,6 +61,7 @@
 4. **Внешность** — язык форм, правило трёх прочтений, палитра 60/30/10, лицо не по среднему, имя вне списка AI-штампов.
 5. **Одежда** — вопросы биографии, слои, материал и посадка, карта износа, талисман, план костюмов по сценам, WARDROBE LOCK для генератора.
 6. **Проверки и выдача** — штампы, видимость предыстории, различимость каста → `PASSPORT_<имя>.md` в формате story-engine и теги для генерации.
+7. **Фотореализм** — отдельный [`references/realism.md`](zauran-character-forge/references/realism.md): стилизация переводится для живых людей, кастинг вместо модели, следы жизни на теле (`--stage real-look`), одежда из прожитого гардероба, карманы, место и время, сдержанное поведение, запрет на сходство с реальными людьми.
 
 Источники методов с ссылками — в [`references/character-methods.md`](zauran-character-forge/references/character-methods.md) и [`references/costume-design.md`](zauran-character-forge/references/costume-design.md). Пример:
 
@@ -143,7 +144,7 @@ zauran-context-guard/         # сжатие контекста: сигналы,
 
 zauran-character-forge/       # уникальные персонажи и одежда
   SKILL.md · agents/openai.yaml
-  references/character-methods.md · costume-design.md · anti-cliche.md · character-seeds.json
+  references/character-methods.md · costume-design.md · realism.md · anti-cliche.md · character-seeds.json
   scripts/draw-character-seeds.mjs · tests/
 
 zauran-story-engine/          # второй скилл

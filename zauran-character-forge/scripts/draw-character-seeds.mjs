@@ -7,6 +7,7 @@
 //   node scripts/draw-character-seeds.mjs --stage concept --count 8   # этап концептов: занятие, противоречие, талисман, тайна
 //   node scripts/draw-character-seeds.mjs --stage concept-any          # то же + природа персонажа (не только человек)
 //   node scripts/draw-character-seeds.mjs --stage look --count 1       # этап внешности и одежды
+//   node scripts/draw-character-seeds.mjs --stage real-look --count 1  # то же для фотореализма: без формы, со следами жизни на теле
 //   node scripts/draw-character-seeds.mjs --only occupation,contradiction,talisman
 //   node scripts/draw-character-seeds.mjs --seed 42            # повторить прошлый результат
 //   node scripts/draw-character-seeds.mjs --cats               # список категорий и этапов
