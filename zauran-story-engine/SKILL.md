@@ -66,6 +66,7 @@ description: "Develop, revise, or audit stories and screenplays for AI video, ad
 | Глубокая драматургия, проходы редакции | `references/screenwriting-craft.md` |
 | Видеореференс любого жанра: постановка, игра, монтаж, звук | `references/drama-audiovisual-analysis.md` |
 | Раскадровка или turnaround | `references/storyboard-templates.md` |
+| Сценарий готов: порядок кадров, камера, блокинг, Blender-превиз | `../zauran-scene-director/SKILL.md` — сценарий не переписывается |
 | Сохранение, версии, продолжение | `references/project-vault.md` |
 | PDF для человека | `references/human-readout.md`; `scripts/build-readout.py` |
 | Передача в производство | `references/handoff-to-production.md` |

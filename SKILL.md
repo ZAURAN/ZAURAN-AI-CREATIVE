@@ -144,6 +144,7 @@ Use a completely pure white background (#FFFFFF) across all zones and gaps, with
 - **Драматическая сцена:** causal audit или написание сцены через Goal → Obstacle → Tactic → Reversal → Value Shift.
 - **Актёрская игра:** ACTING TASK для диалога, реакции, слушания и живой работы глаз без мимической хореографии.
 - **Точный блокинг:** staging reference и connector для устойчивых позиций, поз, направлений взгляда и траекторий нескольких персонажей.
+- **Постановка по готовому сценарию:** порядок кадров, камера, блокинг, 3D-превиз в Blender или 3D Jutsu, какие фото загружать — по `zauran-scene-director/SKILL.md`; постановка возвращается сюда для модельных промптов и генерации.
 - **Кинематографический prompt:** current-shot isolation, first-frame occupancy, FOV/optics, camera, physics, lighting, audio и multi-shot continuity.
 - **Seedance 2.0:** работа на линии 2.0 (Dreamina, Jimeng, CapCut, Doubao, Volcengine/Ark, BytePlus, fal, router-площадки) — свой платформенный корпус в `seedance-2.0/`.
 - **Полный цикл:** концепция → раскадровка → keyframes → видео → проверка → доставка.

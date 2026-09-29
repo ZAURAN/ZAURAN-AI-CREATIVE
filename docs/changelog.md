@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-29 — Cross-skill routing gaps
+
+- `zauran-ai-creative` and `zauran-story-engine` now route staging of a finished script to `zauran-scene-director`; the scene director offers `zauran-character-forge` for characters without a defined look; `zauran-context-guard` covers character forge sessions; character forge names the scene director as the next step for staging.
+
 ## 2026-09-29 — CI
 
 - Added GitHub Actions CI: `scripts/check_skills.py` (frontmatter name matches the folder, description within 1024 characters, every JSON parses), all Node tests and the READOUT builder Python tests on each push to `main` and each pull request.

@@ -11,7 +11,8 @@ description: "Invent original, memorable characters and their costumes for AI vi
 
 - `zauran-story-engine` владеет сценарием, каноном и форматом паспорта: `../zauran-story-engine/references/character-passport.md`. Этот скилл заполняет паспорт, формат не меняет.
 - `zauran-ai-creative` владеет выбором модели, промптами и генерацией: turnaround, лист костюма, карточки.
-- `zauran-context-guard` переносит предложенные теги при сжатии чата.
+- `zauran-context-guard` переносит предложенные теги, паспорта и WARDROBE LOCK при сжатии чата.
+- `zauran-scene-director` ставит готовых героев в кадр: камера, блокинг, какие фото загружать.
 
 Если персонаж уже есть в готовом сценарии клиента, факты сценария не меняй. Придумывай только открытые признаки и помечай их как предложение. Правила точного следования — в `zauran-story-engine`.
 

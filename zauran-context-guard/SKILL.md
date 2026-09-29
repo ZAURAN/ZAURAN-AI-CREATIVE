@@ -1,6 +1,6 @@
 ---
 name: zauran-context-guard
-description: "Keep long AI-creative chats from degrading. Watch context load (many pasted photos, PDFs, scripts, 4+ prompt iterations, several shots in one chat) and degradation symptoms (user repeats corrections, dropped requirements, mixed-up versions, prompts written from memory). At a safe stage boundary save a lossless checkpoint to the project folder, then offer the user a ready /compact instruction or a new-chat resume prompt, and resume from files afterwards. Use proactively inside zauran-ai-creative, zauran-story-engine and zauran-scene-director sessions, and whenever the user says 'сожми контекст', 'нейронка глючит / тупит / забывает', 'пишет не те промпты', 'чат слишком длинный', 'перенеси в новый чат', 'compact', 'context', or asks when to compress."
+description: "Keep long AI-creative chats from degrading. Watch context load (many pasted photos, PDFs, scripts, 4+ prompt iterations, several shots in one chat) and degradation symptoms (user repeats corrections, dropped requirements, mixed-up versions, prompts written from memory). At a safe stage boundary save a lossless checkpoint to the project folder, then offer the user a ready /compact instruction or a new-chat resume prompt, and resume from files afterwards. Use proactively inside zauran-ai-creative, zauran-story-engine, zauran-scene-director and zauran-character-forge sessions, and whenever the user says 'сожми контекст', 'нейронка глючит / тупит / забывает', 'пишет не те промпты', 'чат слишком длинный', 'перенеси в новый чат', 'compact', 'context', or asks when to compress."
 ---
 
 # zauran-context-guard
@@ -61,7 +61,7 @@ description: "Keep long AI-creative chats from degrading. Watch context load (ma
 
 ```md
 # CONTEXT CHECKPOINT — [проект]
-Сохранено: YYYY-MM-DD HH:MM · рабочий скилл: [zauran-ai-creative / zauran-story-engine / zauran-scene-director]
+Сохранено: YYYY-MM-DD HH:MM · рабочий скилл: [zauran-ai-creative / zauran-story-engine / zauran-scene-director / zauran-character-forge]
 
 ## Где мы
 - Задача: [...]
