@@ -188,18 +188,21 @@ def exclusive_copy(source, out):
         raise BuildError(f'Output already exists; choose a new version: {out}') from exc
     except OSError as exc:
         raise BuildError(f'Cannot create PDF output: {exc}') from exc
-    identity = None
     try:
-        with target:
-            identity = os.fstat(target.fileno())
-            with source.open('rb') as pdf:
-                shutil.copyfileobj(pdf, target)
-            target.flush()
-            os.fsync(target.fileno())
+        with source.open('rb') as pdf:
+            shutil.copyfileobj(pdf, target)
+        target.flush()
+        os.fsync(target.fileno())
+        target.close()
     except OSError as exc:
         try:
             # Never clean up a replacement created by another writer after our copy.
-            if identity is not None and os.path.samestat(identity, out.stat(follow_symlinks=False)):
+            # Decide while our handle is open: only then can the inode not be reused
+            # by a new file (Linux reuses freed inode numbers immediately).
+            owned = not target.closed and os.path.samestat(
+                os.fstat(target.fileno()), out.stat(follow_symlinks=False))
+            target.close()
+            if owned:
                 out.unlink()
         except FileNotFoundError:
             pass
@@ -207,6 +210,8 @@ def exclusive_copy(source, out):
             raise BuildError(f'Cannot copy PDF: {exc}; partial output cleanup failed: '
                              f'{cleanup_error}') from exc
         raise BuildError(f'Cannot copy PDF: {exc}') from exc
+    finally:
+        target.close()
 
 
 def run_browser(browser, html_path, pdf_path, profile, timeout):
