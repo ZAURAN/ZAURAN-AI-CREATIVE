@@ -1,6 +1,6 @@
 ---
 name: zauran-character-forge
-description: "Invent original, memorable characters and their costumes for AI video, ads, series and images. Brainstorm from random seeds against the model's default choices: eight pitches, three distinct concepts, remix and tone dials, contradiction, ghost-lie-want-need, Sanderson sliders, shape language and silhouette, 60/30/10 palette, names outside the AI-default pool, costume as biography (layers, materials, wear map, talisman item, costume plot per scene), cast lineup check and anti-cliche pass. Outputs a PASSPORT in the zauran-story-engine format, a wardrobe lock and proposed @tags for zauran-ai-creative. Use whenever the user asks to придумать персонажа, героя, злодея, маскота, каст, образ, одежду, костюм или гардероб, make characters more interesting or unique, or says the characters feel generic or the same, even without naming this skill."
+description: "Invent original, memorable characters and their costumes for AI video, ads, series and images. Brainstorm from random seeds against the model's default choices: eight pitches, three distinct concepts, remix and tone dials, contradiction, ghost-lie-want-need, Sanderson sliders, shape language and silhouette, 60/30/10 palette, names outside the AI-default pool, costume as biography plus stylist craft (outfit brainstorm, statement piece, third piece, proportion, texture, high-low, iconic test, garment vocabulary for generators), cast lineup check and anti-cliche pass. Outputs a PASSPORT in the zauran-story-engine format, a wardrobe lock and proposed @tags for zauran-ai-creative. Use whenever the user asks to придумать персонажа, героя, злодея, маскота, каст, образ, одежду, костюм или гардероб, make characters more interesting or unique, or says the characters feel generic or the same, even without naming this skill."
 ---
 
 # zauran-character-forge
@@ -46,6 +46,7 @@ node <папка скилла>/scripts/draw-character-seeds.mjs --stage concept 
 - `--stage concept-any` — плюс природа персонажа: предмет, погода, день недели, животное, чувство в теле. Для рекламы, маскотов, анимации, если бриф не требует человека.
 - `--stage look` — форма, силуэт, палитра, материал, эпоха, пластика, привычка. Тяни на шаге 6–7, когда концепт уже выбран.
 - `--stage real-look` — то же для фотореализма: без формы, плюс следы жизни на теле.
+- `--stage outfit` — настроение образа, приём стайлинга, палитра, материал, эпоха, силуэт. Для штурма одежды на шаге 7.
 - `--seed N` повторяет результат.
 
 Без Node: попроси пользователя назвать числа и возьми пункты по номерам из `references/character-seeds.json`, либо честно скажи, что выбрал вручную наименее очевидные.
@@ -110,7 +111,13 @@ node <папка скилла>/scripts/draw-character-seeds.mjs --stage concept 
 
 ## 7. Одежда
 
-По `references/costume-design.md`:
+Одежда должна быть и правдивой, и классной. Правду даёт `references/costume-design.md`, стиль — `references/styling.md`.
+
+**Штурм образов** (`styling.md` §1): биография → зацепки `--stage outfit --count 5` → 5 направлений одной строкой → отбор 2 → развернуть оба → рекомендовать один → ручки «смелее / сдержаннее, дороже / дешевле, моднее / вне времени». Для быстрого режима достаточно 3 направлений и одного развёрнутого.
+
+**Приёмы стилиста** (`styling.md` §2): одна главная вещь, третья вещь, пропорции, контраст фактур, цветовая стратегия, high-low, жесты стайлинга, одно правило нарушено нарочно. Каждый приём — с причиной в персонаже.
+
+**Правда образа** по `costume-design.md`:
 
 - ответь на вопросы биографии: кто купил, когда, для чего, что показывает и прячет, что не на месте;
 - собери слои: база, средний, верхний, аксессуары — по работе, погоде и статусу;
@@ -122,6 +129,8 @@ node <папка скилла>/scripts/draw-character-seeds.mjs --stage concept 
 - **WARDROBE LOCK:** одна строка с дословным описанием основного наряда для всех промптов.
 
 Узнаваемость клади в силуэт и крупные цветовые зоны, не в логотипы и мелкий принт: они плывут между генерациями. Реальные бренды не используй.
+
+Перед выдачей образа: тест иконичности и проверка на крупном, среднем и общем плане (`styling.md` §3–4). В промпт — точные названия вещей из словаря `styling.md` §7.
 
 ## 8. Проверки перед выдачей
 
