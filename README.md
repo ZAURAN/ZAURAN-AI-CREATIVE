@@ -1,6 +1,6 @@
 # ZAURAN AI CREATIVE
 
-Набор скиллов для Claude Code (и совместимых агентов с поддержкой `SKILL.md`), который ведёт AI-видео и AI-картинку от идеи до готового файла. Четыре скилла в одном репо, общие модули драматургии, одна цепочка передачи.
+Набор скиллов для Claude Code (и совместимых агентов с поддержкой `SKILL.md`), который ведёт AI-видео и AI-картинку от идеи до готового файла. Пять скиллов в одном репо, общие модули драматургии, одна цепочка передачи.
 
 ```text
 ТЗ → история и сценарий → план персонажей, локаций и предметов → выбранные промпты → генерация → QA
@@ -12,6 +12,7 @@
 | **zauran-story-engine** | [`zauran-story-engine/`](zauran-story-engine/README.md) | Идея → инсайт → логлайн → `CANON.md` (вселенная) → паспорта героев → каркас и биты с таймингом → сцены (Goal / Obstacle / Tactic / Reversal / Value Shift) → шот-сценарий с обоснованным ритмом → диалог и VO без AI-slop. Серия эпизодов ведётся по хронологии из `STATE.md` / `TIMELINE.md` в папках, которые указывает пользователь. | Завершает сценарный этап и предлагает план визуальных материалов. Модельные промпты и генерацию выполняет производственный скилл. |
 | **zauran-scene-director** | [`zauran-scene-director/`](zauran-scene-director/SKILL.md) | Готовый сценарий и фото → порядок кадров → камера и блокинг → Blender/3D Jutsu превиз → референсы для видео. | Сохраняет сценарий; передаёт постановку в модельный контракт zauran-ai-creative. |
 | **zauran-context-guard** | [`zauran-context-guard/`](zauran-context-guard/SKILL.md) | Следит за перегрузкой длинного чата (много фото/PDF, итерации промптов, повторные правки) → на безопасной точке сохраняет `CONTEXT_CHECKPOINT.md` → предлагает `/compact` или новый чат с готовым промптом продолжения. | Не меняет содержание; работает внутри трёх скиллов выше. |
+| **zauran-character-forge** | [`zauran-character-forge/`](zauran-character-forge/SKILL.md) | Придумывает уникальных персонажей и одежду: случайные зацепки против штампов нейросети → 8 питчей → три разных концепта → ядро (рана, ложь, цель) → силуэт и палитра → костюм как биография → проверка на штампы. | Отдаёт паспорт героя, WARDROBE LOCK и теги; картинки делает zauran-ai-creative. |
 | **zauran-ai-creative** | корень репо ([`SKILL.md`](SKILL.md)) | Готовый сценарий или бриф → план карточек и выбор элементов → гейт модели/среды перед промптами → креативное направление → раскадровка → промт под конкретную модель → генерация → проверка результата → выдача → запись выводов. | На готовом файле, проверенном по brief lock. |
 
 Для производственного пакета или явного запроса PDF один человекочитаемый `READOUT_<проект>_vN.pdf` собирается общим скриптом (`zauran-story-engine/scripts/build-readout.py`). Короткие ответы, локальная разбивка и только промпт не требуют PDF; уже выбранный режим выдачи сохраняется до новой команды.
@@ -47,6 +48,23 @@
 Три основных скилла сами вызывают его между этапами. Вручную:
 
 > `/zauran-context-guard Чат длинный, нейронка начала путать промпты. Сохрани всё и скажи, как сжать.`
+
+---
+
+## zauran-character-forge
+
+Нейросеть по умолчанию выдаёт штамп: Элара со шрамом, кожаная куртка, погибшие родители. Этот скилл уводит от среднего:
+
+1. **Случайные зацепки по этапам** — `node zauran-character-forge/scripts/draw-character-seeds.mjs --stage concept --count 8`. 12 категорий: природа персонажа (человек, предмет, погода, день недели…), занятие, противоречие, привычка, талисман, тайна, метка силуэта, материал, эпоха, палитра, форма, пластика.
+2. **Мозговой штурм** — 8 питчей → отбор трёх по свежести, попаданию в бриф, картинке и сценам → три концепта (питч за 2 секунды, противоречие, «одна странная вещь», силуэт и цвет) → смешать концепты или покрутить ручки «страннее / приземлённее, смешнее / мрачнее».
+3. **Ядро** — призрак → ложь → хочет → нуждается, ползунки Сандерсона, 2–3 видимые черты.
+4. **Внешность** — язык форм, правило трёх прочтений, палитра 60/30/10, лицо не по среднему, имя вне списка AI-штампов.
+5. **Одежда** — вопросы биографии, слои, материал и посадка, карта износа, талисман, план костюмов по сценам, WARDROBE LOCK для генератора.
+6. **Проверки и выдача** — штампы, видимость предыстории, различимость каста → `PASSPORT_<имя>.md` в формате story-engine и теги для генерации.
+
+Источники методов с ссылками — в [`references/character-methods.md`](zauran-character-forge/references/character-methods.md) и [`references/costume-design.md`](zauran-character-forge/references/costume-design.md). Пример:
+
+> `/zauran-character-forge Придумай злодея для рекламы кофе, 30 секунд, стиль — 3D-мультфильм. Нужна одежда и теги.`
 
 ---
 
@@ -123,6 +141,11 @@ docs/changelog.md
 zauran-context-guard/         # сжатие контекста: сигналы, чекпоинт, /compact или новый чат
   SKILL.md · agents/openai.yaml
 
+zauran-character-forge/       # уникальные персонажи и одежда
+  SKILL.md · agents/openai.yaml
+  references/character-methods.md · costume-design.md · anti-cliche.md · character-seeds.json
+  scripts/draw-character-seeds.mjs · tests/
+
 zauran-story-engine/          # второй скилл
   SKILL.md · README.md · agents/openai.yaml
   references/
@@ -146,35 +169,39 @@ node scripts/search-gpt-image-cases.mjs --id 17
 node scripts/search-youmind-prompts.mjs --query "neon poster" --category poster-flyer
 node scripts/update-youmind-prompts.mjs
 
+# zauran-character-forge
+node zauran-character-forge/scripts/draw-character-seeds.mjs --stage concept --count 8
+node zauran-character-forge/scripts/draw-character-seeds.mjs --cats
+
 # zauran-story-engine
 node zauran-story-engine/scripts/search-shot-vocabulary.mjs --query "orbit"
 node zauran-story-engine/scripts/search-shot-vocabulary.mjs --cats
 python zauran-story-engine/scripts/build-readout.py --help
 ```
 
-Тесты поиска: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией). Тесты PDF-сборщика: `python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"`.
+Тесты поиска: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией). Тест зацепок: `node --test zauran-character-forge/tests/draw-character-seeds.test.mjs`. Тесты PDF-сборщика: `python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"`.
 
 ## Установка для коллеги и его AI-агента
 
 Отправьте коллеге [ссылку на репозиторий](https://github.com/ZAURAN/ZAURAN-AI-CREATIVE). Он может передать своему агенту этот запрос:
 
 ```text
-Установи четыре связанных скилла из https://github.com/ZAURAN/ZAURAN-AI-CREATIVE:
-zauran-ai-creative (корень), zauran-story-engine, zauran-scene-director и zauran-context-guard.
+Установи пять связанных скиллов из https://github.com/ZAURAN/ZAURAN-AI-CREATIVE:
+zauran-ai-creative (корень), zauran-story-engine, zauran-scene-director, zauran-context-guard и zauran-character-forge.
 Прочитай раздел установки README. Определи каталог скиллов моего клиента,
-сохрани структуру репозитория и подключи три вложенные папки как отдельные скиллы.
+сохрани структуру репозитория и подключи четыре вложенные папки как отдельные скиллы.
 Не перезаписывай существующие установки и настройки без проверки.
-Проверь все четыре SKILL.md и объясни, как их вызвать.
+Проверь все пять SKILL.md и объясни, как их вызвать.
 Blender, MCP и платные сервисы пока не устанавливай и не запускай.
 ```
 
 ### Инструкция агенту-установщику
 
 1. Определи клиент и его фактический каталог скиллов. Для Codex в этой схеме используется `$CODEX_HOME/skills`, при незаданном CODEX_HOME — `~/.codex/skills`; для Claude Code — `~/.claude/skills`. Учитывай явный путь пользователя.
-2. Проверь четыре целевых имени до записи. При существующей установке проверь remote, локальные изменения и цель ссылок. Не удаляй папки и не клонируй поверх них. Обновление существующей установки — отдельный режим ниже.
+2. Проверь пять целевых имён до записи. При существующей установке проверь remote, локальные изменения и цель ссылок. Не удаляй папки и не клонируй поверх них. Обновление существующей установки — отдельный режим ниже.
 3. Склонируй весь репозиторий в `<skills>/zauran-ai-creative`. Не скачивай только SKILL.md: нужны references, scripts и вложенные модули.
-4. Подключи `<skills>/zauran-story-engine` к `<skills>/zauran-ai-creative/zauran-story-engine`, `<skills>/zauran-scene-director` — к `<skills>/zauran-ai-creative/zauran-scene-director`, а `<skills>/zauran-context-guard` — к `<skills>/zauran-ai-creative/zauran-context-guard`. Windows: directory junction; macOS/Linux: symbolic link. Ссылки сохраняют общие относительные зависимости и единую обновляемую копию.
-5. Проверь, что по всем четырём путям читается SKILL.md и его frontmatter name совпадает с именем скилла. Проверь общие references в корне клона и ресурсы вложенных скиллов. При переходах через `../` разрешай фактическую цель junction/symlink.
+4. Подключи `<skills>/zauran-story-engine` к `<skills>/zauran-ai-creative/zauran-story-engine`, `<skills>/zauran-scene-director` — к `<skills>/zauran-ai-creative/zauran-scene-director`, `<skills>/zauran-context-guard` — к `<skills>/zauran-ai-creative/zauran-context-guard`, а `<skills>/zauran-character-forge` — к `<skills>/zauran-ai-creative/zauran-character-forge`. Windows: directory junction; macOS/Linux: symbolic link. Ссылки сохраняют общие относительные зависимости и единую обновляемую копию.
+5. Проверь, что по всем пяти путям читается SKILL.md и его frontmatter name совпадает с именем скилла. Проверь общие references в корне клона и ресурсы вложенных скиллов. При переходах через `../` разрешай фактическую цель junction/symlink.
 6. Предложи проверить доступность скиллов в следующем ходе клиента; если список не обновился — перезапустить клиент. Не объявляй обнаружение клиентом проверенным только по наличию папок.
 
 Получившаяся структура:
@@ -187,9 +214,11 @@ Blender, MCP и платные сервисы пока не устанавлив
     zauran-story-engine/SKILL.md
     zauran-scene-director/SKILL.md
     zauran-context-guard/SKILL.md
+    zauran-character-forge/SKILL.md
   zauran-story-engine/                # ссылка на вложенную папку
   zauran-scene-director/              # ссылка на вложенную папку
   zauran-context-guard/               # ссылка на вложенную папку
+  zauran-character-forge/             # ссылка на вложенную папку
 ```
 
 ### Windows / PowerShell — новая установка
@@ -203,7 +232,7 @@ $skillsRoot = if ($env:CODEX_HOME) {
 } else {
     Join-Path $env:USERPROFILE '.codex/skills'
 }
-$skillNames = @('zauran-ai-creative', 'zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard')
+$skillNames = @('zauran-ai-creative', 'zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard', 'zauran-character-forge')
 foreach ($name in $skillNames) {
     $target = Join-Path $skillsRoot $name
     if (Get-Item -LiteralPath $target -Force -ErrorAction SilentlyContinue) {
@@ -214,7 +243,7 @@ New-Item -ItemType Directory -Path $skillsRoot -Force | Out-Null
 $repoRoot = Join-Path $skillsRoot 'zauran-ai-creative'
 git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git $repoRoot
 if ($LASTEXITCODE -ne 0) { throw 'Git clone завершился с ошибкой.' }
-foreach ($name in @('zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard')) {
+foreach ($name in @('zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard', 'zauran-character-forge')) {
     New-Item -ItemType Junction -Path (Join-Path $skillsRoot $name) -Target (Join-Path $repoRoot $name) | Out-Null
 }
 foreach ($name in $skillNames) {
@@ -232,7 +261,7 @@ foreach ($name in $skillNames) {
 (
 set -eu
 skills_root="${CODEX_HOME:-$HOME/.codex}/skills"
-for name in zauran-ai-creative zauran-story-engine zauran-scene-director zauran-context-guard; do
+for name in zauran-ai-creative zauran-story-engine zauran-scene-director zauran-context-guard zauran-character-forge; do
     if [ -e "$skills_root/$name" ] || [ -L "$skills_root/$name" ]; then
         echo "Уже существует: $skills_root/$name. Проверь текущую установку." >&2
         exit 1
@@ -240,7 +269,7 @@ for name in zauran-ai-creative zauran-story-engine zauran-scene-director zauran-
 done
 mkdir -p "$skills_root"
 git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git "$skills_root/zauran-ai-creative"
-for name in zauran-story-engine zauran-scene-director zauran-context-guard; do
+for name in zauran-story-engine zauran-scene-director zauran-context-guard zauran-character-forge; do
     ln -s "$skills_root/zauran-ai-creative/$name" "$skills_root/$name"
     test -f "$skills_root/$name/SKILL.md"
 done
@@ -250,7 +279,7 @@ test -f "$skills_root/zauran-ai-creative/SKILL.md"
 
 ### Обновление
 
-В папке клона сначала проверь `git remote -v` и `git status --short`. Если это нужный репозиторий и нет локальных изменений, выполни `git pull --ff-only`. При изменениях или расхождении истории сохрани их и разберись с конфликтом; не применяй reset/clean автоматически. Ссылки обновятся вместе с клоном. В старой установке добавь только недостающие ссылки `zauran-scene-director` и `zauran-context-guard`, проверив их пути.
+В папке клона сначала проверь `git remote -v` и `git status --short`. Если это нужный репозиторий и нет локальных изменений, выполни `git pull --ff-only`. При изменениях или расхождении истории сохрани их и разберись с конфликтом; не применяй reset/clean автоматически. Ссылки обновятся вместе с клоном. В старой установке добавь только недостающие ссылки `zauran-scene-director`, `zauran-context-guard` и `zauran-character-forge`, проверив их пути.
 
 ### Как пользоваться
 
