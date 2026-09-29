@@ -54,7 +54,7 @@ description: "Develop, revise, or audit stories and screenplays for AI video, ad
 | Вертикальная драма, серийная мелодрама, клиффхэнгеры | `references/vertical-drama.md`; источники и границы наблюдений — `references/mydrama-study.md` |
 | Мир и канон | `references/story-bible.md` |
 | Герой | `references/character-passport.md` |
-| Придумать нового героя, каст, внешность и одежду | `../zauran-character-forge/SKILL.md`; результат — паспорт по `references/character-passport.md` |
+| Придумать нового героя, каст, внешность и одежду | `../zauran-character-forge/SKILL.md`; результат — паспорт по `references/character-passport.md`. Если герой возник по ходу истории без продуманной внешности и одежды — предложи одной строкой прогнать его через character-forge; после отказа не повторяй |
 | Структура и тайминг | `references/structure-and-beats.md`; при выборе каркаса — `references/donors/storytelling-frameworks.md` |
 | Сцена, шоты, continuity | `references/scene-to-shotlist.md` |
 | Диалог и VO | `references/dialogue-and-vo.md` |
