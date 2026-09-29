@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-29 — Context guard skill
+
+- Added `zauran-context-guard/`, a fourth skill for long sessions. Heavy chats (many pasted photos and PDFs, 4+ prompt iterations, several shots in one chat) make the model drop requirements, mix versions and rewrite prompts from memory. The skill watches two signal groups — load and degradation — and offers compression only at safe stage boundaries, never during a generation, an open question or the quick edit mode.
+- Before offering, the skill saves everything unsaved by the rules of the working skill and writes one `CONTEXT_CHECKPOINT.md` next to STATE: stage, next step, exact paths to current versions, model and environment, requirement ID range, rejected options, attachments to re-attach and user working preferences. It is a session bookmark and does not replace the live STATE.
+- The offer gives a ready `/compact <focus>` line (plain `/compact` for clients without arguments) and a new-chat resume prompt; a new chat is recommended first when degradation symptoms are present. After compression the model reads the checkpoint and STATE before trusting the compaction summary.
+- `zauran-ai-creative`, `zauran-story-engine` and `zauran-scene-director` now check the signals at their stage boundaries. README install steps and scripts link the new folder as a separate skill.
+
 ## 2026-09-12 — Story development and script-to-assets handoff
 
 - Added eight genre review routes, source-bounded film studies, vertical-drama materials and a My Drama catalogue. Distinguish subtitles, automatic speech transcripts, sampled frames and continuous audiovisual evidence; do not promise audience performance from model review.

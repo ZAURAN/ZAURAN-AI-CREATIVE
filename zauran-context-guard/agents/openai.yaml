@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zauran Context Guard"
+  short_description: "Длинный чат → чекпоинт → сжатие контекста без потерь"
+  default_prompt: "Используй $zauran-context-guard: оцени, не перегружен ли чат, сохрани чекпоинт проекта и дай готовую команду /compact или промпт для нового чата."

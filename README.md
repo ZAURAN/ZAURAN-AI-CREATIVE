@@ -1,6 +1,6 @@
 # ZAURAN AI CREATIVE
 
-Набор скиллов для Claude Code (и совместимых агентов с поддержкой `SKILL.md`), который ведёт AI-видео и AI-картинку от идеи до готового файла. Три скилла в одном репо, общие модули драматургии, одна цепочка передачи.
+Набор скиллов для Claude Code (и совместимых агентов с поддержкой `SKILL.md`), который ведёт AI-видео и AI-картинку от идеи до готового файла. Четыре скилла в одном репо, общие модули драматургии, одна цепочка передачи.
 
 ```text
 ТЗ → история и сценарий → план персонажей, локаций и предметов → выбранные промпты → генерация → QA
@@ -11,6 +11,7 @@
 |---|---|---|---|
 | **zauran-story-engine** | [`zauran-story-engine/`](zauran-story-engine/README.md) | Идея → инсайт → логлайн → `CANON.md` (вселенная) → паспорта героев → каркас и биты с таймингом → сцены (Goal / Obstacle / Tactic / Reversal / Value Shift) → шот-сценарий с обоснованным ритмом → диалог и VO без AI-slop. Серия эпизодов ведётся по хронологии из `STATE.md` / `TIMELINE.md` в папках, которые указывает пользователь. | Завершает сценарный этап и предлагает план визуальных материалов. Модельные промпты и генерацию выполняет производственный скилл. |
 | **zauran-scene-director** | [`zauran-scene-director/`](zauran-scene-director/SKILL.md) | Готовый сценарий и фото → порядок кадров → камера и блокинг → Blender/3D Jutsu превиз → референсы для видео. | Сохраняет сценарий; передаёт постановку в модельный контракт zauran-ai-creative. |
+| **zauran-context-guard** | [`zauran-context-guard/`](zauran-context-guard/SKILL.md) | Следит за перегрузкой длинного чата (много фото/PDF, итерации промптов, повторные правки) → на безопасной точке сохраняет `CONTEXT_CHECKPOINT.md` → предлагает `/compact` или новый чат с готовым промптом продолжения. | Не меняет содержание; работает внутри трёх скиллов выше. |
 | **zauran-ai-creative** | корень репо ([`SKILL.md`](SKILL.md)) | Готовый сценарий или бриф → план карточек и выбор элементов → гейт модели/среды перед промптами → креативное направление → раскадровка → промт под конкретную модель → генерация → проверка результата → выдача → запись выводов. | На готовом файле, проверенном по brief lock. |
 
 Для производственного пакета или явного запроса PDF один человекочитаемый `READOUT_<проект>_vN.pdf` собирается общим скриптом (`zauran-story-engine/scripts/build-readout.py`). Короткие ответы, локальная разбивка и только промпт не требуют PDF; уже выбранный режим выдачи сохраняется до новой команды.
@@ -30,6 +31,22 @@
 > `$zauran-scene-director Подготовь первый кадр сценария в Blender: камера, персонажи, простые модели и готовые фото для Seedance.`
 
 Модуль Blender описывает прямую работу через bpy и MCP; модуль 3D Jutsu отделяет проверенные возможности от неподтверждённых шагов видеоурока. Запрос промпта не запускает платные генерации.
+
+---
+
+## zauran-context-guard
+
+Когда в чат накидано много материала, модель начинает путать версии, терять требования и писать промпт по памяти. Этот скилл:
+
+1. **Следит за сигналами** — нагрузка (5+ фото, 2+ длинных документа, 4+ версии промпта, смена этапа) и деградация (повтор одной правки, пропавшее требование или `@Тег`, путаница версий).
+2. **Выбирает момент** — только на безопасной точке: после BRIEF LOCK, сохранённого `PROMPT_vN.md`, утверждённого сценария, QA шота. Не прерывает генерацию и открытый вопрос.
+3. **Сохраняет чекпоинт** — `CONTEXT_CHECKPOINT.md` рядом со STATE: этап, следующий шаг, пути к актуальным версиям, модель/среда, ID требований, отклонённые варианты, вложения для повторной загрузки.
+4. **Предлагает сжатие** — готовая строка `/compact <что сохранить>` или промпт для нового чата. Запускает сжатие сам пользователь.
+5. **Продолжает из файлов** — после сжатия сначала читает чекпоинт и STATE, а не пересказ чата.
+
+Три основных скилла сами вызывают его между этапами. Вручную:
+
+> `/zauran-context-guard Чат длинный, нейронка начала путать промпты. Сохрани всё и скажи, как сжать.`
 
 ---
 
@@ -103,6 +120,9 @@ seedance-2.0/                 # vendored seedance-2.0 v6.7.0 (MIT)
 scripts/ · tests/             # поиск по библиотекам, тесты (Node, без зависимостей)
 docs/changelog.md
 
+zauran-context-guard/         # сжатие контекста: сигналы, чекпоинт, /compact или новый чат
+  SKILL.md · agents/openai.yaml
+
 zauran-story-engine/          # второй скилл
   SKILL.md · README.md · agents/openai.yaml
   references/
@@ -139,22 +159,22 @@ python zauran-story-engine/scripts/build-readout.py --help
 Отправьте коллеге [ссылку на репозиторий](https://github.com/ZAURAN/ZAURAN-AI-CREATIVE). Он может передать своему агенту этот запрос:
 
 ```text
-Установи три связанных скилла из https://github.com/ZAURAN/ZAURAN-AI-CREATIVE:
-zauran-ai-creative (корень), zauran-story-engine и zauran-scene-director.
+Установи четыре связанных скилла из https://github.com/ZAURAN/ZAURAN-AI-CREATIVE:
+zauran-ai-creative (корень), zauran-story-engine, zauran-scene-director и zauran-context-guard.
 Прочитай раздел установки README. Определи каталог скиллов моего клиента,
-сохрани структуру репозитория и подключи две вложенные папки как отдельные скиллы.
+сохрани структуру репозитория и подключи три вложенные папки как отдельные скиллы.
 Не перезаписывай существующие установки и настройки без проверки.
-Проверь все три SKILL.md и объясни, как их вызвать.
+Проверь все четыре SKILL.md и объясни, как их вызвать.
 Blender, MCP и платные сервисы пока не устанавливай и не запускай.
 ```
 
 ### Инструкция агенту-установщику
 
 1. Определи клиент и его фактический каталог скиллов. Для Codex в этой схеме используется `$CODEX_HOME/skills`, при незаданном CODEX_HOME — `~/.codex/skills`; для Claude Code — `~/.claude/skills`. Учитывай явный путь пользователя.
-2. Проверь три целевых имени до записи. При существующей установке проверь remote, локальные изменения и цель ссылок. Не удаляй папки и не клонируй поверх них. Обновление существующей установки — отдельный режим ниже.
+2. Проверь четыре целевых имени до записи. При существующей установке проверь remote, локальные изменения и цель ссылок. Не удаляй папки и не клонируй поверх них. Обновление существующей установки — отдельный режим ниже.
 3. Склонируй весь репозиторий в `<skills>/zauran-ai-creative`. Не скачивай только SKILL.md: нужны references, scripts и вложенные модули.
-4. Подключи `<skills>/zauran-story-engine` к `<skills>/zauran-ai-creative/zauran-story-engine`, а `<skills>/zauran-scene-director` — к `<skills>/zauran-ai-creative/zauran-scene-director`. Windows: directory junction; macOS/Linux: symbolic link. Ссылки сохраняют общие относительные зависимости и единую обновляемую копию.
-5. Проверь, что по всем трём путям читается SKILL.md и его frontmatter name совпадает с именем скилла. Проверь общие references в корне клона и ресурсы вложенных скиллов. При переходах через `../` разрешай фактическую цель junction/symlink.
+4. Подключи `<skills>/zauran-story-engine` к `<skills>/zauran-ai-creative/zauran-story-engine`, `<skills>/zauran-scene-director` — к `<skills>/zauran-ai-creative/zauran-scene-director`, а `<skills>/zauran-context-guard` — к `<skills>/zauran-ai-creative/zauran-context-guard`. Windows: directory junction; macOS/Linux: symbolic link. Ссылки сохраняют общие относительные зависимости и единую обновляемую копию.
+5. Проверь, что по всем четырём путям читается SKILL.md и его frontmatter name совпадает с именем скилла. Проверь общие references в корне клона и ресурсы вложенных скиллов. При переходах через `../` разрешай фактическую цель junction/symlink.
 6. Предложи проверить доступность скиллов в следующем ходе клиента; если список не обновился — перезапустить клиент. Не объявляй обнаружение клиентом проверенным только по наличию папок.
 
 Получившаяся структура:
@@ -166,8 +186,10 @@ Blender, MCP и платные сервисы пока не устанавлив
     references/
     zauran-story-engine/SKILL.md
     zauran-scene-director/SKILL.md
+    zauran-context-guard/SKILL.md
   zauran-story-engine/                # ссылка на вложенную папку
   zauran-scene-director/              # ссылка на вложенную папку
+  zauran-context-guard/               # ссылка на вложенную папку
 ```
 
 ### Windows / PowerShell — новая установка
@@ -181,7 +203,7 @@ $skillsRoot = if ($env:CODEX_HOME) {
 } else {
     Join-Path $env:USERPROFILE '.codex/skills'
 }
-$skillNames = @('zauran-ai-creative', 'zauran-story-engine', 'zauran-scene-director')
+$skillNames = @('zauran-ai-creative', 'zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard')
 foreach ($name in $skillNames) {
     $target = Join-Path $skillsRoot $name
     if (Get-Item -LiteralPath $target -Force -ErrorAction SilentlyContinue) {
@@ -192,7 +214,7 @@ New-Item -ItemType Directory -Path $skillsRoot -Force | Out-Null
 $repoRoot = Join-Path $skillsRoot 'zauran-ai-creative'
 git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git $repoRoot
 if ($LASTEXITCODE -ne 0) { throw 'Git clone завершился с ошибкой.' }
-foreach ($name in @('zauran-story-engine', 'zauran-scene-director')) {
+foreach ($name in @('zauran-story-engine', 'zauran-scene-director', 'zauran-context-guard')) {
     New-Item -ItemType Junction -Path (Join-Path $skillsRoot $name) -Target (Join-Path $repoRoot $name) | Out-Null
 }
 foreach ($name in $skillNames) {
@@ -210,7 +232,7 @@ foreach ($name in $skillNames) {
 (
 set -eu
 skills_root="${CODEX_HOME:-$HOME/.codex}/skills"
-for name in zauran-ai-creative zauran-story-engine zauran-scene-director; do
+for name in zauran-ai-creative zauran-story-engine zauran-scene-director zauran-context-guard; do
     if [ -e "$skills_root/$name" ] || [ -L "$skills_root/$name" ]; then
         echo "Уже существует: $skills_root/$name. Проверь текущую установку." >&2
         exit 1
@@ -218,7 +240,7 @@ for name in zauran-ai-creative zauran-story-engine zauran-scene-director; do
 done
 mkdir -p "$skills_root"
 git clone https://github.com/ZAURAN/ZAURAN-AI-CREATIVE.git "$skills_root/zauran-ai-creative"
-for name in zauran-story-engine zauran-scene-director; do
+for name in zauran-story-engine zauran-scene-director zauran-context-guard; do
     ln -s "$skills_root/zauran-ai-creative/$name" "$skills_root/$name"
     test -f "$skills_root/$name/SKILL.md"
 done
@@ -228,7 +250,7 @@ test -f "$skills_root/zauran-ai-creative/SKILL.md"
 
 ### Обновление
 
-В папке клона сначала проверь `git remote -v` и `git status --short`. Если это нужный репозиторий и нет локальных изменений, выполни `git pull --ff-only`. При изменениях или расхождении истории сохрани их и разберись с конфликтом; не применяй reset/clean автоматически. Ссылки обновятся вместе с клоном. В старой установке из двух скиллов добавь только недостающую ссылку `zauran-scene-director`, проверив её путь.
+В папке клона сначала проверь `git remote -v` и `git status --short`. Если это нужный репозиторий и нет локальных изменений, выполни `git pull --ff-only`. При изменениях или расхождении истории сохрани их и разберись с конфликтом; не применяй reset/clean автоматически. Ссылки обновятся вместе с клоном. В старой установке добавь только недостающие ссылки `zauran-scene-director` и `zauran-context-guard`, проверив их пути.
 
 ### Как пользоваться
 
