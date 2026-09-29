@@ -13,7 +13,7 @@
 //   node scripts/draw-character-seeds.mjs --seed 42            # повторить прошлый результат
 //   node scripts/draw-character-seeds.mjs --cats               # список категорий и этапов
 //   node scripts/draw-character-seeds.mjs --json               # вывод JSON
-import { readFileSync } from 'node:fs';
+import { readFileSync, realpathSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -54,7 +54,8 @@ export function stage(id) {
   return db.stages[id];
 }
 
-if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+// realpath: skills are often installed through a junction or symlink.
+if (process.argv[1] && fileURLToPath(import.meta.url) === realpathSync(process.argv[1])) {
   const args = process.argv.slice(2);
   const opt = {};
   for (let i = 0; i < args.length; i++) {

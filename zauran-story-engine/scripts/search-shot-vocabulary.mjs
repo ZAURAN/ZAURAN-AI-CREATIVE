@@ -6,7 +6,7 @@
 //   node scripts/search-shot-vocabulary.mjs --scope Видео --power Сильно
 //   node scripts/search-shot-vocabulary.mjs --cats                      # список категорий
 //   node scripts/search-shot-vocabulary.mjs --json                      # вывод JSON вместо таблицы
-import { readFileSync } from 'node:fs';
+import { readFileSync, realpathSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -36,7 +36,8 @@ export function search(items, { query, cat, scope, power } = {}) {
   );
 }
 
-if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+// realpath: skills are often installed through a junction or symlink.
+if (process.argv[1] && fileURLToPath(import.meta.url) === realpathSync(process.argv[1])) {
   if (opt.cats) {
     const counts = {};
     for (const it of db.items) counts[it.cat] = (counts[it.cat] ?? 0) + 1;
