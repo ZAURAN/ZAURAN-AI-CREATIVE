@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 — Sync of local installs into the repo
+
+- Merged unpublished edits from the Claude Code and Codex installs so one git clone serves both. From Codex: English as the mandatory language of still-image prompts, 21:9 and lived-in detail for locations, character development that starts with a white-background face card, then a wardrobe card for the chosen face, then props and locations (with two layout references in `references/character-card-examples/`), Jev review for narrow text checks (`references/jev-review.md`, `scripts/jev_check.py`, `scripts/jev_http.py`; the key is read from `TYPESAFE_API_KEY`, never stored), and hand-off to an optional `zauran-voice-director` skill for TTS and voice direction. From Claude Code: acting direction for character Seedance 2.5 shots transferred from Blender blocking.
+- Not merged: path rewrites that only fit the old copy layout, `SKILL.reference.md` renames, JSON files that differed only in formatting, and lines corrupted by a redaction pass (`REDACTED_REENTER`). Backups of both old installs are kept outside the skill folders.
+- `zauran-character-forge` now hands images to `zauran-ai-creative` in its face card → wardrobe card order.
+
 ## 2026-09-29 — Character forge skill
 
 - Added `zauran-character-forge/`, a fifth skill for inventing original characters and their costumes. Models default to the most probable choice (Elara with a scar, a black leather jacket, dead parents); the skill counters this with random seeds drawn by `scripts/draw-character-seeds.mjs` from an original list of fifteen categories, including the character's nature (person, object, weather, weekday, feeling in a body) for ads, mascots and animation.

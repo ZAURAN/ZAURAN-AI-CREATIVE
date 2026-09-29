@@ -207,7 +207,7 @@ Vertical 4:5 public-transit safety poster. White background, black line icons, a
 
 Инфографику и UI-концепты Seedream **раскладывает по утвержденной информации, а не выясняет факты**. Все цифры, подписи, единицы и формулировки давай явно. Нет данных — запроси их или явно помечай верстку как иллюстративную с плейсхолдерами. Требуй `Do not invent any facts, statistics, dates, or extra labels`. UI описывай как концепт-картинку, а не работающее приложение.
 
-Мультиязычность: Seedream 5.0 Pro официально поддерживает мультиязычный ввод и генерацию, включая русский. Сохраняй язык промта, который выбрал пользователь; переходи на английский только по его просьбе или если этого требует конкретный хост. Точный целевой текст все равно давай сам — перевод должен быть утвержден до генерации.
+Мультиязычность: Seedream 5.0 Pro поддерживает мультиязычный ввод и генерацию, включая русский. В этом навыке промпты для любого неподвижного изображения всё равно обязательно пиши на английском независимо от модели и хоста (общее правило в SKILL.md). Точный целевой текст на другом языке вставляй дословно в кавычках; перевод должен быть утверждён до генерации.
 
 ```text
 Use the supplied medical poster as the base. Keep its palette, icons, photo, module structure, margins, and overall layout unchanged. Replace the English copy only with the following approved Russian text: "[exact text]". Retain the visual hierarchy. Do not change any image, icon, colour, or factual content.
