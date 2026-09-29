@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-29 — CI
+
+- Added GitHub Actions CI: `scripts/check_skills.py` (frontmatter name matches the folder, description within 1024 characters, every JSON parses), all Node tests and the READOUT builder Python tests on each push to `main` and each pull request.
+
 ## 2026-09-29 — Sync of local installs into the repo
 
 - Merged unpublished edits from the Claude Code and Codex installs so one git clone serves both. From Codex: English as the mandatory language of still-image prompts, 21:9 and lived-in detail for locations, character development that starts with a white-background face card, then a wardrobe card for the chosen face, then props and locations (with two layout references in `references/character-card-examples/`), Jev review for narrow text checks (`references/jev-review.md`, `scripts/jev_check.py`, `scripts/jev_http.py`; the key is read from `TYPESAFE_API_KEY`, never stored), and hand-off to an optional `zauran-voice-director` skill for TTS and voice direction. From Claude Code: acting direction for character Seedance 2.5 shots transferred from Blender blocking.

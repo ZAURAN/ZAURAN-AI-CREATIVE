@@ -180,6 +180,8 @@ node zauran-story-engine/scripts/search-shot-vocabulary.mjs --cats
 python zauran-story-engine/scripts/build-readout.py --help
 ```
 
+Проверка скиллов: `python scripts/check_skills.py` (имя = папка, описание до 1024 символов, все JSON читаются). CI на GitHub Actions (`.github/workflows/ci.yml`) прогоняет её и все тесты на каждый push в `main` и каждый PR.
+
 Тесты поиска: `node --test tests/<файл>.test.mjs` (на Windows — по файлам, не директорией). Тест зацепок: `node --test zauran-character-forge/tests/draw-character-seeds.test.mjs`. Тесты PDF-сборщика: `python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"`.
 
 ## Установка для коллеги и его AI-агента
