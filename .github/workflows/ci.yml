@@ -23,4 +23,7 @@ jobs:
       - name: Python tests
         run: |
           pip install markdown
-          python -m unittest discover -s zauran-story-engine/tests -p "test_*.py"
+          python -m unittest discover -s zauran-story-engine/tests -p "test_*.py" 2>&1 | tee py.log
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ]; then grep -E -A 12 '^(ERROR|FAIL):' py.log | sed 's/^/::error::/'; fi
+          exit $status
