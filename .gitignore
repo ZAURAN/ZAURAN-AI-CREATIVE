@@ -4,3 +4,10 @@ __pycache__/
 
 # User-provided books and extracted private source material
 /zauran-story-engine/library/
+
+# Recovered upstream/private payloads remain local. Own published ZIP stays tracked.
+/skills/zauran-video-studio/references/.cache/
+/skills/zauran-video-studio/references/upstream/database.snapshot.zip
+/skills/zauran-video-studio/references/upstream/examples.snapshot.zip
+/skills/zauran-video-studio/references/upstream/local-skills.snapshot.zip
+/skills/zauran-video-studio/references/upstream/lfs.snapshot.zip

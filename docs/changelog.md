@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-30 — Unified video workflows and public source library
+
+- Added complete owned `skills/zauran-video-studio`, `skills/zauran-voice-director` and `skills/zauran-ae-brief-director`; the studio loads voice/AE full workflows from a small owned snapshot and routes staging, generation, editing, motion, audio and alpha QA without replacing source protocols.
+- Published authored AI-video research, integration/background-removal recipes, a searchable 1038-record metadata catalog, 17 commit/SHA-pinned source archives and all 167 HyperFrames LFS identities across 170 paths. Full upstream source is recovered on demand; unlicensed local provider bytes and Skillry texts/bundles are not redistributed. Full original personal archives remain unchanged outside Git.
+- Preserved voice/AE resources with portable repository/installed-path adapters. Removed private conversation provenance from the public AE export; 18 unavailable atlas frames now say so and retain source links and analyses.
+- Normalized displayed ZAURAN titles to lowercase snake_case, preserved technical skill IDs, extended validation to canonical `skills/` plus legacy folders, and added public library/CLI tests to CI.
+
 ## 2026-09-29 — Cross-skill routing gaps
 
 - `zauran-ai-creative` and `zauran-story-engine` now route staging of a finished script to `zauran-scene-director`; the scene director offers `zauran-character-forge` for characters without a defined look; `zauran-context-guard` covers character forge sessions; character forge names the scene director as the next step for staging.

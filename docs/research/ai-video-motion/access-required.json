@@ -1,0 +1,2805 @@
+{
+  "skillry_bundles_obtained": 0,
+  "records": [
+    {
+      "id": "local:ad-multiplier",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ai-host-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:faceless-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:higgsfield",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:motion-craft",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:narrator",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:subtitles",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:thumbnail-generation",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-product-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-review-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-try-on-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-tutorial-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-unboxing-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:ugc-website-video",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:video-editing",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:website-builder",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "local:youtube-script",
+      "source": "local_higgsfield_plugin",
+      "observed_status": "full_local_folder_snapshot",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-title-takeover",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-title-takeover",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-manus2-0-style-launch-video",
+      "source": "https://skillry.dev/skills/bs-manus2-0-style-launch-video",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-grokbot-avatar",
+      "source": "https://skillry.dev/skills/bs-grokbot-avatar",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-velocity-sting",
+      "source": "https://skillry.dev/skills/bs-hyperframes-velocity-sting",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-action-checklist",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-action-checklist",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-agent-chorus-reel",
+      "source": "https://skillry.dev/skills/bs-hyperframes-agent-chorus-reel",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-device-canvas-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-device-canvas-launch",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hand-drawn-visual-notes",
+      "source": "https://skillry.dev/skills/bs-hand-drawn-visual-notes",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-chat-to-result-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-chat-to-result-launch",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-liquid-logo-reveal",
+      "source": "https://skillry.dev/skills/bs-hyperframes-liquid-logo-reveal",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-editable-visual-deck",
+      "source": "https://skillry.dev/skills/bs-editable-visual-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-minimal-motion",
+      "source": "https://skillry.dev/skills/bs-hero-minimal-motion",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-field-notes-deck",
+      "source": "https://skillry.dev/skills/bs-field-notes-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sage-sneaker-store",
+      "source": "https://skillry.dev/skills/bs-sage-sneaker-store",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-scrapbook-resume-site",
+      "source": "https://skillry.dev/skills/bs-scrapbook-resume-site",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-card-counter",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-card-counter",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-title-stamp",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-title-stamp",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-code-change-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-code-change-launch",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-quote-evidence",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-quote-evidence",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-transition-polygon-wipe",
+      "source": "https://skillry.dev/skills/bs-creatormotion-transition-polygon-wipe",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-burst-statement",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-burst-statement",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-topic-cloud",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-topic-cloud",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-yellow-sketchnote-deck",
+      "source": "https://skillry.dev/skills/bs-yellow-sketchnote-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-scattered-cards-magazine",
+      "source": "https://skillry.dev/skills/bs-scattered-cards-magazine",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-inclusive-cutpaper-deck",
+      "source": "https://skillry.dev/skills/bs-inclusive-cutpaper-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sky-glass-deck",
+      "source": "https://skillry.dev/skills/bs-sky-glass-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-status-focus",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-status-focus",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-cost-range",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-cost-range",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-inspect-split",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-inspect-split",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-matrix-fill",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-matrix-fill",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-sequential-list",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-sequential-list",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-status-row",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-status-row",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-browser-reveal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-browser-reveal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-scatter-presenter",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-scatter-presenter",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-feature-matrix",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-feature-matrix",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-one-many",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-one-many",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-paired-swap",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-paired-swap",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-row-focus-cards",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-row-focus-cards",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-convergence-evidence",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-convergence-evidence",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-funnel-absorption",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-funnel-absorption",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-hub-routing",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-hub-routing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-pipeline-fanout",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-pipeline-fanout",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-pip-calendar-reschedule",
+      "source": "https://skillry.dev/skills/bs-creatormotion-pip-calendar-reschedule",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-pip-notification-log",
+      "source": "https://skillry.dev/skills/bs-creatormotion-pip-notification-log",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-phone-callouts",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-phone-callouts",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-phone-scale",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-phone-scale",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-mobile-step",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-mobile-step",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-shortcut-target",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-shortcut-target",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-voice-transcript",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-voice-transcript",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-transition-tile-dissolve",
+      "source": "https://skillry.dev/skills/bs-creatormotion-transition-tile-dissolve",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-behind-subject",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-behind-subject",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-definition-reframe",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-definition-reframe",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-keyword-caption",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-keyword-caption",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-term-pressure",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-term-pressure",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-image-narrative-deck",
+      "source": "https://skillry.dev/skills/bs-image-narrative-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-activity-calendar",
+      "source": "https://skillry.dev/skills/bs-data-visualization-activity-calendar",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-notion-style-og",
+      "source": "https://skillry.dev/skills/bs-notion-style-og",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cadence-marketing-landing",
+      "source": "https://skillry.dev/skills/bs-cadence-marketing-landing",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-monochrome-studio-portrait",
+      "source": "https://skillry.dev/skills/bs-monochrome-studio-portrait",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-consulting-storyline-deck",
+      "source": "https://skillry.dev/skills/bs-consulting-storyline-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-chapter-stack",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-chapter-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-chat-stack",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-chat-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-context-conflict",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-context-conflict",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-corner-tags",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-corner-tags",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-folder-grid",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-folder-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-foreground-row",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-foreground-row",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-grid-priority",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-grid-priority",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-keyword-resolve",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-keyword-resolve",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-list-audience",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-list-audience",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-ratio-bridge",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-ratio-bridge",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-roadmap-focus",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-roadmap-focus",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-cards-steps-title",
+      "source": "https://skillry.dev/skills/bs-creatormotion-cards-steps-title",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-border-orbit",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-border-orbit",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-character-reveal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-character-reveal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-grid-flip",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-grid-flip",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-grid-pan",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-grid-pan",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-chapter-label-stack",
+      "source": "https://skillry.dev/skills/bs-creatormotion-chapter-label-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-document-stack",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-document-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-dossier-role",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-dossier-role",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-evidence-summary",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-evidence-summary",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-parallax-proof",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-parallax-proof",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-portrait-notes",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-portrait-notes",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-collage-testimonial-wall",
+      "source": "https://skillry.dev/skills/bs-creatormotion-collage-testimonial-wall",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-accumulation-blocks",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-accumulation-blocks",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-calculation-roi",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-calculation-roi",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-capacity-reset",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-capacity-reset",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-column-annotations",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-column-annotations",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-composition-strip",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-composition-strip",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-cost-total",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-cost-total",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-device-allocation",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-device-allocation",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-document-collapse",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-document-collapse",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-dual-sliders",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-dual-sliders",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-focus-bars",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-focus-bars",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-grouped-bars",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-grouped-bars",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-icon-distribution",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-icon-distribution",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-latest-history",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-latest-history",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-line-trend",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-line-trend",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-prompt-results",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-prompt-results",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-quadrant-focus",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-quadrant-focus",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-query-screens",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-query-screens",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-quote-sliders",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-quote-sliders",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-radar-reveal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-radar-reveal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-ratio-bars",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-ratio-bars",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-records-donut",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-records-donut",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-sequential-bars",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-sequential-bars",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-stage-loss",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-stage-loss",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-target-overrun",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-target-overrun",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-trend-card-tour",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-trend-card-tour",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-comparison-wording-choice",
+      "source": "https://skillry.dev/skills/bs-creatormotion-comparison-wording-choice",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-additive-equation",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-additive-equation",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-anchored-callouts",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-anchored-callouts",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-branch-reveal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-branch-reveal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-capacity-callouts",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-capacity-callouts",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-cycle-build",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-cycle-build",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-cycle-traversal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-cycle-traversal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-decompose-scan",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-decompose-scan",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-claude-style-illustration",
+      "source": "https://skillry.dev/skills/bs-claude-style-illustration",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-slate-admin-console",
+      "source": "https://skillry.dev/skills/bs-slate-admin-console",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-handoff-explain",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-handoff-explain",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-input-convergence",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-input-convergence",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-list-bridge",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-list-bridge",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-milestone-detail",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-milestone-detail",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-nested-workspace",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-nested-workspace",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-pipeline-package",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-pipeline-package",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-quadrant-positioning",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-quadrant-positioning",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-radial-branches",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-radial-branches",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-scope-emphasis",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-scope-emphasis",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-sequence-lanes",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-sequence-lanes",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-tier-pyramid",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-tier-pyramid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-diagram-timeline-nodes",
+      "source": "https://skillry.dev/skills/bs-creatormotion-diagram-timeline-nodes",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-pip-chat-response",
+      "source": "https://skillry.dev/skills/bs-creatormotion-pip-chat-response",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-pip-slides-focus",
+      "source": "https://skillry.dev/skills/bs-creatormotion-pip-slides-focus",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-chart-pan",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-chart-pan",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-chart-swap",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-chart-swap",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-progressive-list",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-progressive-list",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-quote-underline",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-quote-underline",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-split-response-spotlight",
+      "source": "https://skillry.dev/skills/bs-creatormotion-split-response-spotlight",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-comment-emphasis",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-comment-emphasis",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-issue-resolution",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-issue-resolution",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-metric-audit",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-metric-audit",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-metric-to-detail",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-metric-to-detail",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-spotlight-region-callout",
+      "source": "https://skillry.dev/skills/bs-creatormotion-spotlight-region-callout",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-copy-correction",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-copy-correction",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-opposing-labels",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-opposing-labels",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-question-bubble",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-question-bubble",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-spec-reveal",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-spec-reveal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-tag-stack",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-tag-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-creatormotion-type-wall-checklist",
+      "source": "https://skillry.dev/skills/bs-creatormotion-type-wall-checklist",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-ochre-editorial-deck",
+      "source": "https://skillry.dev/skills/bs-ochre-editorial-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-research-talk-deck",
+      "source": "https://skillry.dev/skills/bs-research-talk-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-chalkboard-infographic",
+      "source": "https://skillry.dev/skills/bs-chalkboard-infographic",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-beacon-saas-landing",
+      "source": "https://skillry.dev/skills/bs-beacon-saas-landing",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cobalt-system-deck",
+      "source": "https://skillry.dev/skills/bs-cobalt-system-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-linktree-style-og",
+      "source": "https://skillry.dev/skills/bs-linktree-style-og",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-masonry-wall",
+      "source": "https://skillry.dev/skills/bs-testimonial-masonry-wall",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-visual-canvas-deck",
+      "source": "https://skillry.dev/skills/bs-visual-canvas-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-article-brief-deck",
+      "source": "https://skillry.dev/skills/bs-article-brief-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-brand-story-deck",
+      "source": "https://skillry.dev/skills/bs-brand-story-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-paper-cut-science-explainer",
+      "source": "https://skillry.dev/skills/bs-paper-cut-science-explainer",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cobalt-serif-freelancer-site",
+      "source": "https://skillry.dev/skills/bs-cobalt-serif-freelancer-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-basalt-dev-portfolio",
+      "source": "https://skillry.dev/skills/bs-basalt-dev-portfolio",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-pain-gag-reveal-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-pain-gag-reveal-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-sound-reveal-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-sound-reveal-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-collage-creative-portfolio",
+      "source": "https://skillry.dev/skills/bs-collage-creative-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-airy-flight-booking-landing",
+      "source": "https://skillry.dev/skills/bs-airy-flight-booking-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-objection-reversal-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-objection-reversal-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-partnership-aroll-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-partnership-aroll-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-persistent-chat-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-persistent-chat-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-square-morph-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-square-morph-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-technical-drawing-promo",
+      "source": "https://skillry.dev/skills/bs-hyperframes-technical-drawing-promo",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-dark-stats",
+      "source": "https://skillry.dev/skills/bs-hero-dark-stats",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-texture-swatch-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-texture-swatch-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cutpaper-collective-site",
+      "source": "https://skillry.dev/skills/bs-cutpaper-collective-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-mono-designer-portfolio",
+      "source": "https://skillry.dev/skills/bs-mono-designer-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-industrial-identity-artifact",
+      "source": "https://skillry.dev/skills/bs-industrial-identity-artifact",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-continuity-asset-set",
+      "source": "https://skillry.dev/skills/bs-continuity-asset-set",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cinematic-shot-grid",
+      "source": "https://skillry.dev/skills/bs-cinematic-shot-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-kpi-lines",
+      "source": "https://skillry.dev/skills/bs-data-visualization-kpi-lines",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-paired-columns",
+      "source": "https://skillry.dev/skills/bs-data-visualization-paired-columns",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-summary-lines",
+      "source": "https://skillry.dev/skills/bs-data-visualization-summary-lines",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-obsidian-cinema-landing",
+      "source": "https://skillry.dev/skills/bs-obsidian-cinema-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-lime-endurance-deck",
+      "source": "https://skillry.dev/skills/bs-lime-endurance-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-academic-argument-deck",
+      "source": "https://skillry.dev/skills/bs-academic-argument-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-architectural-project-deck",
+      "source": "https://skillry.dev/skills/bs-architectural-project-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-capability-keynote-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-capability-keynote-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-research-paper-deck",
+      "source": "https://skillry.dev/skills/bs-research-paper-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-fantasy-concept-map",
+      "source": "https://skillry.dev/skills/bs-fantasy-concept-map",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-composition-study-generator",
+      "source": "https://skillry.dev/skills/bs-composition-study-generator",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-city-street-map-illustrator",
+      "source": "https://skillry.dev/skills/bs-city-street-map-illustrator",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-article-illustration-set",
+      "source": "https://skillry.dev/skills/bs-article-illustration-set",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-balance-chart",
+      "source": "https://skillry.dev/skills/bs-data-visualization-balance-chart",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-event-bars",
+      "source": "https://skillry.dev/skills/bs-data-visualization-event-bars",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-funnel-area",
+      "source": "https://skillry.dev/skills/bs-data-visualization-funnel-area",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-records-grid",
+      "source": "https://skillry.dev/skills/bs-data-visualization-records-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-spreadsheet-grid",
+      "source": "https://skillry.dev/skills/bs-data-visualization-spreadsheet-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-stacked-columns",
+      "source": "https://skillry.dev/skills/bs-data-visualization-stacked-columns",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-film-strip",
+      "source": "https://skillry.dev/skills/bs-hero-film-strip",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-ink-ridge",
+      "source": "https://skillry.dev/skills/bs-hero-ink-ridge",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-project-knowledge-graph",
+      "source": "https://skillry.dev/skills/bs-project-knowledge-graph",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-liquid-glass-landing",
+      "source": "https://skillry.dev/skills/bs-liquid-glass-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-format-shift-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-format-shift-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-frame-token-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-frame-token-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hyperframes-halftone-canvas-launch",
+      "source": "https://skillry.dev/skills/bs-hyperframes-halftone-canvas-launch",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-interactive-system-map",
+      "source": "https://skillry.dev/skills/bs-interactive-system-map",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-harbor-saas-suite",
+      "source": "https://skillry.dev/skills/bs-harbor-saas-suite",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-alpine-travel-agency-landing",
+      "source": "https://skillry.dev/skills/bs-alpine-travel-agency-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-bento-designer-portfolio",
+      "source": "https://skillry.dev/skills/bs-bento-designer-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cloud-jet-travel-landing",
+      "source": "https://skillry.dev/skills/bs-cloud-jet-travel-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-doodle-developer-portfolio",
+      "source": "https://skillry.dev/skills/bs-doodle-developer-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-editorial-personal-brand-landing",
+      "source": "https://skillry.dev/skills/bs-editorial-personal-brand-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-ember-ebike-store",
+      "source": "https://skillry.dev/skills/bs-ember-ebike-store",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-gradient-juice-brand-site",
+      "source": "https://skillry.dev/skills/bs-gradient-juice-brand-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-green-pharmacy-storefront",
+      "source": "https://skillry.dev/skills/bs-green-pharmacy-storefront",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-gridpaper-beverage-brand-site",
+      "source": "https://skillry.dev/skills/bs-gridpaper-beverage-brand-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-illustrated-agritech-app-landing",
+      "source": "https://skillry.dev/skills/bs-illustrated-agritech-app-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-lime-frame-designer-portfolio",
+      "source": "https://skillry.dev/skills/bs-lime-frame-designer-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-marker-doodle-brand-studio",
+      "source": "https://skillry.dev/skills/bs-marker-doodle-brand-studio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-paper-texture-resume-site",
+      "source": "https://skillry.dev/skills/bs-paper-texture-resume-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-playful-uiux-portfolio",
+      "source": "https://skillry.dev/skills/bs-playful-uiux-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-royal-blue-pet-store",
+      "source": "https://skillry.dev/skills/bs-royal-blue-pet-store",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-silver-robot-product-site",
+      "source": "https://skillry.dev/skills/bs-silver-robot-product-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sky-sports-club-landing",
+      "source": "https://skillry.dev/skills/bs-sky-sports-club-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sticker-agency-landing",
+      "source": "https://skillry.dev/skills/bs-sticker-agency-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sticker-gifting-app-landing",
+      "source": "https://skillry.dev/skills/bs-sticker-gifting-app-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-apple-style-og",
+      "source": "https://skillry.dev/skills/bs-apple-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-vehicle-anatomy-poster",
+      "source": "https://skillry.dev/skills/bs-vehicle-anatomy-poster",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-regional-flavor-map",
+      "source": "https://skillry.dev/skills/bs-regional-flavor-map",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hand-rendered-explainer",
+      "source": "https://skillry.dev/skills/bs-hand-rendered-explainer",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-drifting-marks",
+      "source": "https://skillry.dev/skills/bs-hero-drifting-marks",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-particle-field",
+      "source": "https://skillry.dev/skills/bs-hero-particle-field",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-dark-portraits",
+      "source": "https://skillry.dev/skills/bs-testimonial-dark-portraits",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-editorial-spread",
+      "source": "https://skillry.dev/skills/bs-testimonial-editorial-spread",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-ticker",
+      "source": "https://skillry.dev/skills/bs-testimonial-ticker",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-magnetic-lattice-hero",
+      "source": "https://skillry.dev/skills/bs-magnetic-lattice-hero",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-neon-makers-deck",
+      "source": "https://skillry.dev/skills/bs-neon-makers-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-whiteboard-concept-explainer",
+      "source": "https://skillry.dev/skills/bs-whiteboard-concept-explainer",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-learning-loop-deck",
+      "source": "https://skillry.dev/skills/bs-learning-loop-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-wonky-cute-doodles",
+      "source": "https://skillry.dev/skills/bs-wonky-cute-doodles",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-taskmuse-ai-landing",
+      "source": "https://skillry.dev/skills/bs-taskmuse-ai-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-research-project-homepage",
+      "source": "https://skillry.dev/skills/bs-research-project-homepage",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-skin-mechanism-visual",
+      "source": "https://skillry.dev/skills/bs-skin-mechanism-visual",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-optical-bench-diagram",
+      "source": "https://skillry.dev/skills/bs-optical-bench-diagram",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-layered-material-cutaway",
+      "source": "https://skillry.dev/skills/bs-layered-material-cutaway",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-ev-system-exploded-view",
+      "source": "https://skillry.dev/skills/bs-ev-system-exploded-view",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-bioactive-pathway-poster",
+      "source": "https://skillry.dev/skills/bs-bioactive-pathway-poster",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-raw-ink-storyboard",
+      "source": "https://skillry.dev/skills/bs-raw-ink-storyboard",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-marine-research-poster",
+      "source": "https://skillry.dev/skills/bs-marine-research-poster",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-isometric-research-collage",
+      "source": "https://skillry.dev/skills/bs-isometric-research-collage",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cue-column-study-sheet",
+      "source": "https://skillry.dev/skills/bs-cue-column-study-sheet",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-appliance-exploded-poster",
+      "source": "https://skillry.dev/skills/bs-appliance-exploded-poster",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-skyline",
+      "source": "https://skillry.dev/skills/bs-hero-skyline",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-angled-gallery",
+      "source": "https://skillry.dev/skills/bs-hero-angled-gallery",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-case-notes",
+      "source": "https://skillry.dev/skills/bs-testimonial-case-notes",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-contact-bar",
+      "source": "https://skillry.dev/skills/bs-hero-contact-bar",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-image-tiles",
+      "source": "https://skillry.dev/skills/bs-hero-image-tiles",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-integration-grid",
+      "source": "https://skillry.dev/skills/bs-hero-integration-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hero-single-frame",
+      "source": "https://skillry.dev/skills/bs-hero-single-frame",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-colour-blocks",
+      "source": "https://skillry.dev/skills/bs-testimonial-colour-blocks",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-columns",
+      "source": "https://skillry.dev/skills/bs-testimonial-columns",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-compact-grid",
+      "source": "https://skillry.dev/skills/bs-testimonial-compact-grid",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-fanned-deck",
+      "source": "https://skillry.dev/skills/bs-testimonial-fanned-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-minimal-carousel",
+      "source": "https://skillry.dev/skills/bs-testimonial-minimal-carousel",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-mosaic",
+      "source": "https://skillry.dev/skills/bs-testimonial-mosaic",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-numbered-slider",
+      "source": "https://skillry.dev/skills/bs-testimonial-numbered-slider",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-orbiting-portraits",
+      "source": "https://skillry.dev/skills/bs-testimonial-orbiting-portraits",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-portrait-overlay",
+      "source": "https://skillry.dev/skills/bs-testimonial-portrait-overlay",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-portrait-switcher",
+      "source": "https://skillry.dev/skills/bs-testimonial-portrait-switcher",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-portrait-tiles",
+      "source": "https://skillry.dev/skills/bs-testimonial-portrait-tiles",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-profile-reel",
+      "source": "https://skillry.dev/skills/bs-testimonial-profile-reel",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-rated-row",
+      "source": "https://skillry.dev/skills/bs-testimonial-rated-row",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-single-card",
+      "source": "https://skillry.dev/skills/bs-testimonial-single-card",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-social-feed",
+      "source": "https://skillry.dev/skills/bs-testimonial-social-feed",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-tilted-card",
+      "source": "https://skillry.dev/skills/bs-testimonial-tilted-card",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-tilted-stack",
+      "source": "https://skillry.dev/skills/bs-testimonial-tilted-stack",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-testimonial-typed-row",
+      "source": "https://skillry.dev/skills/bs-testimonial-typed-row",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-meta-style-og",
+      "source": "https://skillry.dev/skills/bs-meta-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-airbnb-style-og",
+      "source": "https://skillry.dev/skills/bs-airbnb-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-goodnotes-style-og",
+      "source": "https://skillry.dev/skills/bs-goodnotes-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-golden-market-deck",
+      "source": "https://skillry.dev/skills/bs-golden-market-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-blue-lime-ledger-deck",
+      "source": "https://skillry.dev/skills/bs-blue-lime-ledger-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-confetti-gathering-deck",
+      "source": "https://skillry.dev/skills/bs-confetti-gathering-deck",
+      "observed_status": "full_public_instruction",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-annotated-wash-diagram",
+      "source": "https://skillry.dev/skills/bs-annotated-wash-diagram",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-openai-style-poster",
+      "source": "https://skillry.dev/skills/bs-openai-style-poster",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-vaultic-fintech-landing",
+      "source": "https://skillry.dev/skills/bs-vaultic-fintech-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-tracklane-devtool-landing",
+      "source": "https://skillry.dev/skills/bs-tracklane-devtool-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-loopwise-saas-landing",
+      "source": "https://skillry.dev/skills/bs-loopwise-saas-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-stillline-insight-card",
+      "source": "https://skillry.dev/skills/bs-stillline-insight-card",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-split-frame-portfolio",
+      "source": "https://skillry.dev/skills/bs-split-frame-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-skyline-developer-journal",
+      "source": "https://skillry.dev/skills/bs-skyline-developer-journal",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-quartz-saas-landing",
+      "source": "https://skillry.dev/skills/bs-quartz-saas-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-paperline-content-illustrator",
+      "source": "https://skillry.dev/skills/bs-paperline-content-illustrator",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-orbit-startup-landing",
+      "source": "https://skillry.dev/skills/bs-orbit-startup-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-orbit-admin-dashboard",
+      "source": "https://skillry.dev/skills/bs-orbit-admin-dashboard",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-opsdeck-admin-kit",
+      "source": "https://skillry.dev/skills/bs-opsdeck-admin-kit",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-molten-glass-landing",
+      "source": "https://skillry.dev/skills/bs-molten-glass-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-meridian-marketing-landing",
+      "source": "https://skillry.dev/skills/bs-meridian-marketing-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-lumen-agency-landing",
+      "source": "https://skillry.dev/skills/bs-lumen-agency-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-confetti-marketing-landing",
+      "source": "https://skillry.dev/skills/bs-confetti-marketing-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-bluewave-podcast-site",
+      "source": "https://skillry.dev/skills/bs-bluewave-podcast-site",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-aurawave-audio-landing",
+      "source": "https://skillry.dev/skills/bs-aurawave-audio-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-allegorical-engraving-cover",
+      "source": "https://skillry.dev/skills/bs-allegorical-engraving-cover",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sketchnote-pricing",
+      "source": "https://skillry.dev/skills/bs-sketchnote-pricing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-red-black-zine-deck",
+      "source": "https://skillry.dev/skills/bs-red-black-zine-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-starlit-deck",
+      "source": "https://skillry.dev/skills/bs-starlit-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-tessellated-editorial-still-life",
+      "source": "https://skillry.dev/skills/bs-tessellated-editorial-still-life",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-data-visualization-spectrum-monitor",
+      "source": "https://skillry.dev/skills/bs-data-visualization-spectrum-monitor",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-nike-style-og",
+      "source": "https://skillry.dev/skills/bs-nike-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-shopify-style-og",
+      "source": "https://skillry.dev/skills/bs-shopify-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-discord-style-og",
+      "source": "https://skillry.dev/skills/bs-discord-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-slack-style-og",
+      "source": "https://skillry.dev/skills/bs-slack-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-duolingo-style-og",
+      "source": "https://skillry.dev/skills/bs-duolingo-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-figma-style-og",
+      "source": "https://skillry.dev/skills/bs-figma-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-grammarly-style-og",
+      "source": "https://skillry.dev/skills/bs-grammarly-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-github-style-og",
+      "source": "https://skillry.dev/skills/bs-github-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-stripe-style-og",
+      "source": "https://skillry.dev/skills/bs-stripe-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-openai-style-og",
+      "source": "https://skillry.dev/skills/bs-openai-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-spotify-style-og",
+      "source": "https://skillry.dev/skills/bs-spotify-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cash-app-style-og",
+      "source": "https://skillry.dev/skills/bs-cash-app-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-square-style-og",
+      "source": "https://skillry.dev/skills/bs-square-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-webflow-style-og",
+      "source": "https://skillry.dev/skills/bs-webflow-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-vercel-style-og",
+      "source": "https://skillry.dev/skills/bs-vercel-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-todoist-style-og",
+      "source": "https://skillry.dev/skills/bs-todoist-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-mailchimp-style-og",
+      "source": "https://skillry.dev/skills/bs-mailchimp-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-asana-style-og",
+      "source": "https://skillry.dev/skills/bs-asana-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-upwork-style-og",
+      "source": "https://skillry.dev/skills/bs-upwork-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-wise-style-og",
+      "source": "https://skillry.dev/skills/bs-wise-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-revolut-style-og",
+      "source": "https://skillry.dev/skills/bs-revolut-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-klarna-style-og",
+      "source": "https://skillry.dev/skills/bs-klarna-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-solana-style-og",
+      "source": "https://skillry.dev/skills/bs-solana-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-auth0-style-og",
+      "source": "https://skillry.dev/skills/bs-auth0-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-calendly-style-og",
+      "source": "https://skillry.dev/skills/bs-calendly-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-headspace-style-og",
+      "source": "https://skillry.dev/skills/bs-headspace-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-loom-style-og",
+      "source": "https://skillry.dev/skills/bs-loom-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-intercom-style-og",
+      "source": "https://skillry.dev/skills/bs-intercom-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-mapbox-style-og",
+      "source": "https://skillry.dev/skills/bs-mapbox-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-mixpanel-style-og",
+      "source": "https://skillry.dev/skills/bs-mixpanel-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-supabase-style-og",
+      "source": "https://skillry.dev/skills/bs-supabase-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-brex-style-og",
+      "source": "https://skillry.dev/skills/bs-brex-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-plaid-style-og",
+      "source": "https://skillry.dev/skills/bs-plaid-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-algolia-style-og",
+      "source": "https://skillry.dev/skills/bs-algolia-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-ramp-style-og",
+      "source": "https://skillry.dev/skills/bs-ramp-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-retool-style-og",
+      "source": "https://skillry.dev/skills/bs-retool-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-raycast-style-og",
+      "source": "https://skillry.dev/skills/bs-raycast-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-linear-style-og",
+      "source": "https://skillry.dev/skills/bs-linear-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-runway-style-og",
+      "source": "https://skillry.dev/skills/bs-runway-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-a24-style-og",
+      "source": "https://skillry.dev/skills/bs-a24-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-procreate-style-og",
+      "source": "https://skillry.dev/skills/bs-procreate-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-teenage-engineering-style-og",
+      "source": "https://skillry.dev/skills/bs-teenage-engineering-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-material-design-style-og",
+      "source": "https://skillry.dev/skills/bs-material-design-style-og",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-inkwell-portfolio",
+      "source": "https://skillry.dev/skills/bs-inkwell-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-hairline-grid-portfolio",
+      "source": "https://skillry.dev/skills/bs-hairline-grid-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-fluxon-automation-landing",
+      "source": "https://skillry.dev/skills/bs-fluxon-automation-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-finora-banking-landing",
+      "source": "https://skillry.dev/skills/bs-finora-banking-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-editorial-studio-saas",
+      "source": "https://skillry.dev/skills/bs-editorial-studio-saas",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-editorial-ink-landing",
+      "source": "https://skillry.dev/skills/bs-editorial-ink-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-editorial-dev-portfolio",
+      "source": "https://skillry.dev/skills/bs-editorial-dev-portfolio",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-contexa-cms-landing",
+      "source": "https://skillry.dev/skills/bs-contexa-cms-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-coinhaven-crypto-landing",
+      "source": "https://skillry.dev/skills/bs-coinhaven-crypto-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-amber-scrapbook-suite",
+      "source": "https://skillry.dev/skills/bs-amber-scrapbook-suite",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-indigo-ledger-landing",
+      "source": "https://skillry.dev/skills/bs-indigo-ledger-landing",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cinematic-wilds-deck",
+      "source": "https://skillry.dev/skills/bs-cinematic-wilds-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-mono-acid-deck",
+      "source": "https://skillry.dev/skills/bs-mono-acid-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-orbital-workshop-deck",
+      "source": "https://skillry.dev/skills/bs-orbital-workshop-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-pop-motion-deck",
+      "source": "https://skillry.dev/skills/bs-pop-motion-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-brush-paper-deck",
+      "source": "https://skillry.dev/skills/bs-brush-paper-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-yellow-balance-deck",
+      "source": "https://skillry.dev/skills/bs-yellow-balance-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-botanical-quiet-deck",
+      "source": "https://skillry.dev/skills/bs-botanical-quiet-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-prismatic-fashion-deck",
+      "source": "https://skillry.dev/skills/bs-prismatic-fashion-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-pastel-cutout-deck",
+      "source": "https://skillry.dev/skills/bs-pastel-cutout-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-acid-agency-deck",
+      "source": "https://skillry.dev/skills/bs-acid-agency-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-aqua-campus-deck",
+      "source": "https://skillry.dev/skills/bs-aqua-campus-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-storybook-margin-deck",
+      "source": "https://skillry.dev/skills/bs-storybook-margin-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cobalt-growth-deck",
+      "source": "https://skillry.dev/skills/bs-cobalt-growth-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-cozy-island-deck",
+      "source": "https://skillry.dev/skills/bs-cozy-island-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-ink-landscape-deck",
+      "source": "https://skillry.dev/skills/bs-ink-landscape-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sunlit-structure-deck",
+      "source": "https://skillry.dev/skills/bs-sunlit-structure-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-electric-studio-deck",
+      "source": "https://skillry.dev/skills/bs-electric-studio-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-gallery-catalogue-deck",
+      "source": "https://skillry.dev/skills/bs-gallery-catalogue-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-primary-doodle-deck",
+      "source": "https://skillry.dev/skills/bs-primary-doodle-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-citrus-loop-deck",
+      "source": "https://skillry.dev/skills/bs-citrus-loop-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-sorbet-window-deck",
+      "source": "https://skillry.dev/skills/bs-sorbet-window-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-chromatic-futures-deck",
+      "source": "https://skillry.dev/skills/bs-chromatic-futures-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    },
+    {
+      "id": "skillry:bs-soft-gradient-deck",
+      "source": "https://skillry.dev/skills/bs-soft-gradient-deck",
+      "observed_status": "locked_excerpt",
+      "bundle_available": false,
+      "publication_status": "requires_local_payload"
+    }
+  ]
+}

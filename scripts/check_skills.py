@@ -5,6 +5,7 @@ root = pathlib.Path(__file__).resolve().parent.parent
 errors = []
 skills = {root / 'SKILL.md': 'zauran-ai-creative'}
 skills.update({p: p.parent.name for p in root.glob('zauran-*/SKILL.md')})
+skills = {**skills, **{p: p.parent.name for p in root.glob('skills/zauran-*/SKILL.md')}}
 for path, expected in skills.items():
     text = path.read_text(encoding='utf-8')
     front = re.match(r'---\n(.*?)\n---\n', text.replace('\r\n', '\n'), re.S)

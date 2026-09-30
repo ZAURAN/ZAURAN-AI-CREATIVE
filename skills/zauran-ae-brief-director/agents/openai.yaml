@@ -1,0 +1,6 @@
+interface:
+  display_name: "zauran_ae_brief_director"
+  short_description: "ТЗ и раскадровки для логотипов, рилсов и SaaS в AE"
+  default_prompt: "Используй $zauran-ae-brief-director: изучи мои материалы и составь режиссёрское ТЗ с раскадровкой для ZAURAN AI DEV под After Effects."
+policy:
+  allow_implicit_invocation: true

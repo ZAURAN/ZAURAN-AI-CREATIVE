@@ -1,0 +1,6 @@
+interface:
+  display_name: "zauran_video_studio"
+  short_description: "Сценарий, персонажи, генерация, монтаж и моушен"
+  default_prompt: "Используй $zauran-video-studio для создания или редактирования ролика по моему брифу и референсам."
+policy:
+  allow_implicit_invocation: true

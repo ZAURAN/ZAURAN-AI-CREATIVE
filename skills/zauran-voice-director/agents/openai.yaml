@@ -1,0 +1,4 @@
+interface:
+  display_name: "zauran_voice_director"
+  short_description: "Режиссура речи и точная озвучка в ElevenLabs"
+  default_prompt: "Use $zauran-voice-director to prepare expressive voiceover with exact dialogue, pronunciation, timing, and model-specific settings."

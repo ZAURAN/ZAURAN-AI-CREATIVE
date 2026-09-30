@@ -1,0 +1,50 @@
+{
+  "kb_original_files": 1574,
+  "kb_byte_preservation": "verified all original files against snapshot bytes",
+  "local_folders": 17,
+  "local_files": 180,
+  "local_bytes": 2695739,
+  "repository_archives": 17,
+  "repository_skill_paths": 232,
+  "skillry_records": 383,
+  "skillry_full_public_instructions": 41,
+  "skillry_locked_previews": 342,
+  "skillry_bundles": 0,
+  "gallery_examples": 389,
+  "index_entries": 1044,
+  "index_kinds": {
+    "repository_skill": 232,
+    "repository_reference": 17,
+    "local_skill": 17,
+    "skillry_skill": 383,
+    "gallery_example": 389,
+    "integration_reference": 6
+  },
+  "upstream_code_executed": false,
+  "external_requirements": [
+    "Skillry paid/full bundles",
+    "model weights",
+    "provider/MCP access",
+    "runtime dependencies"
+  ],
+  "lfs_supplement": {
+    "repository": "heygen-com/hyperframes",
+    "commit": "daa44fcd753d9055aa3c954ad74f09a4e4389780",
+    "status": "complete",
+    "verified_objects": 167,
+    "verified_paths": 170,
+    "verified_bytes": 567535998,
+    "failures": 0,
+    "original_pointers_preserved": true
+  },
+  "edition": "public_source_backed",
+  "original_full_payloads_unchanged_locally": true,
+  "raw_third_party_payloads_redistributed_in_git": false,
+  "public_catalog_records": 1038,
+  "public_index_entries": 1046,
+  "published_own_skill_folders": [
+    "zauran-voice-director",
+    "zauran-ae-brief-director",
+    "zauran-video-studio"
+  ]
+}

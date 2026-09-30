@@ -1,0 +1,61 @@
+{
+  "edition": "public_source_backed",
+  "validated_at": "2026-09-30T10:02:32.235221+00:00",
+  "skill_validation": {
+    "skills": 8,
+    "result": "passed"
+  },
+  "tests": {
+    "node": 29,
+    "story_python": 34,
+    "canonical_validation_cli": 4,
+    "video_library": 34,
+    "total": 101,
+    "failures": 0
+  },
+  "video_library_coverage": {
+    "method": "Python stdlib trace executable-line coverage",
+    "percent": 90,
+    "branch_coverage_measured": false,
+    "scope": "library.py"
+  },
+  "ci": {
+    "both_video_test_modules_discovered": true
+  },
+  "own_skills": {
+    "voice_files": 6,
+    "ae_files": 27,
+    "own_snapshot_files": 33,
+    "all_local_original_hashes_unchanged": true,
+    "missing_atlas_frames_explicit": 18
+  },
+  "real_cli_smoke": {
+    "hypit_full_archive_network_fetch": "exact pinned size/SHA verified",
+    "hypit_full_document": "exact original SHA verified",
+    "hypit_materialized_files": 1785,
+    "hypit_symlinks_reported_and_skipped": 2,
+    "original_database_attachment": "exact expected archive verified",
+    "remotion_offline_full_document": "SHA verified from nested original snapshot without source cache"
+  },
+  "publication_review": {
+    "result": "passed",
+    "remaining_concrete_blockers": 0,
+    "ci_discovery_finding_fixed_and_rechecked": true
+  },
+  "dependency_audit": {
+    "tool": "pip-audit",
+    "scope": "Markdown==3.11 (existing CI dependency)",
+    "known_vulnerabilities": 0,
+    "new_helper_dependencies": "Python stdlib only"
+  },
+  "original_four_payloads_published": false,
+  "third_party_source_executed": false,
+  "renders_verified": false,
+  "cold_clone_readiness": "External sources/private payloads/LFS must be fetched or attached; integrity and readiness are separate.",
+  "git_publication_checks": {
+    "exact_staged_direct_and_own_bundle_comparisons": 39,
+    "source_hashes_preserved_cross_platform": true,
+    "new_git_blobs_under_100_mib": true,
+    "private_payloads_caches_bytecode_not_staged": true
+  }
+}

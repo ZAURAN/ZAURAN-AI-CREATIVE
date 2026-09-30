@@ -1,0 +1,24 @@
+{
+  "skill_count": 383,
+  "example_count": 389,
+  "total_records": 1038,
+  "full_public_instructions": 41,
+  "locked_excerpts": 342,
+  "downloaded_archives": 0,
+  "missing_skill_pages": [],
+  "missing_example_pages": [],
+  "sitemap_urls_enumerated": 787,
+  "scope": "All 787 sitemap URLs retrieved: 772 skill/example detail pages and 15 supplemental public pages. Archives and locked sources are not retrieved.",
+  "categories": {
+    "explainer": 47,
+    "3d": 51,
+    "interactive": 68,
+    "motion": 223
+  },
+  "quality_validation": "Source extraction and metadata checks only. No rendered quality benchmark or execution of collected skills.",
+  "supplemental_public_pages": 15,
+  "supplemental_errors": 0,
+  "github_source_archives": 17,
+  "repository_skill_paths": 232,
+  "unique_repository_skill_hashes": 165
+}
