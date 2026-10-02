@@ -42,6 +42,10 @@
 
 - `references/ideogram-4.5.md` — обязательная инструкция: генерация и композиция, точный текст и типографика, Magic Prompt, роли и порядок референсов, маски, локальные правки и цепочки Precise Edit, поля и лимиты Runware, английские шаблоны, диагностика и первоисточники. JSON-схема открытой Ideogram 4 описана отдельно и не переносится на 4.5 автоматически.
 
+Дополнительно для FLUX 3 Image:
+
+- `references/flux-3-image.md` — обязательная инструкция: связный промпт, наблюдаемые детали, текст/типографика, положительные ограничения, правка с preserve, роли до 10 референсов, нумерация image 1/ref_image_0, caption и layout-строки, bbox y/x, настройки BFL, английские примеры, диагностика и источники. Отдельный контракт от FLUX.2 и FLUX 3 Video.
+
 Дополнительно для подбора проверенного промта-донора (любая модель):
 
 - `references/youmind-prompt-library.md` — маршрутизатор библиотеки YouMind: 11 категорий, структура записи, команды поиска, правила адаптации донора под бриф и платформенный контракт, атрибуция и обновление базы.
@@ -76,7 +80,7 @@
 - `references/cinedance-blocking.md` — фиксировать first frame, spatial blocking, gaze/body orientation, cut format и continuity.
 - `references/cinedance-physics-lighting.md` — фиксировать физику, свет, handheld, диалог/audio и hierarchy референсов.
 
-При конфликте актуальные mode, limits, parameters и reference contract определяет платформенный файл выбранной модели: `seedance-2.5.md` для Seedance 2.5, `minimax-h3.md` для MiniMax H3, `gemini-omni-flash.md` для Gemini Omni Flash, `gpt-image-2.md` для GPT Image, `nano-banana-pro.md` для Nano Banana Pro, `seedream-5.md` для Seedream 5.0 и `ideogram-4.5.md` для Ideogram 4.5 / Precise Edit. CINEDANCE определяет режиссуру видимого шота. Не переноси структуру промпта Seedance в H3 или в Omni и обратно: формат полей и лимиты у моделей разные. Отдельно: не переноси на Omni параметры Veo (`generate_videos`, `duration_seconds`, `negative_prompt`, `person_generation`, `generate_audio`, LRO-опрос) — у Omni их нет, он работает через Interactions API. Вендоренный пакет `seedance-2.0/` стоит ниже платформенных файлов навыка: его длительности, лимиты, разрешения, model ID, цены и наборы режимов действуют только для линии Seedance 2.0 и не переносятся ни на одну другую модель. Переносимо из него только моделе-независимое ремесло. Последнее прямое указание пользователя и утвержденный brief lock всегда выше всех файлов.
+При конфликте актуальные mode, limits, parameters и reference contract определяет платформенный файл выбранной модели: `seedance-2.5.md` для Seedance 2.5, `minimax-h3.md` для MiniMax H3, `gemini-omni-flash.md` для Gemini Omni Flash, `gpt-image-2.md` для GPT Image, `nano-banana-pro.md` для Nano Banana Pro, `seedream-5.md` для Seedream 5.0, `ideogram-4.5.md` для Ideogram 4.5 / Precise Edit и `flux-3-image.md` для FLUX 3 Image. CINEDANCE определяет режиссуру видимого шота. Не переноси структуру промпта Seedance в H3 или в Omni и обратно: формат полей и лимиты у моделей разные. Отдельно: не переноси на Omni параметры Veo (`generate_videos`, `duration_seconds`, `negative_prompt`, `person_generation`, `generate_audio`, LRO-опрос) — у Omni их нет, он работает через Interactions API. Вендоренный пакет `seedance-2.0/` стоит ниже платформенных файлов навыка: его длительности, лимиты, разрешения, model ID, цены и наборы режимов действуют только для линии Seedance 2.0 и не переносятся ни на одну другую модель. Переносимо из него только моделе-независимое ремесло. Последнее прямое указание пользователя и утвержденный brief lock всегда выше всех файлов.
 
 ## Правила чтения
 
