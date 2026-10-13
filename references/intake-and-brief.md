@@ -26,11 +26,14 @@
 
 | Модель | Сильна в | Контракт |
 | --- | --- | --- |
+| Magnific One | рекламные изображения и серии, встроенная арт-дирекция, Draft/Final, Brand Kit в Final | `references/magnific-one.md` |
 | Nano Banana Pro (Gemini 3 Pro Image) | фотореализм, портрет по фото пользователя, правки готового кадра, текст в кадре и инфографика по реальным данным, до 5 лиц | `references/nano-banana-pro.md` |
 | GPT Image (gpt-image-2) | текст на изображении, UI, постеры, плотная вёрстка, шаблоны по категориям | `references/gpt-image-2.md` |
 | Seedream 5.0 Pro / Lite | предметка, мультисубъектная сцена, локальная правка с preserve-списком, слои | `references/seedream-5.md` |
 | Ideogram 4.5 / Precise Edit | рекламные макеты, типографика и точный текст; перенос атрибутов референсов; последовательная локальная правка | `references/ideogram-4.5.md` |
 | FLUX 3 Image | генерация и правки изображений, типографика, до 10 референсов, композиция с layout-боксами | `references/flux-3-image.md` |
+
+Magnific One — конкретная модель, а Magnific/Freepik — также название среды с другими моделями. Не считай упоминание площадки выбором Magnific One. Для неё используй `references/magnific-one.md`; не переноси параметры Seedream или апскейлера.
 
 ### Модели для видео
 
