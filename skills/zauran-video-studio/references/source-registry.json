@@ -580,6 +580,64 @@
         "payload": "references/upstream/database.snapshot.zip",
         "member": "ai-video-motion-knowledge-base/repository_archives/ZAURAN--ZAURAN-AI-CREATIVE.zip"
       }
+    },
+    {
+      "repository": "LottieFiles/motion-design-skill",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "archive_url": "https://codeload.github.com/LottieFiles/motion-design-skill/zip/f9a8a041b85185ee4881b3471d3415e939aac772",
+      "bytes": 35577,
+      "sha256": "22372c1b0178a448ce09ab530e7a8489e66ae032148fce700099b6f745254e1f",
+      "retrieved_at": "2026-10-15T21:50:03.392273+00:00",
+      "archive_file": "LottieFiles--motion-design-skill.zip",
+      "skill_paths": [
+        "motion-design-skill-f9a8a041b85185ee4881b3471d3415e939aac772/skills/motion-design/SKILL.md"
+      ],
+      "license_notice_paths": [
+        "motion-design-skill-f9a8a041b85185ee4881b3471d3415e939aac772/LICENSE"
+      ],
+      "availability": "upstream_pinned",
+      "redistributed_in_git": false
+    },
+    {
+      "repository": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "archive_url": "https://codeload.github.com/Barty-Bart/motion-graphics/zip/3d83d987d658601d8a1269eb691622bdcd427335",
+      "bytes": 27964573,
+      "sha256": "50440369fec07b4c1232cb18fce38cdf415c8323e0032e672d0b74cda358da49",
+      "retrieved_at": "2026-10-15T21:50:03.392273+00:00",
+      "archive_file": "Barty-Bart--motion-graphics.zip",
+      "skill_paths": [
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-default/SKILL.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-engaging/SKILL.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-high-energy/SKILL.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/motion-broll/SKILL.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/object-separation/SKILL.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/SKILL.md"
+      ],
+      "license_notice_paths": [
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/LICENSE",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/LICENSES.md",
+        "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/motion-broll/engine/fonts/OFL-Geist.txt"
+      ],
+      "availability": "upstream_pinned",
+      "redistributed_in_git": false
+    },
+    {
+      "repository": "cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "archive_url": "https://codeload.github.com/cth9191/animate/zip/7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "bytes": 9317361,
+      "sha256": "fc1944b11e03e5a110be076622263c56ad4a634d09d6f7316dac48db8fe893ed",
+      "retrieved_at": "2026-10-16T07:27:33.824073+00:00",
+      "archive_file": "cth9191--animate.zip",
+      "skill_paths": [
+        "animate-7e5eb56feb2dd573f890e1b7b34748af43d58263/plugins/animate/skills/animate/SKILL.md"
+      ],
+      "license_notice_paths": [
+        "animate-7e5eb56feb2dd573f890e1b7b34748af43d58263/LICENSE"
+      ],
+      "availability": "upstream_pinned",
+      "redistributed_in_git": false
     }
   ],
   "lfs": {

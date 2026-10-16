@@ -23,7 +23,21 @@
 | After Effects | HeroicSwan/after-effects-mcp |
 | DaVinci Resolve | samuelgursky/davinci-resolve-mcp |
 | Удаление фона | danielgatis/rembg; ZhengPeng7/BiRefNet; Bria-AI/RMBG-2.0 |
-| Видео-маски | facebookresearch/sam2 |
+| Видео-маски | facebookresearch/sam2; Barty-Bart/motion-graphics: skills/object-separation |
+| Тайминг, easing, характер движения | LottieFiles/motion-design-skill |
+| Звуковой проход: SFX по cue, бит-сетка, LUFS | Barty-Bart/motion-graphics: skills/sound-effects |
+| B-roll к говорящей голове по транскрипту | Barty-Bart/motion-graphics: skills/motion-broll |
+| Стили product explainer: high-energy / default / engaging | Barty-Bart/motion-graphics: skills/explainer-high-energy, explainer-default, explainer-engaging |
+| Процедурная анимация в стиле: cut paper, crosshatch, riso, sketchbook, math, pixel, isometric или по референсам | cth9191/animate |
+| Форматы сюжета короткой анимации F1–F8 и их инварианты | cth9191/animate: grammar/FORMATS.md, grammar/STORY.md, craft.md |
+
+Границы новых источников:
+- LottieFiles/motion-design-skill написан для UI. Для роликов брать характеры движения, карту «эмоция → движение», три слоя движения, правила 1/3, длительность от расстояния и QA-чеклист. Бюджет stagger <500 мс, `prefers-reduced-motion` и масштабирование под платформы относятся к интерфейсам.
+- explainer-* синтезируют музыку и SFX осцилляторами. sound-effects это запрещает. Визуальную схему брать из explainer, звук делать через sound-effects.
+- motion-broll и explainer-* несут свои рендереры. По правилу одного backend их правила и сценарии переносятся в выбранный backend проекта. Собственный движок источника используется, только когда он выбран backend сегмента.
+- Скрипты Barty-Bart написаны под macOS/Linux (`bash setup.sh`, `python3`, `.venv/bin/`). На Windows пути и команды адаптировать.
+- cth9191/animate — свой backend: один `<canvas>` в `index.html`, рендер через Playwright и ffmpeg. Работает через три check-in (story, look, storyboard), до утверждённой раскадровки не анимирует. Доказанные форматы: F2, F4, F5. Остальные изучены, но не проверены: говорить об этом при выборе. Партитура синтезируется в коде; с треком пользователя в коде остаются только SFX. Голос через ElevenLabs стоит ~1 кредит за символ: показывать сумму и получать согласие до полной генерации.
+- Звуки sound-effects в `sfx/` — CC0. Mixkit скачивается в проект при запуске и не хранится в источнике. Лицензию музыки и площадку публикации проверять по шагу 0 источника.
 
 ## Локальные provider workflows
 

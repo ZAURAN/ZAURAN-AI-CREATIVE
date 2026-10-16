@@ -45,13 +45,17 @@ python <skill-root>/scripts/library.py verify
 | Промпты под модели, изображения и AI-видео | ZAURAN ai-creative и доступный провайдер |
 | Механика референса и её адаптация | Hypit |
 | Reels/Shorts/TikTok из отснятого материала | vertical-video-editing; talking-head-recut; captions |
+| B-roll к говорящей голове по транскрипту | Barty-Bart motion-broll: cutaway / панель / ничего |
 | Репозиторий/продукт → промо | brag/brag-slim или Shotcraft; product-launch-video |
+| Product explainer заданной энергии | Barty-Bart explainer-high-energy / explainer-default / explainer-engaging; звук через sound-effects |
 | Речь → объяснялка, редакционная манера Vox | Talkcraft, general-video; faceless-explainer для подходящего формата |
 | Типографика, логотипы, графики, 3D | motion-graphics; Remotion/HyperFrames; Motion Canvas |
+| Тайминг, easing, характер движения | LottieFiles motion-design: характеры, эмоции, слои, правила 1/3, QA |
+| Процедурная анимация в стиле (cut paper, ink, riso, math, pixel, isometric) или по референсам | cth9191/animate: форматы F1–F8, story/look/storyboard check-in |
 | Нативный монтаж | Higgsedit / After Effects / Resolve и соответствующий полный workflow |
 | ТЗ и раскадровка для After Effects | zauran-ae-brief-director; постановка перед передачей в реальный редактор |
 | UGC, AI-ведущий, faceless episode, варианты рекламы | Точный Higgsfield-модуль по его условиям активации |
-| Звук | zauran-voice-director; music-to-video; hyperframes-audio; narrator в его границах |
+| Звук | zauran-voice-director; music-to-video; hyperframes-audio; narrator в его границах; SFX-проход — Barty-Bart sound-effects |
 | Субтитры | embedded-captions / remotion-captions / Higgsfield subtitles |
 | Вырезка фона и alpha | rembg/BiRefNet; [контракт обработки](references/production-contract.md) |
 | Другие темы Skillry | Поиск всех типов, полный доступный документ или явно отмеченное превью |

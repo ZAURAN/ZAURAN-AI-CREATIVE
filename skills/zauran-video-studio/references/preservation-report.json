@@ -40,8 +40,13 @@
   "edition": "public_source_backed",
   "original_full_payloads_unchanged_locally": true,
   "raw_third_party_payloads_redistributed_in_git": false,
-  "public_catalog_records": 1038,
-  "public_index_entries": 1046,
+  "public_catalog_records": 1049,
+  "public_index_entries": 1057,
+  "public_sources_pinned_after_snapshot": [
+    "LottieFiles/motion-design-skill",
+    "Barty-Bart/motion-graphics",
+    "cth9191/animate"
+  ],
   "published_own_skill_folders": [
     "zauran-voice-director",
     "zauran-ae-brief-director",

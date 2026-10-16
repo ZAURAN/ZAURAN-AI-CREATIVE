@@ -22119,6 +22119,193 @@
       "materialize": {
         "payload": "references/upstream/zauran-owned.snapshot.zip"
       }
+    },
+    {
+      "id": "repo:LottieFiles/motion-design-skill:skills/motion-design/SKILL.md",
+      "kind": "repository_skill",
+      "title": "LottieFiles/motion-design-skill / skills/motion-design/SKILL.md",
+      "source": "LottieFiles/motion-design-skill",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "status": "upstream_pinned",
+      "sha256": "8729ecbc7e5736c1295baaa8ba0384bb4b1aac9cf91b83fcdc64d9548a57bb19",
+      "document": {
+        "source_archive": "LottieFiles/motion-design-skill",
+        "member": "motion-design-skill-f9a8a041b85185ee4881b3471d3415e939aac772/skills/motion-design/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "LottieFiles/motion-design-skill"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "source:LottieFiles/motion-design-skill",
+      "kind": "repository_reference",
+      "source": "LottieFiles/motion-design-skill",
+      "title": "LottieFiles/motion-design-skill full repository",
+      "status": "upstream_pinned",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "sha256": "9d43476646e1d0ae0f082d40877e19ce14dbe0215dd32c3887e8aad731959b03",
+      "document": {
+        "source_archive": "LottieFiles/motion-design-skill",
+        "member": "motion-design-skill-f9a8a041b85185ee4881b3471d3415e939aac772/README.md"
+      },
+      "materialize": {
+        "source_archive": "LottieFiles/motion-design-skill"
+      },
+      "observed_status": "source_snapshot_not_installed"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/explainer-default/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/explainer-default/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "3dc4247d1e916cc070c432afbff4fb211e224ad463b4ca10c90c617abf68162e",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-default/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/explainer-engaging/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/explainer-engaging/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "969a4114a2396cd62bc381da6c8ffe61b68e471d3e4f16206d74d7574340d656",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-engaging/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/explainer-high-energy/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/explainer-high-energy/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "4aafa6ddae8bc81e4e621d2852d2d0675d421bbba318eb81334f4dac1556fdec",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/explainer-high-energy/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/motion-broll/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/motion-broll/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "78e7d064aba37b8b10ea39973c61200e3c16e325fa20074f97ab29e1df1866d2",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/motion-broll/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/object-separation/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/object-separation/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "cf176a155dd3cd406dd948deafb316e09d6395ceaae018ba188b7bb47d08e002",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/object-separation/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "repo:Barty-Bart/motion-graphics:skills/sound-effects/SKILL.md",
+      "kind": "repository_skill",
+      "title": "Barty-Bart/motion-graphics / skills/sound-effects/SKILL.md",
+      "source": "Barty-Bart/motion-graphics",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "status": "upstream_pinned",
+      "sha256": "acce096a668b20b4592919a39349ec82931075f529eafb40b8b82062c57d3692",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "source:Barty-Bart/motion-graphics",
+      "kind": "repository_reference",
+      "source": "Barty-Bart/motion-graphics",
+      "title": "Barty-Bart/motion-graphics full repository",
+      "status": "upstream_pinned",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "sha256": "86b6497e18d0098a371ce694e7029043d727e9d03a2d7fa895fa60ed6b7550df",
+      "document": {
+        "source_archive": "Barty-Bart/motion-graphics",
+        "member": "motion-graphics-3d83d987d658601d8a1269eb691622bdcd427335/README.md"
+      },
+      "materialize": {
+        "source_archive": "Barty-Bart/motion-graphics"
+      },
+      "observed_status": "source_snapshot_not_installed"
+    },
+    {
+      "id": "repo:cth9191/animate:plugins/animate/skills/animate/SKILL.md",
+      "kind": "repository_skill",
+      "title": "cth9191/animate / plugins/animate/skills/animate/SKILL.md",
+      "source": "cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "status": "upstream_pinned",
+      "sha256": "1208ee4ab2458a4831a9816950cdba25d3869cbbd6a795c4fded995f88bc0761",
+      "document": {
+        "source_archive": "cth9191/animate",
+        "member": "animate-7e5eb56feb2dd573f890e1b7b34748af43d58263/plugins/animate/skills/animate/SKILL.md"
+      },
+      "materialize": {
+        "source_archive": "cth9191/animate"
+      },
+      "observed_status": "full_repository_instruction"
+    },
+    {
+      "id": "source:cth9191/animate",
+      "kind": "repository_reference",
+      "source": "cth9191/animate",
+      "title": "cth9191/animate full repository",
+      "status": "upstream_pinned",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "sha256": "a70aaa9cbcd8f464edf700aa211950b05e38f133d6b1bee158e31dacd4eaf3a4",
+      "document": {
+        "source_archive": "cth9191/animate",
+        "member": "animate-7e5eb56feb2dd573f890e1b7b34748af43d58263/README.md"
+      },
+      "materialize": {
+        "source_archive": "cth9191/animate"
+      },
+      "observed_status": "source_snapshot_not_installed"
     }
   ]
 }
