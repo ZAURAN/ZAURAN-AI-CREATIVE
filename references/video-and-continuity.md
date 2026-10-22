@@ -98,6 +98,8 @@
 
 ## Пример ядра для Kling
 
+Ядро проверено на Kling 2.5. Для Kling 4.0 вход, `@`-метки, структуру промпта и лимиты бери из `kling-4.0.md`, а отсюда — только логику locked-off трансформации.
+
 ```text
 A locked-off 5-second transformation shot. The camera remains completely stationary with identical framing, lens, horizon and perspective throughout. Preserve the central anchor object in exactly the same position, scale and orientation. The location changes through a choreographed practical set rebuild: existing wall and cabinet panels slide out of frame in sections, new structural panels and shelves enter from the edges on hidden tracks, window frames unfold in layers to reveal the new exterior, and smaller props settle into place with believable weight and contact. Use only brief local material transformations at connection points; do not morph or dissolve the entire image. By 4.0 seconds the final location is fully assembled and must remain perfectly stable until the end.
 ```

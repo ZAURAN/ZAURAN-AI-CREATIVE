@@ -105,6 +105,7 @@
 - **Seedance 2.0** (Dreamina, Jimeng, CapCut, Doubao, Ark, BytePlus, fal) — вендоренный пакет `seedance-2.0/`: Director's Read, состояние секвенции, retake-протокол, анти-слоп, словари ru/zh/ja/ko/es.
 - **MiniMax H3** (Hailuo H3) — клип 4–15 с: таймлайн, lip sync, диегетика, ambience, музыка в официальных полях.
 - **Gemini Omni Flash** — клип 3–10 с со звуком, first/last frame, `<IMAGE_REF_N>`, разговорная правка, расширение до 40 с, continuity lock.
+- **Kling 4.0** (и 4.0 Flash) — клип 3–30 с со звуком: Omni Reference до 15 материалов, до 10 ключевых кадров, `Edit @Video1`, creative recreation, CINEDANCE-структура длинного ролика.
 
 **Как работает**
 1. Контекст из `references/knowledge-routing.md`, чата, вложений, файлов проекта.

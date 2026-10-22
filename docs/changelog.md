@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-22 — Kling 4.0 prompting guidance
+
+- Added `references/kling-4.0.md`, built from the official Kling 4.0 User Guide (2026-10-14) and the Kling prompt blog (2026-10-16). It covers the Omni Reference and Keyframes entry points, `@Image1`/`@Video1`/`@Element1` roles, the four-block prompt frame and the CINEDANCE-style section structure used by the official long examples. It also covers keyframes, `Edit @Video1` editing, creative recreation, audio and language support, text and subtitles, hard limits, preflight, QA and diagnostics.
+- Kling 4.0 now appears in the model gate, routing, the orchestration contract (own variant, conflicts, QA) and the README. Earlier Kling versions stay outside the roster.
+
 ## 2026-09-30 — Unified video workflows and public source library
 
 - Added complete owned `skills/zauran-video-studio`, `skills/zauran-voice-director` and `skills/zauran-ae-brief-director`; the studio loads voice/AE full workflows from a small owned snapshot and routes staging, generation, editing, motion, audio and alpha QA without replacing source protocols.
