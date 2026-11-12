@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-12 — Seedance 2.5 November documentation
+
+- Updated `references/seedance-2.5.md` from the BytePlus ModelArk `Dreamina Seedance 2.5 prompt guide` (2026-11-07) and `Dreamina Seedance 2.5 tutorial` (2026-11-12).
+- Added locked vs unlocked tasks and edit/extension trigger words, reference-order mapping, storyboard (≤15 panels) and 3D clay-model guidance, integer-second timestamps, `first_frame` vs `reference_image` behavior, `8n+1` frame rule and Reference-mode workarounds for editing, MOV for edit/extension, keeping the Seedance 2.0 look via extension.
+- Added audio markup (`()` music, `<>` SFX, `{}` dialogue, `【】` subtitles), the 11 supported languages (Russian not listed), subtitle, BGM, text-spelling, glowing-eye, fingerprint-texture and ripple-audio fixes, and an official FAQ diagnostics table.
+- New section 13 for the ModelArk API: model ID `dreamina-seedance-2-5-260628`, announced Seedance 2.5 flash (2026-11-15, ID not yet published), `omni_reference_task_type`, required `ratio`/`duration` per task, error codes, 480p/720p/1080p (no 4K), Draft mode, input file limits, real-face restriction, retention and rate limits.
+
 ## 2026-11-11 — Seedream 5.5 image contract
 
 - Added `references/seedream-5.5.md` as the platform contract for Seedream 5.5 (ByteDance Seed, released 2026-11-09). It records what is officially confirmed and what is not (no official API model ID or price yet, nothing above 2K confirmed, Cyrillic not claimed, Pro version announced but not released), the environments and their real controls (Jimeng, Doubao, Volcano Ark `Doubao-Seedream-5.5`, BytePlus, Dreamina/CapCut, Picsart, Kie.ai), when to choose 5.5 over 5.0, a multi-round edit protocol (one change per round, output feeds the next round, preserve list, consistency clause, `EDIT_LOG.md`, rollback on drift, pixel diff check), transparent and semi-transparent RGBA assets with an alpha check, layer decomposition as a host feature, text, references, diagnostics, preflight and output format.
