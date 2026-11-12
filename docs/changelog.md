@@ -1,9 +1,21 @@
 # Changelog
 
+## 2026-11-11 — Seedream 5.5 image contract
+
+- Added `references/seedream-5.5.md` as the platform contract for Seedream 5.5 (ByteDance Seed, released 2026-11-09). It records what is officially confirmed and what is not (no official API model ID or price yet, nothing above 2K confirmed, Cyrillic not claimed, Pro version announced but not released), the environments and their real controls (Jimeng, Doubao, Volcano Ark `Doubao-Seedream-5.5`, BytePlus, Dreamina/CapCut, Picsart, Kie.ai), when to choose 5.5 over 5.0, a multi-round edit protocol (one change per round, output feeds the next round, preserve list, consistency clause, `EDIT_LOG.md`, rollback on drift, pixel diff check), transparent and semi-transparent RGBA assets with an alpha check, layer decomposition as a host feature, text, references, diagnostics, preflight and output format.
+- Built from the official Seed blog (English and Chinese), the Seedream 5.5 project page prompt examples, host pages (Dreamina, Picsart, Kie.ai) and launch coverage. Vendor numbers are marked as ByteDance's own evaluations.
+- Prompt craft stays in `references/seedream-5.md`; 5.0 numbers, limits and model IDs do not transfer to 5.5. Routed in `SKILL.md`, the model gate, `knowledge-routing.md`, the `seedance-2.0.md` boundary and the README.
+
 ## 2026-10-22 — Kling 4.0 prompting guidance
 
 - Added `references/kling-4.0.md`, built from the official Kling 4.0 User Guide (2026-10-14) and the Kling prompt blog (2026-10-16). It covers the Omni Reference and Keyframes entry points, `@Image1`/`@Video1`/`@Element1` roles, the four-block prompt frame and the CINEDANCE-style section structure used by the official long examples. It also covers keyframes, `Edit @Video1` editing, creative recreation, audio and language support, text and subtitles, hard limits, preflight, QA and diagnostics.
 - Kling 4.0 now appears in the model gate, routing, the orchestration contract (own variant, conflicts, QA) and the README. Earlier Kling versions stay outside the roster.
+
+## 2026-10-16 — Lossless skill handoffs
+
+- Reconciled script, character, staging, prompt, voice and context handoffs: exact source versions, immutable snapshots, per-scene wardrobe, approved text/brands, English lock equivalents and per-asset prompt state.
+- Removed template-driven changes to character anatomy/style and approved camera; aligned TTS archives and live ZAURAN rules with current prompt-version contracts.
+- Audit scope, fixes and eight passing static handoff cases: [skill-chain-audit.md](skill-chain-audit.md).
 
 ## 2026-09-30 — Unified video workflows and public source library
 

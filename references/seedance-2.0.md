@@ -19,7 +19,7 @@
 
 Из пакета **можно и нужно** брать моделе-независимое ремесло: режиссура, драматургия, роли референсов, continuity, антислоп, диагностика брака, экономика итераций, языковой словарь. Числа не переносятся, ремесло переносится.
 
-Та же граница действует для MiniMax H3, Gemini Omni Flash, Kling 4.0, GPT Image и Seedream 5.0: их параметры и формат полей владеют `minimax-h3.md`, `gemini-omni-flash.md`, `kling-4.0.md`, `gpt-image-2.md`, `seedream-5.md`. Пакет 2.0 не имеет права переписывать ни одно их поле, тег или лимит.
+Та же граница действует для MiniMax H3, Gemini Omni Flash, Kling 4.0, GPT Image, Seedream 5.0 и Seedream 5.5: их параметры и формат полей владеют `minimax-h3.md`, `gemini-omni-flash.md`, `kling-4.0.md`, `gpt-image-2.md`, `seedream-5.md`, `seedream-5.5.md`. Пакет 2.0 не имеет права переписывать ни одно их поле, тег или лимит.
 
 Приоритет целиком: прямое указание пользователя → `BRIEF LOCK` → платформенный файл выбранной модели → `cinematic-orchestration.md` и её модули (CINEDANCE, Scene Engine, Acting Task, Blocking Map) → пакет `seedance-2.0/` → общие эвристики навыка → предположение агента.
 

@@ -1,6 +1,6 @@
 # Контракт передачи
 
-Полный ZAURAN-контракт — references/story-production-contract.md и references/script-to-assets.md в ZAURAN repo snapshot. Читать после materialize. Этот файл соединяет workflow, не отменяя исходный протокол.
+Полный ZAURAN-контракт бери из действующего пакета `zauran-ai-creative`: `references/story-production-contract.md` и `references/script-to-assets.md`. В этом репозитории пути от папки данного файла — `../../../references/`. После установки отдельной копии найди доступный соседний пакет по имени и разреши его фактический путь. Только если действующего пакета нет, используй доступный ZAURAN repo snapshot после materialize, явно указав его версию и ограничение актуальности. Архив не отменяет новые правила действующего пакета или проектный STATE. Этот файл соединяет workflow, не отменяя исходный протокол.
 
 ## Проект и версии
 

@@ -98,6 +98,7 @@
 - **Nano Banana Pro** (Gemini 3 Pro Image) — 5-элементная структура промта + 70 community-рецептов (`nano-banana-pro/`).
 - **GPT Image** (gpt-image-2) — категории/шаблоны, порядок `сцена → субъект → детали → ограничения`, 523 кейса.
 - **Seedream 5.0 Pro/Lite** — порядок `субъект → локация → композиция → свет → стиль → ограничения`, правка `change only …` + preserve.
+- **Seedream 5.5** — цепочка правок до 100 раундов (одна правка за раунд, журнал, diff-проверка), нативные RGBA-ассеты с проверкой альфы, слои как функция хоста; ремесло промпта из 5.0.
 - **Библиотека YouMind** — 15 373 промта по 10+ категориям как «донор формы».
 
 **Видео**
@@ -139,7 +140,7 @@ references/
   cinematic-orchestration.md  # маршрутизация CINEDANCE / Tig-модулей
   cinedance-*.md              # оптика, блокинг, физика/свет
   tig-scene-engine.md · tig-acting-task.md · tig-blocking-map.md   # общие для обоих скиллов
-  nano-banana-pro.md · gpt-image-2*.md/json · seedream-5.md
+  nano-banana-pro.md · gpt-image-2*.md/json · seedream-5.md · seedream-5.5.md
   seedance-2.5.md · seedance-2.0.md · minimax-h3.md · gemini-omni-flash*.md
   youmind-prompt-library.md · youmind-prompts/
 nano-banana-pro/              # 70 рецептов (vendored, MIT)
